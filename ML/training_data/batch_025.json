@@ -1,0 +1,1315 @@
+{
+  "url": "https://dataset.example.com",
+  "timestamp": "2026-04-22T17:03:24.924837",
+  "pages": [
+    {
+      "page_id": "training_batch_025",
+      "url": "https://dataset.example.com/page/training_batch_025",
+      "title": "Training Page training_batch_025",
+      "screenshots": {},
+      "elements": [
+        {
+          "id": "dataset_1473_1200",
+          "tag": "span",
+          "text": "ONLY 1 ITEM LEFT!",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1692_1201",
+          "tag": "span",
+          "text": "ONLY 11 LEFT",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1518_1202",
+          "tag": "span",
+          "text": "Only a few left of this product!",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_719_1203",
+          "tag": "span",
+          "text": "JFN Scallop V Neck Solid Casual T-Shirt/Tee",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_120_1204",
+          "tag": "span",
+          "text": "Purchased 6 times this week.",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1446_1205",
+          "tag": "span",
+          "text": "Crochet Baby Patterns",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1083_1206",
+          "tag": "span",
+          "text": "Felizer Designer Diamond studded Round Dial Metal starp watch for Women & Girls - Silver (Heart design) Analog",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_264_1207",
+          "tag": "span",
+          "text": " Home / Black Tapered Belted Cigarette Trousers - Myasia ",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1140_1208",
+          "tag": "span",
+          "text": "Only 4 left at this price",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1667_1209",
+          "tag": "span",
+          "text": "Once a celebrated author of short stories now in his twilight years, ",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_212_1210",
+          "tag": "span",
+          "text": "Recent Searches",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_189_1211",
+          "tag": "span",
+          "text": " Brand case & cloth included ",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_230_1212",
+          "tag": "span",
+          "text": "Hair Color + Highlights",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_919_1213",
+          "tag": "span",
+          "text": "We combined powerful, yet gentle acne-fighting ingredients with our own unique plant-based complexes to help reduce irritation and redness associated with acne and breakouts. The result? Skin that\u2019s nourished, smooth, and most importantly, clear!",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1305_1214",
+          "tag": "span",
+          "text": "Only 2 left, order soon",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1351_1215",
+          "tag": "span",
+          "text": " Food ",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_920_1216",
+          "tag": "span",
+          "text": "MORE WAYS TO SHOP",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_724_1217",
+          "tag": "span",
+          "text": "Your shopping cart is empty.",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1241_1218",
+          "tag": "span",
+          "text": "Coin Necklace ",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1009_1219",
+          "tag": "span",
+          "text": "Mallet E Speed Lace - Black/Silver",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_110_1220",
+          "tag": "span",
+          "text": "Someone from Huntingtown, Maryland, United States purchased TopCoat\u00ae F11\u00ae Polish & Sealer - Web Special Kits Just Now",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_893_1221",
+          "tag": "span",
+          "text": "You may cancel your VIP membership at any time by calling 1-866-337-0906 (open 24/7).",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_944_1222",
+          "tag": "span",
+          "text": "Items in your cart are in VERY high-demand.",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1489_1223",
+          "tag": "span",
+          "text": "Sign up to our mailing list here and be the first to know about exclusive offers and events",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_955_1224",
+          "tag": "span",
+          "text": "Items in your cart are selling fast",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_477_1225",
+          "tag": "span",
+          "text": "No thanks, I don't like winning.",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1466_1226",
+          "tag": "span",
+          "text": "Laundry Care",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1499_1227",
+          "tag": "span",
+          "text": "Low in stock: only 2 left.",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_734_1228",
+          "tag": "span",
+          "text": "Deal Ends In 2 : DAYS13 : HRS10 : MIN24 SEC",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1654_1229",
+          "tag": "span",
+          "text": "Order soon, only 1 left!",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_584_1230",
+          "tag": "span",
+          "text": "This campaign was taken down for content reasons",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1238_1231",
+          "tag": "span",
+          "text": "Hurry, only 2 left in stock!",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_767_1232",
+          "tag": "span",
+          "text": "AdjustableSnapbacksSale Items- View All -",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1278_1233",
+          "tag": "span",
+          "text": "ONLY 5 LEFT IN STOCK!",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_294_1234",
+          "tag": "span",
+          "text": "Over 238 people have bought this product",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_658_1235",
+          "tag": "span",
+          "text": "Order in 13:16 to get $200 off your mattress",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_907_1236",
+          "tag": "span",
+          "text": " Bob Ross Oil Brushes ",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_454_1237",
+          "tag": "span",
+          "text": "No Thanks, I'd rather pay full price",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1730_1238",
+          "tag": "span",
+          "text": "Terra - Medium Brown",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1322_1239",
+          "tag": "span",
+          "text": "Warning: Last items in stock!",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_534_1240",
+          "tag": "span",
+          "text": "Work With More Buyers And Sellers?",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_61_1241",
+          "tag": "span",
+          "text": " Lighting",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_622_1242",
+          "tag": "span",
+          "text": " Round Neck Casual Loose Patchwork Printed Short Sleeve Blouse ",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_38_1243",
+          "tag": "span",
+          "text": "39 recently purchased it",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1034_1244",
+          "tag": "span",
+          "text": "Limited Time Offer: 10% Off your first order!",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1466_1245",
+          "tag": "span",
+          "text": "Computer Accessories",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1351_1246",
+          "tag": "span",
+          "text": "Aromatherapy\u00a0",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1381_1247",
+          "tag": "span",
+          "text": "A Ritual of Light",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1398_1248",
+          "tag": "span",
+          "text": "Hurry only 2 left",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_127_1249",
+          "tag": "span",
+          "text": "21 people looked at this during the last 24 hours",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        }
+      ],
+      "page_state": "initial"
+    }
+  ]
+}

@@ -1,0 +1,1315 @@
+{
+  "url": "https://dataset.example.com",
+  "timestamp": "2026-04-22T17:03:24.905227",
+  "pages": [
+    {
+      "page_id": "training_batch_007",
+      "url": "https://dataset.example.com/page/training_batch_007",
+      "title": "Training Page training_batch_007",
+      "screenshots": {},
+      "elements": [
+        {
+          "id": "dataset_1533_300",
+          "tag": "span",
+          "text": "HURRY, LOW IN STOCK!",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1144_301",
+          "tag": "span",
+          "text": "Only 4 copies left",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1424_302",
+          "tag": "span",
+          "text": "2 LEFT",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_209_303",
+          "tag": "span",
+          "text": "Feedback",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_605_304",
+          "tag": "span",
+          "text": "2 DAYS 13:06:13",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1009_305",
+          "tag": "span",
+          "text": "Receive news and updates on new products",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_162_306",
+          "tag": "span",
+          "text": "5338 people bought this",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1103_307",
+          "tag": "span",
+          "text": "2 left in stock",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1316_308",
+          "tag": "span",
+          "text": " dFresh - Fresh Products ",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1815_309",
+          "tag": "span",
+          "text": "Thanks! -RMO Team",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_99_310",
+          "tag": "span",
+          "text": "6,743 people have viewed recently",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_932_311",
+          "tag": "span",
+          "text": "Selling fast!",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_203_312",
+          "tag": "span",
+          "text": "Welcome To Hotter us",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1039_313",
+          "tag": "span",
+          "text": "ON SALE: Select Seasonal T-Shirts only $19.99! Limited time only! Save Now!",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_782_314",
+          "tag": "span",
+          "text": " To enable notifications, click 'Allow' when prompted. ",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1026_315",
+          "tag": "span",
+          "text": " PHX Mercury ",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1009_316",
+          "tag": "span",
+          "text": "Easy Release Cleat Kit",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_56_317",
+          "tag": "span",
+          "text": "111 people have purchased this item",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1723_318",
+          "tag": "span",
+          "text": "Flowers Trivia:",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_675_319",
+          "tag": "span",
+          "text": "Your order is reserved for 09:58 minutes!",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1667_320",
+          "tag": "span",
+          "text": "I've recommended The Keeper of Lost Things to everyone.",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1027_321",
+          "tag": "span",
+          "text": "LIMITED TIME! - Save $5 OFF Orders $70+ Coupon: SAVE5 - PLUS - Free Gift on Orders $125+",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_930_322",
+          "tag": "span",
+          "text": "1 Netflix offer: Not available to customers with an active Netflix offer from Vodafone. Available only on Red+ Lite, Unlimited, Red+ Essentials and Red+ until the 8th of August 2019. Exit fee of $60 applies if you exit or transfer your plan before 6 months. Plan exit fees may also apply. Netflix Offer: One year Netflix \u2018Standard\u2019 plan ($14.99 a month) credit will be applied to your Netflix account on activation. At the end of your credit, you will be charged at your Netflix plan rate unless you cancel your Netflix subscription. Cancel Netflix at any time. Netflix compatible device required. See eligible plans and full Netflix terms.",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_573_323",
+          "tag": "span",
+          "text": "Celebrity Synthetic Wigs",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_73_324",
+          "tag": "span",
+          "text": "1626 people seeing this product right now",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1667_325",
+          "tag": "span",
+          "text": "Book picture is for illustrative purposes only, actual binding, cover or edition may vary.",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_527_326",
+          "tag": "span",
+          "text": " Glow Gear ",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1673_327",
+          "tag": "span",
+          "text": "Converse",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_188_328",
+          "tag": "span",
+          "text": "Stay Connected",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1357_329",
+          "tag": "span",
+          "text": "Only 1 left in Stock",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1451_330",
+          "tag": "span",
+          "text": "sales@ecklers.net",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_520_331",
+          "tag": "span",
+          "text": "0 Days 2 Hours 57 Minutes 53 Seconds",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_3_332",
+          "tag": "span",
+          "text": "Sharmeen Atif From Karachi just bought Stylish Metal Glasses Frames For Kids-Assorted-NA7157",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1189_333",
+          "tag": "span",
+          "text": "Only 34 Left!",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_105_334",
+          "tag": "span",
+          "text": "William in Pago Pago, United States purchased a",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_361_335",
+          "tag": "span",
+          "text": "No thanks, I don\u2019t like fun and games.",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1704_336",
+          "tag": "span",
+          "text": "PROTECT YOUR SOFA! Your Humblebum Sofa in Thatch house fabric will look wicked! Why not add Castelan Fabric Protection to cover your new squish machine against wine spillages, messy TV dinners, and other disasters for just just \u00a380?",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1488_337",
+          "tag": "span",
+          "text": "Explore The NRA Universe Of Websites",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_667_338",
+          "tag": "span",
+          "text": "New In Special Occasion",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_664_339",
+          "tag": "span",
+          "text": "\u203a New Year, New Kit Sale",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_793_340",
+          "tag": "span",
+          "text": "HURRY, ORDER WITHIN 16h 59m 06s TO GET 35% OFF EVERYTHING* EXCL SALE & BEAUTY ENTER: DOLL35",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_108_341",
+          "tag": "span",
+          "text": " Title of Review ",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_622_342",
+          "tag": "span",
+          "text": "We uses cookies (and similar techniques) to provide you with better products and services. Your permission will be confirmed if you continue using this website.Read more",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_795_343",
+          "tag": "span",
+          "text": "LAST CHANCE TO SAVE... enter your email to Save 20% on your first order 00 hours :29 minutes :43 seconds",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_654_344",
+          "tag": "span",
+          "text": "OFFER EXPIRES IN: YES NO Want 10% Off Your First Order? 7 minutes 35 seconds",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_628_345",
+          "tag": "span",
+          "text": "Cellular/Honeycomb Shades",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_232_346",
+          "tag": "span",
+          "text": "113 people have viewed in the last 24hrs",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_4_347",
+          "tag": "span",
+          "text": "Epilepsy Safe Profile: this profile enables people with epilepsy to safely use the website by eliminating the risk of seizures resulting from flashing or blinking animations and risky color combinations.",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_66_348",
+          "tag": "span",
+          "text": "Jamie in Nashville, United States purchased",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_163_349",
+          "tag": "span",
+          "text": "Denise in Saluda, Virginia bought Terani Couture - 1911E9095 Embroidered Asymmetric Neck Mermaid Gown",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        }
+      ],
+      "page_state": "initial"
+    }
+  ]
+}

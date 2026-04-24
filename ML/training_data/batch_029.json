@@ -1,0 +1,1315 @@
+{
+  "url": "https://dataset.example.com",
+  "timestamp": "2026-04-22T17:03:24.929031",
+  "pages": [
+    {
+      "page_id": "training_batch_029",
+      "url": "https://dataset.example.com/page/training_batch_029",
+      "title": "Training Page training_batch_029",
+      "screenshots": {},
+      "elements": [
+        {
+          "id": "dataset_1030_1400",
+          "tag": "span",
+          "text": "Free Shipping On Orders Over $49* - Limited Time Only",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_169_1401",
+          "tag": "span",
+          "text": "Someone in DOVER, United States just bought Crew 15 mins ago",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_766_1402",
+          "tag": "span",
+          "text": " Payment Methods ",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1367_1403",
+          "tag": "span",
+          "text": " Also notify me about New Arrivals! ",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_752_1404",
+          "tag": "span",
+          "text": "POSTED BY @missladywoolf#motoin",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_680_1405",
+          "tag": "span",
+          "text": " All Personalised Gifts ",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1095_1406",
+          "tag": "span",
+          "text": "HURRY! ONLY 19 LEFT IN STOCK.",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_842_1407",
+          "tag": "span",
+          "text": "Massive Tax Time Sale See Discounts! Sale ends in",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_588_1408",
+          "tag": "span",
+          "text": "Special sale ends in",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_259_1409",
+          "tag": "span",
+          "text": "By clicking \u201cAccept All Cookies\u201d, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts. ",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1315_1410",
+          "tag": "span",
+          "text": "Sorry! This product is no longer available",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1673_1411",
+          "tag": "span",
+          "text": "Brand: Ray-Ban\u00ae | Similar products from Ray-Ban\u00ae",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_441_1412",
+          "tag": "span",
+          "text": "No thanks, free stuff isn't for me.",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1214_1413",
+          "tag": "span",
+          "text": "Only 2 Left",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_113_1414",
+          "tag": "span",
+          "text": " Colored Contact Lenses ",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_262_1415",
+          "tag": "span",
+          "text": "Isra\u00ebl in Metz, France purchased a More ADVANCED Chord Substitutions",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1351_1416",
+          "tag": "span",
+          "text": "In stock | 44 left",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1359_1417",
+          "tag": "span",
+          "text": "only 7 pieces left",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1536_1418",
+          "tag": "span",
+          "text": "Download Now",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1469_1419",
+          "tag": "span",
+          "text": "Beach Towels & Mats",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_619_1420",
+          "tag": "span",
+          "text": "ENDS IN - Flash Offer - TWO PAIRS OF SHOES FOR $319 PROMO CODE AUTO-APPLIED AT CHECKOUT! 0 Days : 16 Hours : 09 Minutes : 57 Seconds",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1496_1421",
+          "tag": "span",
+          "text": "Hurry, limited quantities left!",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_230_1422",
+          "tag": "span",
+          "text": "Light Works",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1779_1423",
+          "tag": "span",
+          "text": "Both of these jerseys are awesome, I couldn\u2019t have asked for better quality.",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1117_1424",
+          "tag": "span",
+          "text": "Only 14 left!",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_445_1425",
+          "tag": "span",
+          "text": "NO THANKS, I DON'T WANT 20% OFF MY ORDER",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1792_1426",
+          "tag": "span",
+          "text": "I already have this item. Do not add this to cart",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1469_1427",
+          "tag": "span",
+          "text": "Security Cameras",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1604_1428",
+          "tag": "span",
+          "text": "Cross Body",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1667_1429",
+          "tag": "span",
+          "text": " -- Preeti Shenoy, author of THE RULE BREAKERS",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1550_1430",
+          "tag": "span",
+          "text": "Royal Python Vivariums",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_833_1431",
+          "tag": "span",
+          "text": "Stone Island Junior",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1397_1432",
+          "tag": "span",
+          "text": "ONLY 1 LEFT!",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_113_1433",
+          "tag": "span",
+          "text": " Sustainably made",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1468_1434",
+          "tag": "span",
+          "text": "Bob's For Business",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1791_1435",
+          "tag": "span",
+          "text": "\"We'd love to send you emails with offers and new products from New Balance Athletics, Inc. but if you do not wish to receive these updates, please tick this box.",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1536_1436",
+          "tag": "span",
+          "text": "Boys Green School Uniforms",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_782_1437",
+          "tag": "span",
+          "text": " Show Password ",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_300_1438",
+          "tag": "span",
+          "text": "Pay Securely with Trespass",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1131_1439",
+          "tag": "span",
+          "text": "Limited Stock!",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_212_1440",
+          "tag": "span",
+          "text": " adidas Originals Stan Smith ",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_989_1441",
+          "tag": "span",
+          "text": "LIMITED TIME - BUY THE NEW PURPLE PLUSH PILLOW, GET ONE FREE",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1468_1442",
+          "tag": "span",
+          "text": " Functional Marketing Cookies",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1023_1443",
+          "tag": "span",
+          "text": "Limited Time Offers",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_186_1444",
+          "tag": "span",
+          "text": "Someone in Bacchus Marsh bought a Noosa Basics Deodorant Stick - Sensitive (60g) 27 seconds ago",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_312_1445",
+          "tag": "span",
+          "text": "436 users are currently active on our website Just now",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_892_1446",
+          "tag": "span",
+          "text": "Exposed Membership (recurring subscription) and Cancellations  If You order with Exposed Membership, you are selecting a recurring billing subscription, where You will receive a new kit approximately every 60 days. You are able to cancel by contacting Exposed customer care at 1-866-404-7656, 8am \u2013 4pm Pacific Time, M-F.  If You are part of our Monthly installment program, You will be billed in two monthly installments for each acne kit shipped. Each kit will be shipped every two months unless your membership is canceled. To cancel Your Exposed Membership, You must: 1. first pay in full for all kits that have been shipped 2. and, then contact Exposed customer care at 1-866-404-7656 8am \u2013 4pm Pacific Time, M-F to process Your cancellation.",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1536_1447",
+          "tag": "span",
+          "text": "Sale Coats and Jackets",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_573_1448",
+          "tag": "span",
+          "text": "Shop By Brands",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        },
+        {
+          "id": "dataset_1765_1449",
+          "tag": "span",
+          "text": "Did you know that Shaver heads need replacing every 12 - 18 months? Get the Shaver Guard cleaning spray to extend its life for up to another 6 months!",
+          "classes": [],
+          "bounding_box": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 200.0,
+            "h": 40.0
+          },
+          "computed_css": {
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "#000000",
+            "background_color": "#ffffff",
+            "opacity": "1.0",
+            "display": "block",
+            "visibility": "visible"
+          },
+          "aria": null,
+          "is_interactive": true,
+          "is_visible": true,
+          "element_type": "text",
+          "children": []
+        }
+      ],
+      "page_state": "initial"
+    }
+  ]
+}

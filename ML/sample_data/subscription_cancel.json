@@ -1,0 +1,164 @@
+{
+    "url": "https://example-streaming.com/account/cancel",
+    "timestamp": "2026-04-14T12:10:00Z",
+    "pages": [
+        {
+            "page_id": "cancel_flow_step1",
+            "url": "https://example-streaming.com/account/cancel",
+            "title": "Are You Sure? - StreamPlus",
+            "screenshots": {
+                "full_page": "sample_data/screenshots/cancel_step1.png"
+            },
+            "page_state": "initial",
+            "elements": [
+                {
+                    "id": "cancel-page-container",
+                    "tag": "div",
+                    "text": "",
+                    "classes": ["cancel-flow"],
+                    "bounding_box": {"x": 0, "y": 0, "w": 1200, "h": 1500},
+                    "computed_css": {"background_color": "#0a0a1a"},
+                    "is_interactive": false,
+                    "is_visible": true,
+                    "children": [
+                        {
+                            "id": "sad-emoji-section",
+                            "tag": "div",
+                            "text": "We'll really miss you...",
+                            "classes": ["emotional-header"],
+                            "bounding_box": {"x": 300, "y": 100, "w": 600, "h": 80},
+                            "computed_css": {
+                                "font_size": "32px",
+                                "color": "#ffffff",
+                                "font_weight": "700",
+                                "text_align": "center"
+                            },
+                            "is_interactive": false,
+                            "is_visible": true,
+                            "children": []
+                        },
+                        {
+                            "id": "guilt-message",
+                            "tag": "p",
+                            "text": "You'll lose access to 50,000+ movies, your personalized recommendations, and your 3 years of watch history. Your family members will also lose their profiles.",
+                            "classes": ["guilt-text"],
+                            "bounding_box": {"x": 300, "y": 200, "w": 600, "h": 60},
+                            "computed_css": {
+                                "font_size": "16px",
+                                "color": "#ff6b6b",
+                                "font_weight": "500"
+                            },
+                            "is_interactive": false,
+                            "is_visible": true,
+                            "children": []
+                        },
+                        {
+                            "id": "fake-discount-offer",
+                            "tag": "div",
+                            "text": "EXCLUSIVE: Stay and get 50% off for 3 months! This offer won't be available again.",
+                            "classes": ["retention-offer", "highlight-box"],
+                            "bounding_box": {"x": 300, "y": 290, "w": 600, "h": 60},
+                            "computed_css": {
+                                "font_size": "18px",
+                                "color": "#ffd700",
+                                "background_color": "#1a1a3e",
+                                "font_weight": "700",
+                                "border": "2px solid #ffd700"
+                            },
+                            "is_interactive": false,
+                            "is_visible": true,
+                            "children": []
+                        },
+                        {
+                            "id": "keep-subscription-btn",
+                            "tag": "button",
+                            "text": "Keep My Subscription - I Love StreamPlus!",
+                            "classes": ["btn", "btn-primary", "btn-xl", "glow-effect"],
+                            "bounding_box": {"x": 250, "y": 400, "w": 700, "h": 70},
+                            "computed_css": {
+                                "font_size": "20px",
+                                "color": "#ffffff",
+                                "background_color": "#7c3aed",
+                                "font_weight": "700",
+                                "border": "none",
+                                "cursor": "pointer"
+                            },
+                            "aria": {"role": "button", "label": "Keep subscription"},
+                            "is_interactive": true,
+                            "is_visible": true,
+                            "element_type": "button",
+                            "children": []
+                        },
+                        {
+                            "id": "reason-select",
+                            "tag": "select",
+                            "text": "Please tell us why you're leaving (required)",
+                            "classes": ["form-select", "cancel-reason"],
+                            "bounding_box": {"x": 350, "y": 500, "w": 500, "h": 40},
+                            "computed_css": {
+                                "font_size": "14px",
+                                "color": "#666",
+                                "background_color": "#1a1a2e"
+                            },
+                            "aria": {"role": "listbox", "required": "true"},
+                            "is_interactive": true,
+                            "is_visible": true,
+                            "element_type": "select",
+                            "children": []
+                        },
+                        {
+                            "id": "cancel-step1-link",
+                            "tag": "a",
+                            "text": "I still want to cancel",
+                            "classes": ["cancel-link", "text-muted"],
+                            "bounding_box": {"x": 520, "y": 570, "w": 130, "h": 13},
+                            "computed_css": {
+                                "font_size": "11px",
+                                "color": "#444466",
+                                "text_decoration": "none",
+                                "opacity": "0.5"
+                            },
+                            "is_interactive": true,
+                            "is_visible": true,
+                            "element_type": "link",
+                            "href": "/account/cancel/step2",
+                            "children": []
+                        },
+                        {
+                            "id": "progress-indicator",
+                            "tag": "div",
+                            "text": "Step 1 of 4",
+                            "classes": ["progress-text"],
+                            "bounding_box": {"x": 550, "y": 620, "w": 80, "h": 12},
+                            "computed_css": {
+                                "font_size": "10px",
+                                "color": "#333"
+                            },
+                            "is_interactive": false,
+                            "is_visible": true,
+                            "children": []
+                        },
+                        {
+                            "id": "chat-support-nudge",
+                            "tag": "div",
+                            "text": "Would you like to chat with us first? Our team can help resolve any issues!",
+                            "classes": ["chat-nudge", "floating-card"],
+                            "bounding_box": {"x": 800, "y": 700, "w": 350, "h": 80},
+                            "computed_css": {
+                                "font_size": "14px",
+                                "color": "#ffffff",
+                                "background_color": "#2d2d5e",
+                                "z_index": "1000",
+                                "position": "fixed"
+                            },
+                            "is_interactive": true,
+                            "is_visible": true,
+                            "element_type": "button",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

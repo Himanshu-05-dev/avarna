@@ -1,0 +1,9426 @@
+{
+  "dataset_1012_0": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_158_1": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_108_2": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1425_3": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1658_4": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_975_5": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1469_6": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1570_7": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1617_8": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_108_9": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1333_10": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1199_11": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_822_12": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1264_13": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1609_14": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_776_15": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1779_16": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1739_17": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_98_18": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1438_19": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_449_20": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1667_21": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_212_22": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_284_23": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1381_24": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_822_25": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_4_26": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1082_27": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_255_28": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_833_29": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1009_30": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1073_31": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_495_32": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_718_33": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_25_34": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_276_35": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_819_36": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_822_37": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_4_38": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_126_39": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1428_40": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1468_41": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_638_42": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1414_43": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_414_44": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1736_45": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_414_46": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_35_47": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_395_48": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_203_49": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1119_50": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1656_51": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1590_52": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1405_53": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1536_54": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_767_55": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_149_56": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_395_57": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_361_58": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_432_59": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1673_60": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_680_61": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_146_62": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_662_63": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_214_64": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1147_65": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1031_66": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1289_67": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1386_68": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_137_69": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1630_70": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1102_71": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_117_72": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1138_73": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1536_74": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_680_75": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1405_76": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_521_77": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1630_78": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_66_79": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1459_80": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1531_81": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1468_82": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1044_83": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_157_84": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_478_85": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1135_86": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_230_87": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_745_88": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_216_89": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1171_90": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_198_91": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1250_92": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_991_93": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_638_94": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1217_95": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1509_96": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1115_97": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1404_98": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_213_99": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_230_100": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1429_101": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1779_102": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1468_103": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1425_104": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1142_105": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1536_106": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_21_107": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_230_108": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_215_109": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_527_110": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1292_111": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_171_112": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_668_113": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_315_114": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1464_115": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_149_116": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1667_117": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_59_118": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_510_119": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_680_120": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_984_121": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_714_122": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_103_123": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1024_124": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_384_125": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1434_126": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_209_127": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1447_128": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1272_129": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_664_130": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1652_131": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_113_132": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_66_133": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_212_134": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1468_135": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_117_136": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1488_137": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1673_138": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1317_139": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_400_140": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1477_141": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1446_142": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_414_143": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_765_144": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_812_145": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_130_146": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1381_147": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_494_148": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_556_149": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1550_150": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1330_151": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1723_152": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1359_153": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_976_154": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1409_155": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_133_156": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1247_157": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_583_158": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_149_159": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1016_160": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1051_161": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1158_162": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1466_163": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_350_164": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_229_165": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1317_166": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_300_167": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_502_168": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_86_169": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_368_170": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1198_171": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1575_172": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_178_173": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_569_174": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_771_175": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_907_176": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_729_177": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_108_178": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_825_179": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1409_180": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_976_181": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1330_182": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_91_183": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_125_184": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_159_185": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1468_186": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1235_187": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1123_188": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1535_189": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_688_190": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_267_191": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1139_192": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1749_193": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_803_194": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_79_195": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_8_196": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_509_197": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_306_198": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_638_199": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1659_200": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_946_201": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1573_202": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_230_203": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1639_204": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1573_205": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1209_206": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1630_207": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_264_208": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_199_209": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1489_210": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1168_211": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_252_212": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_680_213": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1536_214": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_344_215": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1713_216": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1604_217": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1489_218": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1056_219": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1351_220": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1009_221": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_84_222": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_379_223": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_181_224": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_65_225": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1009_226": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1718_227": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1328_228": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1351_229": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_904_230": {
+    "label": 1,
+    "category": "Obstruction"
+  },
+  "dataset_189_231": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1469_232": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1332_233": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1000_234": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1686_235": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_303_236": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_335_237": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_235_238": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1042_239": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_151_240": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1605_241": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1304_242": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1044_243": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_622_244": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_622_245": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1681_246": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_485_247": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1263_248": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_43_249": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_680_250": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_259_251": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1026_252": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_766_253": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1368_254": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1646_255": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_941_256": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_550_257": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_48_258": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1466_259": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_308_260": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_896_261": {
+    "label": 1,
+    "category": "Obstruction"
+  },
+  "dataset_1779_262": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1004_263": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_724_264": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_250_265": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_142_266": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1469_267": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1691_268": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_64_269": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1186_270": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_141_271": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_360_272": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1304_273": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_883_274": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1317_275": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_198_276": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1315_277": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1766_278": {
+    "label": 1,
+    "category": "Sneaking"
+  },
+  "dataset_680_279": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1317_280": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_264_281": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1381_282": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_443_283": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_776_284": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1038_285": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_648_286": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1658_287": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1717_288": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1469_289": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1536_290": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_212_291": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_179_292": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_133_293": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1408_294": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_646_295": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1330_296": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1348_297": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_374_298": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1550_299": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1533_300": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1144_301": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1424_302": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_209_303": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_605_304": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1009_305": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_162_306": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1103_307": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1316_308": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1815_309": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_99_310": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_932_311": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_203_312": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1039_313": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_782_314": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1026_315": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1009_316": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_56_317": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1723_318": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_675_319": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1667_320": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1027_321": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_930_322": {
+    "label": 1,
+    "category": "Sneaking"
+  },
+  "dataset_573_323": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_73_324": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1667_325": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_527_326": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1673_327": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_188_328": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1357_329": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1451_330": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_520_331": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_3_332": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1189_333": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_105_334": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_361_335": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1704_336": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1488_337": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_667_338": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_664_339": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_793_340": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_108_341": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_622_342": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_795_343": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_654_344": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_628_345": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_232_346": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_4_347": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_66_348": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_163_349": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_203_350": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_355_351": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_420_352": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1522_353": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1026_354": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_113_355": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_322_356": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_573_357": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1328_358": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_622_359": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1786_360": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1343_361": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_407_362": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_682_363": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_953_364": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_300_365": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_573_366": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1648_367": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1084_368": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_156_369": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_638_370": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_822_371": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1379_372": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1338_373": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1711_374": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1325_375": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_713_376": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1328_377": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1315_378": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_822_379": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1429_380": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_592_381": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_103_382": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_167_383": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1415_384": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1550_385": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1009_386": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_389_387": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1658_388": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_817_389": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1451_390": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_128_391": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_527_392": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1524_393": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_719_394": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_766_395": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1197_396": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1059_397": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_387_398": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_724_399": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1330_400": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_61_401": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1472_402": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1468_403": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_209_404": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1124_405": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1428_406": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_674_407": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_190_408": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_758_409": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1667_410": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_208_411": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_442_412": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1268_413": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_288_414": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1069_415": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1009_416": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1536_417": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1166_418": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1648_419": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_720_420": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1056_421": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_58_422": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1119_423": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_673_424": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_974_425": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1736_426": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1469_427": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_568_428": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1104_429": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_538_430": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1648_431": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_976_432": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1064_433": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_103_434": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_822_435": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_822_436": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1056_437": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_424_438": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1450_439": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1351_440": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_216_441": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1367_442": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_898_443": {
+    "label": 1,
+    "category": "Obstruction"
+  },
+  "dataset_1265_444": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_638_445": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_206_446": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1630_447": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_827_448": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_117_449": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1630_450": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1240_451": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1646_452": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1466_453": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1563_454": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1273_455": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_695_456": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1160_457": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1367_458": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1736_459": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_981_460": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_767_461": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1468_462": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1658_463": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1648_464": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_39_465": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_883_466": {
+    "label": 1,
+    "category": "Obstruction"
+  },
+  "dataset_417_467": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1479_468": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1079_469": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1446_470": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1469_471": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_885_472": {
+    "label": 1,
+    "category": "Obstruction"
+  },
+  "dataset_1759_473": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_450_474": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_257_475": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1409_476": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_361_477": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1028_478": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1293_479": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_246_480": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_990_481": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1541_482": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1468_483": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1174_484": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1434_485": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_752_486": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_667_487": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1351_488": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_350_489": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1653_490": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_287_491": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1110_492": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_216_493": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1446_494": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_318_495": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_264_496": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_152_497": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1330_498": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_204_499": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_845_500": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_173_501": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_833_502": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_106_503": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_353_504": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_569_505": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1573_506": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_69_507": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1393_508": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1648_509": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_190_510": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_568_511": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1719_512": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_530_513": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1158_514": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_301_515": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1599_516": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_527_517": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_585_518": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_87_519": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_415_520": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_249_521": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1550_522": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1369_523": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_767_524": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1056_525": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_910_526": {
+    "label": 1,
+    "category": "Obstruction"
+  },
+  "dataset_113_527": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1005_528": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1260_529": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1731_530": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_94_531": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1673_532": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_158_533": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1423_534": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1231_535": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_527_536": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1405_537": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1663_538": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_765_539": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_505_540": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1041_541": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1446_542": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_671_543": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_216_544": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1451_545": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_792_546": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1609_547": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1139_548": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_767_549": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1787_550": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_561_551": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1315_552": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1403_553": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_145_554": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_17_555": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_858_556": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1328_557": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1667_558": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1789_559": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1234_560": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1229_561": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_926_562": {
+    "label": 1,
+    "category": "Sneaking"
+  },
+  "dataset_189_563": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1446_564": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_740_565": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_404_566": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1466_567": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_925_568": {
+    "label": 1,
+    "category": "Sneaking"
+  },
+  "dataset_1009_569": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_401_570": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_597_571": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1163_572": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1125_573": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1743_574": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1536_575": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1044_576": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_638_577": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1648_578": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1405_579": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1736_580": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1035_581": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1536_582": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1109_583": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1433_584": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1451_585": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1015_586": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1604_587": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1626_588": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_198_589": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1328_590": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_179_591": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_283_592": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_822_593": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_395_594": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1295_595": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_920_596": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_931_597": {
+    "label": 1,
+    "category": "Sneaking"
+  },
+  "dataset_1390_598": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1372_599": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1377_600": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_616_601": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_347_602": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_421_603": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1044_604": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1373_605": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_280_606": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1051_607": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_787_608": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_466_609": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_638_610": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1513_611": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_340_612": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1457_613": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_998_614": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_247_615": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1206_616": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1213_617": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1469_618": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1381_619": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_568_620": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1446_621": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1550_622": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_174_623": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1623_624": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_293_625": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1583_626": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_435_627": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_747_628": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1706_629": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_850_630": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_230_631": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1736_632": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1772_633": {
+    "label": 1,
+    "category": "Sneaking"
+  },
+  "dataset_1432_634": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_313_635": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_113_636": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1177_637": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1573_638": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1592_639": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1146_640": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_396_641": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1723_642": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_513_643": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1128_644": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1333_645": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1330_646": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_134_647": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1351_648": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1723_649": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1056_650": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_808_651": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1734_652": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_882_653": {
+    "label": 1,
+    "category": "Obstruction"
+  },
+  "dataset_993_654": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_428_655": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_414_656": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_117_657": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1679_658": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1340_659": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_158_660": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1451_661": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_300_662": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_638_663": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1158_664": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_879_665": {
+    "label": 1,
+    "category": "Forced Action"
+  },
+  "dataset_1044_666": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1649_667": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1627_668": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1270_669": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_459_670": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1350_671": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_113_672": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_596_673": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_822_674": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1736_675": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1026_676": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1446_677": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1300_678": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_790_679": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1459_680": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_369_681": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1241_682": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1246_683": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1345_684": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_382_685": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1387_686": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1192_687": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1536_688": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_357_689": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1446_690": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1351_691": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_362_692": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_529_693": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_811_694": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_306_695": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1044_696": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_80_697": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_112_698": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_683_699": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1446_700": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1330_701": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1658_702": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_883_703": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1330_704": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_907_705": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_919_706": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_353_707": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_849_708": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1469_709": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_291_710": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_4_711": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1044_712": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1051_713": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1197_714": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_113_715": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1173_716": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1327_717": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_18_718": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1488_719": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1175_720": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1051_721": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1421_722": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1732_723": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1013_724": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_230_725": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_108_726": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1013_727": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_191_728": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_457_729": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1367_730": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_230_731": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_638_732": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1759_733": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_292_734": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_622_735": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1488_736": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1708_737": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_103_738": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_638_739": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1810_740": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_438_741": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1151_742": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_811_743": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1582_744": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_414_745": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1604_746": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1673_747": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1013_748": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1232_749": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_364_750": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_680_751": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_307_752": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_193_753": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_237_754": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_398_755": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_680_756": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1609_757": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1466_758": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1575_759": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1487_760": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1461_761": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_287_762": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_623_763": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1158_764": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1604_765": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_622_766": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1799_767": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1423_768": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_135_769": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_306_770": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_270_771": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_209_772": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1730_773": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1407_774": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_569_775": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_16_776": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1428_777": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1736_778": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1456_779": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_40_780": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1536_781": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1066_782": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1578_783": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_473_784": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1694_785": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1653_786": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1009_787": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_248_788": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1536_789": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_124_790": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_287_791": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1259_792": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1293_793": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1087_794": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1383_795": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_527_796": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1468_797": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1139_798": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_724_799": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1013_800": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_458_801": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_991_802": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_622_803": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1664_804": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_108_805": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_628_806": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_350_807": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_680_808": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1009_809": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_917_810": {
+    "label": 1,
+    "category": "Sneaking"
+  },
+  "dataset_1536_811": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1536_812": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_247_813": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_498_814": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1195_815": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_136_816": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_833_817": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_4_818": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_543_819": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_947_820": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1373_821": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_75_822": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1330_823": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1759_824": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_218_825": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1434_826": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_776_827": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_143_828": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_179_829": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_894_830": {
+    "label": 1,
+    "category": "Obstruction"
+  },
+  "dataset_272_831": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_76_832": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_131_833": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_533_834": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1469_835": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1451_836": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_57_837": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_234_838": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1317_839": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_412_840": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1026_841": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_664_842": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_147_843": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_436_844": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_10_845": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1416_846": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1044_847": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_245_848": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_302_849": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_822_850": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_139_851": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_638_852": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1136_853": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1289_854": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1488_855": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1588_856": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1333_857": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_180_858": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1550_859": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1317_860": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_627_861": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1336_862": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1248_863": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_89_864": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_266_865": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1736_866": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1673_867": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1469_868": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_103_869": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_680_870": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_353_871": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_497_872": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_133_873": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_638_874": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_122_875": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1667_876": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1610_877": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_397_878": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_754_879": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1499_880": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1696_881": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_153_882": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_61_883": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_96_884": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_188_885": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1550_886": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1536_887": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1009_888": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1026_889": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1604_890": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_753_891": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_418_892": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_212_893": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1373_894": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_247_895": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_527_896": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1051_897": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_527_898": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1241_899": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1149_900": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1736_901": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_5_902": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1653_903": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1197_904": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_453_905": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1672_906": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_984_907": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1488_908": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1323_909": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1009_910": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_465_911": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_300_912": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1037_913": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_6_914": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1604_915": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1466_916": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_920_917": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1067_918": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_714_919": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1159_920": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1009_921": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_991_922": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1554_923": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1202_924": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_361_925": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_861_926": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_907_927": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1356_928": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_189_929": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1484_930": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1446_931": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1228_932": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_350_933": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_286_934": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1437_935": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1522_936": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1591_937": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_51_938": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1367_939": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_729_940": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_113_941": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1779_942": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_264_943": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_719_944": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_212_945": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_884_946": {
+    "label": 1,
+    "category": "Obstruction"
+  },
+  "dataset_1468_947": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_236_948": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1043_949": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_19_950": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1_951": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_571_952": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1317_953": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_818_954": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1789_955": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_24_956": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1536_957": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_72_958": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_113_959": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1158_960": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1362_961": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1536_962": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1648_963": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_769_964": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1609_965": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_504_966": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_827_967": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1301_968": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1590_969": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1268_970": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1093_971": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_416_972": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_197_973": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1389_974": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_949_975": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_69_976": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1669_977": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_269_978": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_766_979": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1072_980": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1446_981": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_714_982": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_272_983": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_195_984": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_148_985": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1317_986": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_754_987": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1489_988": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1044_989": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_680_990": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_276_991": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1221_992": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1759_993": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1742_994": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_263_995": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_337_996": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1714_997": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1380_998": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_227_999": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_984_1000": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1673_1001": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1330_1002": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1337_1003": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1373_1004": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1330_1005": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1227_1006": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_414_1007": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1466_1008": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1205_1009": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1469_1010": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_242_1011": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1648_1012": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_194_1013": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_158_1014": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_113_1015": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1630_1016": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_984_1017": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_622_1018": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1700_1019": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1183_1020": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1052_1021": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1536_1022": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_446_1023": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_610_1024": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_8_1025": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_352_1026": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_681_1027": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1130_1028": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_557_1029": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_907_1030": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1315_1031": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1307_1032": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1013_1033": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_320_1034": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1429_1035": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1388_1036": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1000_1037": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_517_1038": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1009_1039": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1680_1040": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_455_1041": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_950_1042": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_719_1043": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1412_1044": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_766_1045": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_530_1046": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1009_1047": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_230_1048": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1785_1049": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1723_1050": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_202_1051": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_119_1052": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1466_1053": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_9_1054": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_919_1055": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1008_1056": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1488_1057": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_128_1058": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1615_1059": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_680_1060": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1009_1061": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1658_1062": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_782_1063": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_90_1064": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_36_1065": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_376_1066": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_604_1067": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1051_1068": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_861_1069": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_187_1070": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1509_1071": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1129_1072": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1139_1073": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_4_1074": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1317_1075": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_113_1076": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_542_1077": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1429_1078": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1343_1079": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_573_1080": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_638_1081": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1197_1082": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_165_1083": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1373_1084": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1009_1085": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_638_1086": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_711_1087": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_891_1088": {
+    "label": 1,
+    "category": "Obstruction"
+  },
+  "dataset_638_1089": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_4_1090": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_92_1091": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1480_1092": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_353_1093": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_776_1094": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_414_1095": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_325_1096": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1510_1097": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_906_1098": {
+    "label": 1,
+    "category": "Obstruction"
+  },
+  "dataset_568_1099": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_31_1100": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1203_1101": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1268_1102": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1279_1103": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_140_1104": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_995_1105": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_4_1106": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_812_1107": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_68_1108": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_567_1109": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1026_1110": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1446_1111": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1590_1112": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_189_1113": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1565_1114": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1256_1115": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1489_1116": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1740_1117": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1111_1118": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_398_1119": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_528_1120": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_729_1121": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1316_1122": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_680_1123": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1058_1124": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_767_1125": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1459_1126": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1295_1127": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_103_1128": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_527_1129": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1488_1130": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_188_1131": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1550_1132": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_633_1133": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1726_1134": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1317_1135": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_63_1136": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_350_1137": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_971_1138": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1601_1139": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1481_1140": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_398_1141": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_861_1142": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_765_1143": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1595_1144": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1045_1145": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1469_1146": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1695_1147": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_323_1148": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1429_1149": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1477_1150": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_161_1151": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1000_1152": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1394_1153": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1044_1154": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_984_1155": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_993_1156": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_638_1157": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1526_1158": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1469_1159": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1174_1160": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_62_1161": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1716_1162": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_321_1163": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1657_1164": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_15_1165": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_822_1166": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_391_1167": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_811_1168": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1784_1169": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1439_1170": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_875_1171": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1139_1172": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_5_1173": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_907_1174": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_55_1175": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_603_1176": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1653_1177": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1658_1178": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_128_1179": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_175_1180": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1293_1181": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1647_1182": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1304_1183": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_568_1184": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_827_1185": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1668_1186": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_786_1187": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_258_1188": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1498_1189": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_822_1190": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_261_1191": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1252_1192": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_342_1193": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1381_1194": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_994_1195": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1351_1196": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_272_1197": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1236_1198": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_239_1199": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1473_1200": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1692_1201": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1518_1202": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_719_1203": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_120_1204": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1446_1205": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1083_1206": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_264_1207": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1140_1208": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1667_1209": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_212_1210": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_189_1211": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_230_1212": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_919_1213": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1305_1214": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1351_1215": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_920_1216": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_724_1217": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1241_1218": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1009_1219": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_110_1220": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_893_1221": {
+    "label": 1,
+    "category": "Obstruction"
+  },
+  "dataset_944_1222": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1489_1223": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_955_1224": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_477_1225": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1466_1226": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1499_1227": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_734_1228": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1654_1229": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_584_1230": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1238_1231": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_767_1232": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1278_1233": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_294_1234": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_658_1235": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_907_1236": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_454_1237": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1730_1238": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1322_1239": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_534_1240": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_61_1241": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_622_1242": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_38_1243": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1034_1244": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1466_1245": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1351_1246": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1381_1247": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1398_1248": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_127_1249": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1536_1250": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_534_1251": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_965_1252": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1375_1253": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_429_1254": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1122_1255": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1481_1256": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_203_1257": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_686_1258": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1488_1259": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1545_1260": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1303_1261": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_622_1262": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_573_1263": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_306_1264": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1158_1265": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1597_1266": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1343_1267": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1446_1268": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1699_1269": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1509_1270": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_172_1271": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1454_1272": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_246_1273": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1736_1274": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_790_1275": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1550_1276": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_775_1277": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_12_1278": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_907_1279": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1089_1280": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_565_1281": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_216_1282": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_672_1283": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_790_1284": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1158_1285": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_667_1286": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1451_1287": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_526_1288": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_386_1289": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1536_1290": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1488_1291": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1497_1292": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_559_1293": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_907_1294": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1723_1295": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_69_1296": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_209_1297": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1622_1298": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1555_1299": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1550_1300": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_249_1301": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_680_1302": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_855_1303": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_103_1304": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_108_1305": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1167_1306": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1480_1307": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1361_1308": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_811_1309": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1253_1310": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1034_1311": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1164_1312": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1667_1313": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1268_1314": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_993_1315": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1469_1316": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_8_1317": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1054_1318": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_584_1319": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1299_1320": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1289_1321": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1013_1322": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1536_1323": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1459_1324": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1469_1325": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1297_1326": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1326_1327": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_880_1328": {
+    "label": 1,
+    "category": "Forced Action"
+  },
+  "dataset_1222_1329": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_37_1330": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_216_1331": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1468_1332": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_833_1333": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_667_1334": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1604_1335": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1590_1336": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1723_1337": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1405_1338": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1040_1339": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1077_1340": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1729_1341": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1745_1342": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1667_1343": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1271_1344": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_427_1345": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_423_1346": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_992_1347": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1241_1348": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_902_1349": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_912_1350": {
+    "label": 1,
+    "category": "Obstruction"
+  },
+  "dataset_1063_1351": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1585_1352": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_622_1353": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_66_1354": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_207_1355": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1210_1356": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_190_1357": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_225_1358": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1014_1359": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_861_1360": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1541_1361": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1469_1362": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1658_1363": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_247_1364": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_113_1365": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_128_1366": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1600_1367": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1331_1368": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1317_1369": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1315_1370": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1648_1371": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1174_1372": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1536_1373": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_634_1374": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_54_1375": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1489_1376": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1328_1377": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_83_1378": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_888_1379": {
+    "label": 1,
+    "category": "Obstruction"
+  },
+  "dataset_61_1380": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_740_1381": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_13_1382": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_281_1383": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_22_1384": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1330_1385": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1573_1386": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_160_1387": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1267_1388": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_409_1389": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_256_1390": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1675_1391": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1469_1392": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1317_1393": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_296_1394": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_121_1395": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1158_1396": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_994_1397": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1365_1398": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1056_1399": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1030_1400": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_169_1401": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_766_1402": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1367_1403": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_752_1404": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_680_1405": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1095_1406": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_842_1407": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_588_1408": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_259_1409": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1315_1410": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1673_1411": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_441_1412": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1214_1413": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_113_1414": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_262_1415": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1351_1416": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1359_1417": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1536_1418": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1469_1419": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_619_1420": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1496_1421": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_230_1422": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1779_1423": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1117_1424": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_445_1425": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1792_1426": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1469_1427": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1604_1428": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1667_1429": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1550_1430": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_833_1431": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1397_1432": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_113_1433": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1468_1434": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1791_1435": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1536_1436": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_782_1437": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_300_1438": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1131_1439": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_212_1440": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_989_1441": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1468_1442": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1023_1443": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_186_1444": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_312_1445": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_892_1446": {
+    "label": 1,
+    "category": "Obstruction"
+  },
+  "dataset_1536_1447": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_573_1448": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1765_1449": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1658_1450": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_324_1451": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1351_1452": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1564_1453": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_132_1454": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_190_1455": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_767_1456": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_940_1457": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_116_1458": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1293_1459": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1216_1460": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_111_1461": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1090_1462": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1671_1463": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_395_1464": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_224_1465": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_27_1466": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_527_1467": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1197_1468": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_327_1469": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_154_1470": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1521_1471": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1482_1472": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1662_1473": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_840_1474": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1094_1475": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_651_1476": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_765_1477": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1219_1478": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1725_1479": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1293_1480": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1044_1481": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1818_1482": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1068_1483": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_290_1484": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1120_1485": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_230_1486": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1469_1487": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_300_1488": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_837_1489": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_268_1490": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1317_1491": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_527_1492": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1470_1493": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_97_1494": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_622_1495": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1061_1496": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1351_1497": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_69_1498": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_638_1499": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_20_1500": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_790_1501": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_907_1502": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1105_1503": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1354_1504": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1304_1505": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_993_1506": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_118_1507": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1469_1508": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_825_1509": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_377_1510": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1536_1511": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_452_1512": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_60_1513": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_351_1514": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_365_1515": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1736_1516": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1779_1517": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1796_1518": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_285_1519": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_714_1520": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1009_1521": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_638_1522": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_212_1523": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_277_1524": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1310_1525": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_61_1526": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_279_1527": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1428_1528": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1083_1529": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1191_1530": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_240_1531": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1429_1532": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_569_1533": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_220_1534": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_598_1535": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_361_1536": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1536_1537": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_552_1538": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_863_1539": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_684_1540": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1315_1541": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_371_1542": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_799_1543": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_982_1544": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1055_1545": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1293_1546": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_129_1547": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1025_1548": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_334_1549": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1033_1550": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1573_1551": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1551_1552": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_259_1553": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_742_1554": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_648_1555": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_230_1556": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_837_1557": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_274_1558": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_228_1559": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1690_1560": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1590_1561": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_560_1562": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_907_1563": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_803_1564": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1522_1565": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_430_1566": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1756_1567": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1446_1568": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_638_1569": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_475_1570": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_983_1571": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1011_1572": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_991_1573": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1465_1574": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_82_1575": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_392_1576": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_555_1577": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1158_1578": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_289_1579": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1196_1580": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1801_1581": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1451_1582": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_251_1583": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1491_1584": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_907_1585": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_74_1586": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1158_1587": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_385_1588": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1255_1589": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1026_1590": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1687_1591": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_300_1592": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1316_1593": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_113_1594": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_414_1595": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_411_1596": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1705_1597": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1429_1598": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1158_1599": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1590_1600": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1428_1601": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_390_1602": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1552_1603": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_273_1604": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_108_1605": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_247_1606": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_568_1607": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_408_1608": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_976_1609": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_434_1610": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_716_1611": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_905_1612": {
+    "label": 1,
+    "category": "Obstruction"
+  },
+  "dataset_1360_1613": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1293_1614": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_158_1615": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_196_1616": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_907_1617": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_350_1618": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_405_1619": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1469_1620": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_217_1621": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_66_1622": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1451_1623": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1469_1624": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1469_1625": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1682_1626": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_158_1627": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_471_1628": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_782_1629": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1738_1630": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_233_1631": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1625_1632": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1317_1633": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_370_1634": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1313_1635": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_833_1636": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_803_1637": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_198_1638": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_861_1639": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1272_1640": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_184_1641": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1728_1642": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1536_1643": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1815_1644": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1811_1645": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_203_1646": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_491_1647": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_886_1648": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_44_1649": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1621_1650": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1710_1651": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1344_1652": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_976_1653": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_907_1654": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_414_1655": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_201_1656": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1167_1657": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1759_1658": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_4_1659": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_209_1660": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1815_1661": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_133_1662": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_573_1663": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_984_1664": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_985_1665": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1381_1666": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_966_1667": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_815_1668": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_980_1669": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1475_1670": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_253_1671": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1139_1672": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1343_1673": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_138_1674": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1646_1675": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_919_1676": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1092_1677": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1741_1678": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1685_1679": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_993_1680": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_88_1681": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1536_1682": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1083_1683": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_209_1684": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1604_1685": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_128_1686": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1304_1687": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_2_1688": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_527_1689": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_230_1690": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_190_1691": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_108_1692": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_113_1693": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_593_1694": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_996_1695": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1476_1696": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1459_1697": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1080_1698": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_822_1699": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_26_1700": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_185_1701": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_23_1702": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_212_1703": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_886_1704": {
+    "label": 1,
+    "category": "Obstruction"
+  },
+  "dataset_977_1705": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_388_1706": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1026_1707": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_247_1708": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_933_1709": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1466_1710": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_311_1711": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1062_1712": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_216_1713": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1343_1714": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1697_1715": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_919_1716": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1200_1717": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_216_1718": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_50_1719": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_573_1720": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1529_1721": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1525_1722": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_226_1723": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1536_1724": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_367_1725": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1730_1726": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1149_1727": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1459_1728": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1275_1729": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1648_1730": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1088_1731": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1108_1732": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_573_1733": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_837_1734": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1304_1735": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1367_1736": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_77_1737": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1215_1738": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_767_1739": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_104_1740": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_595_1741": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1536_1742": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_378_1743": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_230_1744": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_203_1745": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_895_1746": {
+    "label": 1,
+    "category": "Obstruction"
+  },
+  "dataset_460_1747": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_102_1748": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_210_1749": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1169_1750": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1208_1751": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1304_1752": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1075_1753": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_69_1754": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_348_1755": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_889_1756": {
+    "label": 1,
+    "category": "Obstruction"
+  },
+  "dataset_1630_1757": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1736_1758": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_265_1759": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_221_1760": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1702_1761": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_247_1762": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1333_1763": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_177_1764": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_246_1765": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_182_1766": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1036_1767": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1067_1768": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_822_1769": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1127_1770": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1653_1771": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1181_1772": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1003_1773": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_767_1774": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1019_1775": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_100_1776": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_622_1777": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1793_1778": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1469_1779": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_133_1780": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1459_1781": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_5_1782": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1466_1783": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_951_1784": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_659_1785": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1009_1786": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_714_1787": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_479_1788": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_264_1789": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_33_1790": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1448_1791": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1212_1792": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1489_1793": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_383_1794": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1451_1795": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1254_1796": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1158_1797": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_247_1798": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1590_1799": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1060_1800": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1196_1801": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1107_1802": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1736_1803": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_713_1804": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_85_1805": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_66_1806": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_103_1807": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1798_1808": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1155_1809": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1317_1810": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_782_1811": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_787_1812": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_349_1813": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_787_1814": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1403_1815": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1736_1816": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_814_1817": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1047_1818": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_67_1819": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_305_1820": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1440_1821": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_822_1822": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1007_1823": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_822_1824": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1771_1825": {
+    "label": 1,
+    "category": "Sneaking"
+  },
+  "dataset_1313_1826": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1328_1827": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_170_1828": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1814_1829": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_350_1830": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_534_1831": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_353_1832": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_230_1833": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_688_1834": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_216_1835": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1272_1836": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1304_1837": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1282_1838": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_664_1839": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_212_1840": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_482_1841": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_101_1842": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1343_1843": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1405_1844": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1602_1845": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_927_1846": {
+    "label": 1,
+    "category": "Sneaking"
+  },
+  "dataset_254_1847": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1536_1848": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1446_1849": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_372_1850": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1274_1851": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_70_1852": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_826_1853": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1343_1854": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1492_1855": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_338_1856": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1065_1857": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_827_1858": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_622_1859": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1086_1860": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_150_1861": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_680_1862": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1784_1863": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_512_1864": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1044_1865": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1371_1866": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_7_1867": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_219_1868": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_833_1869": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1026_1870": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1083_1871": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1534_1872": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_568_1873": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_49_1874": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1550_1875": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_483_1876": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_45_1877": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_244_1878": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_205_1879": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_310_1880": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_350_1881": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_776_1882": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1342_1883": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_217_1884": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_911_1885": {
+    "label": 1,
+    "category": "Obstruction"
+  },
+  "dataset_1333_1886": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_822_1887": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1759_1888": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_638_1889": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1330_1890": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_241_1891": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1071_1892": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_149_1893": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1536_1894": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_803_1895": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_822_1896": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1373_1897": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1707_1898": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1091_1899": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1759_1900": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1293_1901": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1241_1902": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_345_1903": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_144_1904": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1560_1905": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_448_1906": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1149_1907": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_317_1908": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_53_1909": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1026_1910": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1759_1911": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_46_1912": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_271_1913": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1803_1914": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1503_1915": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1658_1916": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_715_1917": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_246_1918": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_319_1919": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_907_1920": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1291_1921": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_825_1922": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1428_1923": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_864_1924": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1051_1925": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_406_1926": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_662_1927": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_861_1928": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_188_1929": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1469_1930": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_725_1931": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_431_1932": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_680_1933": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1536_1934": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_4_1935": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1596_1936": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1488_1937": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_708_1938": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_133_1939": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_30_1940": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_155_1941": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_754_1942": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_183_1943": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_123_1944": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1658_1945": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1101_1946": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1241_1947": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_300_1948": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1715_1949": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1158_1950": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_216_1951": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1260_1952": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_5_1953": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1606_1954": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_306_1955": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_907_1956": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1509_1957": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_25_1958": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_394_1959": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1468_1960": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1550_1961": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_350_1962": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1367_1963": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1463_1964": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_198_1965": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_833_1966": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1100_1967": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1187_1968": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_638_1969": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_954_1970": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_580_1971": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_822_1972": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1363_1973": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1797_1974": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_81_1975": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1638_1976": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1009_1977": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1349_1978": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1154_1979": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1220_1980": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_680_1981": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_960_1982": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_66_1983": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1018_1984": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_546_1985": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_714_1986": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_991_1987": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_260_1988": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1466_1989": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1139_1990": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_447_1991": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1736_1992": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_767_1993": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_841_1994": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1693_1995": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_200_1996": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1590_1997": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_573_1998": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_117_1999": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_913_2000": {
+    "label": 1,
+    "category": "Sneaking"
+  },
+  "dataset_1351_2001": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1536_2002": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1667_2003": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_690_2004": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_247_2005": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1272_2006": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1134_2007": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_297_2008": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_211_2009": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_638_2010": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_707_2011": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_306_2012": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_32_2013": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_763_2014": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1153_2015": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1266_2016": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1536_2017": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_25_2018": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1002_2019": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1009_2020": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_353_2021": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_246_2022": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1351_2023": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1365_2024": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_14_2025": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_149_2026": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1026_2027": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_93_2028": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1044_2029": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_790_2030": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1197_2031": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1736_2032": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1381_2033": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1053_2034": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_581_2035": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_984_2036": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1517_2037": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1194_2038": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1660_2039": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1469_2040": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1317_2041": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_380_2042": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_747_2043": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_530_2044": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1678_2045": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_921_2046": {
+    "label": 1,
+    "category": "Sneaking"
+  },
+  "dataset_887_2047": {
+    "label": 1,
+    "category": "Obstruction"
+  },
+  "dataset_1333_2048": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_776_2049": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_667_2050": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1735_2051": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_713_2052": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1722_2053": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_52_2054": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1667_2055": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1737_2056": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1304_2057": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1385_2058": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_919_2059": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_767_2060": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_803_2061": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_714_2062": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_907_2063": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_212_2064": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_243_2065": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_991_2066": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_822_2067": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_624_2068": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_350_2069": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1584_2070": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1594_2071": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1550_2072": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1010_2073": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_970_2074": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1469_2075": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_191_2076": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1241_2077": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_979_2078": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1788_2079": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_622_2080": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1618_2081": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_402_2082": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_4_2083": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_537_2084": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_299_2085": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_907_2086": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1343_2087": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_117_2088": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1402_2089": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_957_2090": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_264_2091": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1532_2092": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_287_2093": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1536_2094": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_47_2095": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_222_2096": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1488_2097": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_117_2098": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_991_2099": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_837_2100": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_198_2101": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_4_2102": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1044_2103": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_822_2104": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_963_2105": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1330_2106": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1057_2107": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1658_2108": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_29_2109": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_747_2110": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1001_2111": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1056_2112": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1446_2113": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_920_2114": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_822_2115": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1201_2116": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_176_2117": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_158_2118": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1654_2119": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1304_2120": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_833_2121": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_680_2122": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_115_2123": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_997_2124": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_295_2125": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1381_2126": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_861_2127": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_282_2128": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1302_2129": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1366_2130": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_825_2131": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_527_2132": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1211_2133": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1556_2134": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_878_2135": {
+    "label": 1,
+    "category": "Forced Action"
+  },
+  "dataset_238_2136": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1358_2137": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_861_2138": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1315_2139": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_570_2140": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_573_2141": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_837_2142": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_667_2143": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_833_2144": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_356_2145": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_667_2146": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1026_2147": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1056_2148": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1759_2149": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1009_2150": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1483_2151": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_527_2152": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_664_2153": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1207_2154": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_986_2155": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_476_2156": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_877_2157": {
+    "label": 1,
+    "category": "Forced Action"
+  },
+  "dataset_1317_2158": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_304_2159": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_28_2160": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1106_2161": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_568_2162": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1536_2163": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_188_2164": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1458_2165": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_329_2166": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1546_2167": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_693_2168": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_984_2169": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1536_2170": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_42_2171": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1468_2172": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1613_2173": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_451_2174": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_278_2175": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1009_2176": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_850_2177": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1698_2178": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_883_2179": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1489_2180": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1667_2181": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_78_2182": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_231_2183": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_41_2184": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_790_2185": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_608_2186": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1406_2187": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_667_2188": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1519_2189": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_189_2190": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1032_2191": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1365_2192": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_685_2193": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1451_2194": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1493_2195": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_109_2196": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1469_2197": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_664_2198": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1330_2199": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1721_2200": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1006_2201": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1429_2202": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1330_2203": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_108_2204": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1399_2205": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_433_2206": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_811_2207": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1759_2208": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1612_2209": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1736_2210": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1313_2211": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_987_2212": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1468_2213": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1373_2214": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_34_2215": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_71_2216": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_316_2217": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_331_2218": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_309_2219": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_890_2220": {
+    "label": 1,
+    "category": "Obstruction"
+  },
+  "dataset_594_2221": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_773_2222": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1333_2223": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_991_2224": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1177_2225": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_575_2226": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_569_2227": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1604_2228": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_223_2229": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_11_2230": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1759_2231": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_566_2232": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_95_2233": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1330_2234": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1683_2235": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1056_2236": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_350_2237": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1381_2238": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1143_2239": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1648_2240": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_168_2241": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1149_2242": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1230_2243": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_196_2244": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_107_2245": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1733_2246": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1550_2247": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1459_2248": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1488_2249": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_444_2250": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1083_2251": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_166_2252": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1489_2253": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_569_2254": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1536_2255": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1712_2256": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1684_2257": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1328_2258": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1426_2259": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_680_2260": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_902_2261": {
+    "label": 1,
+    "category": "Obstruction"
+  },
+  "dataset_1098_2262": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1736_2263": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1330_2264": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_4_2265": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_192_2266": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_664_2267": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_620_2268": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_516_2269": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_638_2270": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1536_2271": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1759_2272": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1070_2273": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1429_2274": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_766_2275": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_189_2276": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_1009_2277": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_375_2278": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1701_2279": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_103_2280": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1550_2281": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1604_2282": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_242_2283": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1709_2284": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_114_2285": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_25_2286": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1293_2287": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_242_2288": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_640_2289": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1022_2290": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_212_2291": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_230_2292": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_212_2293": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1321_2294": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_1658_2295": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1048_2296": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1351_2297": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1124_2298": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_298_2299": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_627_2300": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_991_2301": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_108_2302": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_767_2303": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_916_2304": {
+    "label": 1,
+    "category": "Sneaking"
+  },
+  "dataset_1804_2305": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_419_2306": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1258_2307": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_113_2308": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1009_2309": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1773_2310": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_803_2311": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_999_2312": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1474_2313": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_897_2314": {
+    "label": 1,
+    "category": "Obstruction"
+  },
+  "dataset_1790_2315": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1049_2316": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1139_2317": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_569_2318": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_662_2319": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_900_2320": {
+    "label": 1,
+    "category": "Obstruction"
+  },
+  "dataset_1598_2321": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_230_2322": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_314_2323": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1446_2324": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_242_2325": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_901_2326": {
+    "label": 1,
+    "category": "Obstruction"
+  },
+  "dataset_1174_2327": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_680_2328": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_630_2329": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_564_2330": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_242_2331": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_822_2332": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_638_2333": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1536_2334": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1317_2335": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1315_2336": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1313_2337": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1029_2338": {
+    "label": 1,
+    "category": "Urgency"
+  },
+  "dataset_1352_2339": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_164_2340": {
+    "label": 1,
+    "category": "Social Proof"
+  },
+  "dataset_908_2341": {
+    "label": 1,
+    "category": "Obstruction"
+  },
+  "dataset_1277_2342": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_381_2343": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1044_2344": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_472_2345": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_638_2346": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_662_2347": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1044_2348": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1572_2349": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_393_2350": {
+    "label": 1,
+    "category": "Misdirection"
+  },
+  "dataset_1304_2351": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1038_2352": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1081_2353": {
+    "label": 1,
+    "category": "Scarcity"
+  },
+  "dataset_767_2354": {
+    "label": 0,
+    "category": "Not Dark Pattern"
+  },
+  "dataset_1468_2355": {
+    "label": 1,
+    "category": "Scarcity"
+  }
+}

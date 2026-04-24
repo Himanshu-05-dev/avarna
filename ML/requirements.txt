@@ -1,0 +1,36 @@
+# Core
+pydantic>=2.0
+python-dotenv
+numpy
+pillow
+
+# CV
+ultralytics
+transformers
+torch
+torchvision
+open-clip-torch
+
+# NLP
+sentencepiece
+
+# ML Ensemble
+xgboost
+lightgbm
+shap
+scikit-learn
+
+# Output
+jinja2
+
+# Gemini API
+google-generativeai
+
+# API
+fastapi
+uvicorn[standard]
+python-multipart
+
+# Utilities
+colorama
+tqdm

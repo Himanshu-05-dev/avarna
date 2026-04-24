@@ -1,0 +1,185 @@
+{
+    "url": "https://example-shop.com/checkout",
+    "timestamp": "2026-04-14T12:00:00Z",
+    "pages": [
+        {
+            "page_id": "checkout_main",
+            "url": "https://example-shop.com/checkout",
+            "title": "Complete Your Order - ExampleShop",
+            "screenshots": {
+                "full_page": "sample_data/screenshots/checkout_full.png"
+            },
+            "page_state": "initial",
+            "elements": [
+                {
+                    "id": "main-container",
+                    "tag": "div",
+                    "text": "",
+                    "classes": ["checkout-container"],
+                    "bounding_box": {"x": 0, "y": 0, "w": 1200, "h": 2000},
+                    "computed_css": {"background_color": "#ffffff", "display": "block"},
+                    "is_interactive": false,
+                    "is_visible": true,
+                    "children": [
+                        {
+                            "id": "warranty-checkbox",
+                            "tag": "input",
+                            "text": "",
+                            "classes": ["form-check-input"],
+                            "bounding_box": {"x": 220, "y": 410, "w": 18, "h": 18},
+                            "computed_css": {
+                                "font_size": "14px",
+                                "color": "#333333",
+                                "background_color": "#ffffff",
+                                "cursor": "pointer"
+                            },
+                            "aria": {"role": "checkbox", "label": "Add extended warranty", "checked": "true"},
+                            "is_interactive": true,
+                            "is_visible": true,
+                            "element_type": "checkbox",
+                            "input_type": "checkbox",
+                            "default_checked": true,
+                            "children": []
+                        },
+                        {
+                            "id": "warranty-label",
+                            "tag": "label",
+                            "text": "Add Extended Warranty Protection - ₹999/month (recommended)",
+                            "classes": ["form-check-label", "text-muted"],
+                            "bounding_box": {"x": 245, "y": 408, "w": 400, "h": 22},
+                            "computed_css": {
+                                "font_size": "12px",
+                                "color": "#6c757d",
+                                "font_weight": "400"
+                            },
+                            "is_interactive": false,
+                            "is_visible": true,
+                            "children": []
+                        },
+                        {
+                            "id": "newsletter-checkbox",
+                            "tag": "input",
+                            "text": "",
+                            "classes": ["form-check-input"],
+                            "bounding_box": {"x": 220, "y": 445, "w": 18, "h": 18},
+                            "computed_css": {
+                                "font_size": "14px",
+                                "color": "#333333",
+                                "background_color": "#ffffff"
+                            },
+                            "aria": {"role": "checkbox", "label": "Subscribe to newsletter", "checked": "true"},
+                            "is_interactive": true,
+                            "is_visible": true,
+                            "element_type": "checkbox",
+                            "input_type": "checkbox",
+                            "default_checked": true,
+                            "children": []
+                        },
+                        {
+                            "id": "stock-warning",
+                            "tag": "div",
+                            "text": "⚡ Only 2 left in stock! 15 people are viewing this right now.",
+                            "classes": ["stock-alert", "text-danger", "fw-bold"],
+                            "bounding_box": {"x": 600, "y": 200, "w": 350, "h": 40},
+                            "computed_css": {
+                                "font_size": "14px",
+                                "color": "#dc3545",
+                                "background_color": "#fff3cd",
+                                "font_weight": "700"
+                            },
+                            "is_interactive": false,
+                            "is_visible": true,
+                            "children": []
+                        },
+                        {
+                            "id": "countdown-timer",
+                            "tag": "div",
+                            "text": "Deal expires in 04:59! Don't miss out!",
+                            "classes": ["countdown", "pulse-animation"],
+                            "bounding_box": {"x": 600, "y": 250, "w": 300, "h": 35},
+                            "computed_css": {
+                                "font_size": "16px",
+                                "color": "#ffffff",
+                                "background_color": "#dc3545",
+                                "font_weight": "700"
+                            },
+                            "is_interactive": false,
+                            "is_visible": true,
+                            "children": []
+                        },
+                        {
+                            "id": "buy-now-btn",
+                            "tag": "button",
+                            "text": "Buy Now — Best Decision Ever! 🎉",
+                            "classes": ["btn", "btn-success", "btn-lg", "w-100", "pulse"],
+                            "bounding_box": {"x": 200, "y": 520, "w": 400, "h": 65},
+                            "computed_css": {
+                                "font_size": "22px",
+                                "color": "#ffffff",
+                                "background_color": "#28a745",
+                                "font_weight": "700",
+                                "border": "none",
+                                "cursor": "pointer",
+                                "z_index": "10"
+                            },
+                            "aria": {"role": "button", "label": "Complete purchase"},
+                            "is_interactive": true,
+                            "is_visible": true,
+                            "element_type": "button",
+                            "children": []
+                        },
+                        {
+                            "id": "continue-browsing-link",
+                            "tag": "a",
+                            "text": "No thanks, I enjoy paying full price",
+                            "classes": ["text-muted", "small"],
+                            "bounding_box": {"x": 310, "y": 600, "w": 180, "h": 14},
+                            "computed_css": {
+                                "font_size": "10px",
+                                "color": "#adb5bd",
+                                "text_decoration": "none",
+                                "opacity": "0.6",
+                                "cursor": "pointer"
+                            },
+                            "is_interactive": true,
+                            "is_visible": true,
+                            "element_type": "link",
+                            "href": "/cart",
+                            "children": []
+                        },
+                        {
+                            "id": "hidden-fee-notice",
+                            "tag": "p",
+                            "text": "* Processing fee of ₹49 and platform handling charge of ₹29 will be added at final step",
+                            "classes": ["text-muted", "fine-print"],
+                            "bounding_box": {"x": 200, "y": 1850, "w": 400, "h": 12},
+                            "computed_css": {
+                                "font_size": "8px",
+                                "color": "#ccc",
+                                "opacity": "0.4"
+                            },
+                            "is_interactive": false,
+                            "is_visible": true,
+                            "children": []
+                        },
+                        {
+                            "id": "shipping-info",
+                            "tag": "div",
+                            "text": "FREE shipping on eligible orders",
+                            "classes": ["shipping-badge"],
+                            "bounding_box": {"x": 600, "y": 300, "w": 250, "h": 30},
+                            "computed_css": {
+                                "font_size": "14px",
+                                "color": "#28a745",
+                                "font_weight": "600"
+                            },
+                            "is_interactive": false,
+                            "is_visible": true,
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

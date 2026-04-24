@@ -1,0 +1,164 @@
+[
+    {
+        "clause_id": "DPDP-S7-1",
+        "act_name": "Digital Personal Data Protection Act 2023 (India)",
+        "section": "Section 7(1)",
+        "text": "The consent given by the Data Principal shall be free, specific, informed, unconditional and unambiguous with a clear affirmative action, and shall signify an agreement to the processing of her personal data for the specified purpose and be limited to such personal data as is necessary for such specified purpose.",
+        "keywords": ["consent", "free", "specific", "informed", "unconditional", "unambiguous", "affirmative action", "checkbox", "opt-in", "opt-out", "pre-selected"],
+        "dark_pattern_types": ["pre_selection", "forced_consent", "hidden_information", "forced_action", "trick_questions"],
+        "severity_tier": "critical"
+    },
+    {
+        "clause_id": "DPDP-S7-2",
+        "act_name": "Digital Personal Data Protection Act 2023 (India)",
+        "section": "Section 7(2)",
+        "text": "The request for consent shall be presented to the Data Principal in a clear and plain language, giving her the choice to give or not give consent, containing particulars of personal data to be processed, the purpose, and rights of the Data Principal.",
+        "keywords": ["clear", "plain language", "choice", "consent", "purpose", "rights"],
+        "dark_pattern_types": ["buried_information", "hidden_information", "confirm_shaming", "false_hierarchy", "visual_misdirection"],
+        "severity_tier": "critical"
+    },
+    {
+        "clause_id": "DPDP-S6-3",
+        "act_name": "Digital Personal Data Protection Act 2023 (India)",
+        "section": "Section 6(3)",
+        "text": "Where the processing of personal data is necessary for the State to provide any subsidy, benefit, service, certificate, licence or permit, the Data Principal shall not be required to consent to the processing of personal data beyond what is necessary for such purpose.",
+        "keywords": ["necessary", "purpose limitation", "required", "beyond"],
+        "dark_pattern_types": ["forced_action", "forced_registration"],
+        "severity_tier": "high"
+    },
+    {
+        "clause_id": "DSA-A25-1",
+        "act_name": "Digital Services Act (EU)",
+        "section": "Article 25(1)",
+        "text": "Providers of online platforms shall not design, organise or operate their online interfaces in a way that deceives or manipulates the recipients of their service or in a way that otherwise materially distorts or impairs the ability of the recipients of their service to make free and informed decisions.",
+        "keywords": ["deceive", "manipulate", "interface", "design", "free", "informed", "decision", "distort", "impair"],
+        "dark_pattern_types": ["confirm_shaming", "false_hierarchy", "visual_misdirection", "asymmetric_button_sizing", "toying_with_emotion", "misdirection", "interface_interference"],
+        "severity_tier": "critical"
+    },
+    {
+        "clause_id": "DSA-A25-2",
+        "act_name": "Digital Services Act (EU)",
+        "section": "Article 25(2)",
+        "text": "The prohibition includes practices that give more visual prominence to certain choices when asking recipients for a decision, repeatedly requesting that recipients make a choice where that choice has already been made, making the procedure for terminating a service significantly more cumbersome than subscribing, and making certain choices more difficult or time-consuming.",
+        "keywords": ["visual prominence", "repeated", "cumbersome", "terminating", "subscribing", "difficult", "time-consuming"],
+        "dark_pattern_types": ["asymmetric_button_sizing", "nagging", "repeated_prompts", "hard_to_cancel", "roach_motel", "multi_step_exit", "obstruction"],
+        "severity_tier": "critical"
+    },
+    {
+        "clause_id": "DSA-A25-3",
+        "act_name": "Digital Services Act (EU)",
+        "section": "Article 25(3)",
+        "text": "Darker designs and deceptive patterns that trick, manipulate, or unduly influence users are prohibited, including default settings designed to exploit user inertia, and choices that are overly complex or not neutrally presented.",
+        "keywords": ["default settings", "inertia", "complex", "neutrally presented", "trick", "exploit"],
+        "dark_pattern_types": ["pre_selection", "forced_continuity", "trick_questions", "complex_cancellation_flow"],
+        "severity_tier": "high"
+    },
+    {
+        "clause_id": "GDPR-A7-1",
+        "act_name": "General Data Protection Regulation (EU)",
+        "section": "Article 7(1)",
+        "text": "Where processing is based on consent, the controller shall be able to demonstrate that the data subject has consented to processing of his or her personal data. Consent must be freely given, specific, informed and unambiguous.",
+        "keywords": ["consent", "freely given", "specific", "informed", "unambiguous", "demonstrate"],
+        "dark_pattern_types": ["pre_selection", "forced_consent", "hidden_information", "buried_information"],
+        "severity_tier": "critical"
+    },
+    {
+        "clause_id": "GDPR-A7-3",
+        "act_name": "General Data Protection Regulation (EU)",
+        "section": "Article 7(3)",
+        "text": "The data subject shall have the right to withdraw his or her consent at any time. It shall be as easy to withdraw as to give consent.",
+        "keywords": ["withdraw", "consent", "easy", "right"],
+        "dark_pattern_types": ["hard_to_cancel", "roach_motel", "multi_step_exit", "hidden_unsubscribe", "complex_cancellation_flow"],
+        "severity_tier": "critical"
+    },
+    {
+        "clause_id": "EUAI-A5-1a",
+        "act_name": "EU AI Act",
+        "section": "Article 5(1)(a)",
+        "text": "The placing on the market, the putting into service, or the use of an AI system that deploys subliminal techniques beyond a person's consciousness or purposefully manipulative or deceptive techniques, with the objective, or the effect, of materially distorting the behaviour of a person or a group of persons.",
+        "keywords": ["subliminal", "manipulative", "deceptive", "distorting", "behaviour", "consciousness"],
+        "dark_pattern_types": ["visual_misdirection", "attention_diversion", "disguised_ads", "toying_with_emotion", "misdirection"],
+        "severity_tier": "critical"
+    },
+    {
+        "clause_id": "EUAI-A5-1b",
+        "act_name": "EU AI Act",
+        "section": "Article 5(1)(b)",
+        "text": "The placing on the market, the putting into service, or the use of an AI system that exploits any of the vulnerabilities of a specific group of persons due to their age, disability, or a specific social or economic situation.",
+        "keywords": ["exploit", "vulnerability", "age", "disability", "social", "economic"],
+        "dark_pattern_types": ["toying_with_emotion", "emotional_manipulation", "gamification_pressure"],
+        "severity_tier": "critical"
+    },
+    {
+        "clause_id": "CPA-S2-47",
+        "act_name": "Consumer Protection Act 2019 (India)",
+        "section": "Section 2(47) — Unfair Trade Practice",
+        "text": "Unfair trade practice means a trade practice which, for the purpose of promoting the sale, use or supply of any goods or services, adopts any unfair method or unfair or deceptive practice including making any statement, orally or in writing or by visible representation which falsely represents that the goods are of a particular standard, quality, or grade, or makes a false or misleading representation concerning the need for, or the usefulness of, any goods or services.",
+        "keywords": ["unfair", "deceptive", "false representation", "misleading", "sale", "promotion"],
+        "dark_pattern_types": ["misleading_language", "fake_reviews", "inflated_statistics", "bait_and_switch", "disguised_ads", "decoy_pricing"],
+        "severity_tier": "high"
+    },
+    {
+        "clause_id": "CPA-CCPA-2023-1",
+        "act_name": "CCPA Dark Pattern Guidelines 2023 (India)",
+        "section": "Guideline 3 — False Urgency",
+        "text": "No person, including any platform, shall engage in any practice of falsely stating or implying the sense of urgency or scarcity so as to mislead a user into making an immediate purchase or taking an immediate action, which may lead to a purchase.",
+        "keywords": ["urgency", "scarcity", "immediate", "purchase", "mislead"],
+        "dark_pattern_types": ["countdown_timer", "limited_time_claim", "low_stock_warning", "expiring_offer"],
+        "severity_tier": "high"
+    },
+    {
+        "clause_id": "CPA-CCPA-2023-2",
+        "act_name": "CCPA Dark Pattern Guidelines 2023 (India)",
+        "section": "Guideline 4 — Basket Sneaking",
+        "text": "No person, including any platform, shall add additional items such as products, services, payments to charity/donation at the time of checkout on a platform, without the consent of the user, such that the total amount payable by the user is more than the amount payable for the product or service chosen by the user.",
+        "keywords": ["additional items", "checkout", "consent", "total amount", "sneaking"],
+        "dark_pattern_types": ["hidden_costs", "drip_pricing", "hidden_subscription", "sneaking"],
+        "severity_tier": "critical"
+    },
+    {
+        "clause_id": "CPA-CCPA-2023-3",
+        "act_name": "CCPA Dark Pattern Guidelines 2023 (India)",
+        "section": "Guideline 5 — Confirm Shaming",
+        "text": "No person, including any platform, shall use a phrase, video, audio or any other means to create a sense of fear or shame or ridicule or guilt in the mind of the user, so as to nudge the user to act in a certain way that results in the user purchasing a product or service from the platform or continuing a subscription of a service.",
+        "keywords": ["fear", "shame", "ridicule", "guilt", "nudge"],
+        "dark_pattern_types": ["confirm_shaming", "toying_with_emotion", "emotional_manipulation"],
+        "severity_tier": "high"
+    },
+    {
+        "clause_id": "CPA-CCPA-2023-4",
+        "act_name": "CCPA Dark Pattern Guidelines 2023 (India)",
+        "section": "Guideline 6 — Forced Action",
+        "text": "No person, including any platform, shall force a user into taking an action that would require the user to buy any additional goods or subscribe or sign up for an unrelated service, in order to buy or subscribe to the product or service originally intended by the user.",
+        "keywords": ["force", "additional", "unrelated", "subscribe", "sign up"],
+        "dark_pattern_types": ["forced_action", "forced_registration", "forced_consent"],
+        "severity_tier": "high"
+    },
+    {
+        "clause_id": "CPA-CCPA-2023-5",
+        "act_name": "CCPA Dark Pattern Guidelines 2023 (India)",
+        "section": "Guideline 7 — Subscription Trap",
+        "text": "No person, including any platform, shall make the process of cancellation of any subscription or service impossible or unreasonably difficult, including requiring a user to call or email to cancel, or providing no option to cancel.",
+        "keywords": ["cancellation", "subscription", "impossible", "difficult", "trap"],
+        "dark_pattern_types": ["hard_to_cancel", "roach_motel", "multi_step_exit", "hidden_unsubscribe", "complex_cancellation_flow"],
+        "severity_tier": "critical"
+    },
+    {
+        "clause_id": "CPA-CCPA-2023-6",
+        "act_name": "CCPA Dark Pattern Guidelines 2023 (India)",
+        "section": "Guideline 9 — Interface Interference",
+        "text": "No person, including any platform, shall design, modify or manipulate any user interface element or form in a manner that has the purpose or substantial effect of subverting or impairing user choice or autonomy, including giving more prominent position or larger visual real estate to particular choices.",
+        "keywords": ["interface", "manipulate", "autonomy", "prominent", "visual real estate"],
+        "dark_pattern_types": ["asymmetric_button_sizing", "false_hierarchy", "visual_misdirection", "interface_interference", "pre_selection"],
+        "severity_tier": "high"
+    },
+    {
+        "clause_id": "CPA-CCPA-2023-7",
+        "act_name": "CCPA Dark Pattern Guidelines 2023 (India)",
+        "section": "Guideline 11 — Nagging",
+        "text": "No person, including any platform, shall repeatedly and persistently make the same request, or similar requests, which the user has already denied, thereby disrupting the intended use of the platform.",
+        "keywords": ["repeatedly", "persistently", "denied", "disrupting"],
+        "dark_pattern_types": ["nagging", "repeated_prompts", "persistent_banners", "notification_spam", "popup_loops"],
+        "severity_tier": "medium"
+    }
+]

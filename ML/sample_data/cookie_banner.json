@@ -1,0 +1,166 @@
+{
+    "url": "https://example-news.com",
+    "timestamp": "2026-04-14T12:05:00Z",
+    "pages": [
+        {
+            "page_id": "cookie_banner_page",
+            "url": "https://example-news.com",
+            "title": "ExampleNews - Breaking Stories",
+            "screenshots": {
+                "full_page": "sample_data/screenshots/cookie_banner_full.png"
+            },
+            "page_state": "initial",
+            "elements": [
+                {
+                    "id": "page-content",
+                    "tag": "main",
+                    "text": "",
+                    "classes": ["content-area"],
+                    "bounding_box": {"x": 0, "y": 0, "w": 1200, "h": 3000},
+                    "computed_css": {"background_color": "#f8f9fa"},
+                    "is_interactive": false,
+                    "is_visible": true,
+                    "children": []
+                },
+                {
+                    "id": "cookie-overlay",
+                    "tag": "div",
+                    "text": "",
+                    "classes": ["cookie-consent-overlay"],
+                    "bounding_box": {"x": 0, "y": 0, "w": 1200, "h": 800},
+                    "computed_css": {
+                        "background_color": "rgba(0,0,0,0.7)",
+                        "z_index": "9999",
+                        "position": "fixed"
+                    },
+                    "is_interactive": false,
+                    "is_visible": true,
+                    "children": [
+                        {
+                            "id": "cookie-modal",
+                            "tag": "div",
+                            "text": "",
+                            "classes": ["cookie-modal", "shadow-lg"],
+                            "bounding_box": {"x": 250, "y": 200, "w": 700, "h": 350},
+                            "computed_css": {
+                                "background_color": "#1a1a2e",
+                                "color": "#ffffff",
+                                "z_index": "10000",
+                                "position": "fixed"
+                            },
+                            "is_interactive": false,
+                            "is_visible": true,
+                            "children": [
+                                {
+                                    "id": "cookie-title",
+                                    "tag": "h2",
+                                    "text": "We Value Your Privacy 🍪",
+                                    "classes": ["cookie-title"],
+                                    "bounding_box": {"x": 280, "y": 220, "w": 640, "h": 40},
+                                    "computed_css": {
+                                        "font_size": "24px",
+                                        "color": "#ffffff",
+                                        "font_weight": "700"
+                                    },
+                                    "is_interactive": false,
+                                    "is_visible": true,
+                                    "children": []
+                                },
+                                {
+                                    "id": "cookie-description",
+                                    "tag": "p",
+                                    "text": "We and our 847 partners use cookies and similar technologies to provide, protect, and improve our services. By clicking Accept All, you consent to our use of these technologies for advertising, analytics, and personalization.",
+                                    "classes": ["cookie-desc"],
+                                    "bounding_box": {"x": 280, "y": 270, "w": 640, "h": 80},
+                                    "computed_css": {
+                                        "font_size": "13px",
+                                        "color": "#a0a0b0"
+                                    },
+                                    "is_interactive": false,
+                                    "is_visible": true,
+                                    "children": []
+                                },
+                                {
+                                    "id": "accept-all-btn",
+                                    "tag": "button",
+                                    "text": "Accept All Cookies",
+                                    "classes": ["btn", "btn-primary", "btn-lg", "w-100"],
+                                    "bounding_box": {"x": 280, "y": 370, "w": 640, "h": 55},
+                                    "computed_css": {
+                                        "font_size": "18px",
+                                        "color": "#ffffff",
+                                        "background_color": "#4361ee",
+                                        "font_weight": "700",
+                                        "border": "none",
+                                        "cursor": "pointer"
+                                    },
+                                    "aria": {"role": "button", "label": "Accept all cookies"},
+                                    "is_interactive": true,
+                                    "is_visible": true,
+                                    "element_type": "button",
+                                    "children": []
+                                },
+                                {
+                                    "id": "manage-preferences-link",
+                                    "tag": "a",
+                                    "text": "Manage preferences",
+                                    "classes": ["text-muted", "small", "manage-link"],
+                                    "bounding_box": {"x": 510, "y": 440, "w": 120, "h": 12},
+                                    "computed_css": {
+                                        "font_size": "10px",
+                                        "color": "#555570",
+                                        "text_decoration": "none",
+                                        "cursor": "pointer"
+                                    },
+                                    "is_interactive": true,
+                                    "is_visible": true,
+                                    "element_type": "link",
+                                    "href": "#cookie-settings",
+                                    "children": []
+                                },
+                                {
+                                    "id": "reject-all-link",
+                                    "tag": "a",
+                                    "text": "No, I don't care about my browsing experience",
+                                    "classes": ["reject-link", "text-muted"],
+                                    "bounding_box": {"x": 420, "y": 460, "w": 280, "h": 11},
+                                    "computed_css": {
+                                        "font_size": "9px",
+                                        "color": "#3a3a4a",
+                                        "text_decoration": "none",
+                                        "opacity": "0.5"
+                                    },
+                                    "is_interactive": true,
+                                    "is_visible": true,
+                                    "element_type": "link",
+                                    "href": "#reject-cookies",
+                                    "children": []
+                                },
+                                {
+                                    "id": "close-cookie-btn",
+                                    "tag": "button",
+                                    "text": "×",
+                                    "classes": ["close-btn"],
+                                    "bounding_box": {"x": 925, "y": 205, "w": 12, "h": 12},
+                                    "computed_css": {
+                                        "font_size": "10px",
+                                        "color": "#555570",
+                                        "background_color": "transparent",
+                                        "border": "none",
+                                        "cursor": "pointer",
+                                        "opacity": "0.3"
+                                    },
+                                    "aria": {"role": "button", "label": "Close"},
+                                    "is_interactive": true,
+                                    "is_visible": true,
+                                    "element_type": "button",
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
