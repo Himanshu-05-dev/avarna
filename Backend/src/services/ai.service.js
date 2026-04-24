@@ -184,7 +184,7 @@ The JSON must follow this schema exactly:
 RULES (follow exactly):
 1. Output ONLY the raw JSON object. Zero extra characters outside the JSON.
 2. Base ALL data on the ML scan results. Do not fabricate findings not in the data. IGNORE any grouped_issue whose severity_score < 2 — these are low-confidence noise.
-3. risk_score = max(0, 100 - (critical_count*30 + high_count*15 + medium_count*5 + low_count*1)). A site with CRITICAL findings CANNOT score above 70.
+3. risk_score = min(100, round(Math.sqrt(critical_count) * 25 + Math.sqrt(high_count) * 12 + Math.sqrt(medium_count) * 5 + Math.sqrt(low_count) * 2)). Use square root to apply diminishing returns — 1 critical = 25, 4 critical = 50, 16 critical = 100. A site with any CRITICAL findings must have risk_score >= 25.
 4. compliance_frameworks: regulations that appear in regulations_violated get scores 30-55; others get 75-92. passed = round(score/100 * controls).
 5. remediation_tasks: derive icon from pattern type — ban=blocking/roach-motel, eye-off=hidden/visibility, alert=confirmshaming/urgency, timer=countdown/scarcity.
 6. iconBg per priority: CRITICAL="bg-rose-100 text-rose-600", HIGH="bg-orange-100 text-orange-600", MEDIUM="bg-blue-100 text-blue-600", LOW="bg-slate-100 text-slate-700".

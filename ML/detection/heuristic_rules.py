@@ -273,11 +273,19 @@ class HeuristicClassifier:
         "delete account", "end trial", "stop",
     }
     # Disclosure keywords: hiding these IS a dark pattern
+    # IMPORTANT: These must be compound/contextual phrases — single words like
+    # "price" or "cost" match everywhere on e-commerce/property sites and cause
+    # massive false positives. Only match phrases that indicate HIDDEN disclosure.
     _DISCLOSURE_KEYWORDS = {
-        "fee", "charge", "cost", "price", "tax", "taxes",
-        "additional", "extra", "surcharge", "hidden",
-        "terms", "conditions", "auto-renew", "recurring", "refund",
-        "non-refundable", "binding", "penalty",
+        "hidden fee", "hidden cost", "additional fee", "additional charge",
+        "extra fee", "extra charge", "extra cost", "service fee",
+        "processing fee", "convenience fee", "surcharge",
+        "terms and conditions", "terms & conditions", "terms apply",
+        "auto-renew", "auto renew", "automatic renewal",
+        "recurring charge", "recurring fee", "recurring payment",
+        "non-refundable", "no refund", "binding agreement",
+        "cancellation fee", "early termination", "penalty",
+        "subject to", "may apply", "conditions apply",
     }
     # Opt-in/positive action keywords: low contrast on these is NOT a dark pattern
     _OPT_IN_KEYWORDS = {
@@ -360,9 +368,25 @@ class HeuristicClassifier:
                 ))
 
         # From spatial: low contrast on text — ASYMMETRIC FILTERING
+        # Additional gate: only flag contrast BELOW 2.5:1 as a dark pattern.
+        # Contrast between 2.5:1 and 4.5:1 is a WCAG accessibility issue (bad UX),
+        # but not necessarily intentional deception. True "buried information"
+        # dark patterns have contrast so low the text is nearly invisible.
+        DARK_PATTERN_CONTRAST_CEILING = 2.5
+
         for spatial in bundle.spatial_features:
             if spatial.violation_type == "low_contrast":
                 element_text = spatial.details.get("element_text", "")
+                contrast = spatial.measurements.get("contrast_ratio", 21)
+
+                # Gate: contrast between 2.5:1 and 4.5:1 is bad accessibility, not a dark pattern
+                if contrast >= DARK_PATTERN_CONTRAST_CEILING:
+                    logger.debug(
+                        f"Contrast skip (above {DARK_PATTERN_CONTRAST_CEILING}:1 — "
+                        f"accessibility issue, not dark pattern): "
+                        f"ratio={contrast}, text='{element_text[:40]}'"
+                    )
+                    continue
 
                 # Skip structural UI elements (pagination, nav items, etc.)
                 if self._is_structural_ui(element_text):
