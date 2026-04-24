@@ -144,26 +144,6 @@ export default function Config() {
                     <span className="absolute -bottom-px left-0 right-0 h-[2px] bg-blue-600" />
                   )}
                 </TabsTrigger>
-                <TabsTrigger
-                  data-testid="tab-file-upload"
-                  value="file"
-                  className="relative rounded-none border-0 bg-transparent pb-3 text-[14px] font-semibold text-slate-500 data-[state=active]:bg-transparent data-[state=active]:text-blue-600 data-[state=active]:shadow-none"
-                >
-                  Direct File Upload
-                  {source === "file" && (
-                    <span className="absolute -bottom-px left-0 right-0 h-[2px] bg-blue-600" />
-                  )}
-                </TabsTrigger>
-                <TabsTrigger
-                  data-testid="tab-api"
-                  value="api"
-                  className="relative rounded-none border-0 bg-transparent pb-3 text-[14px] font-semibold text-slate-500 data-[state=active]:bg-transparent data-[state=active]:text-blue-600 data-[state=active]:shadow-none"
-                >
-                  API Integration
-                  {source === "api" && (
-                    <span className="absolute -bottom-px left-0 right-0 h-[2px] bg-blue-600" />
-                  )}
-                </TabsTrigger>
               </TabsList>
             </Tabs>
 
