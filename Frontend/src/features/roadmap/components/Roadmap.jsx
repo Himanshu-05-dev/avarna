@@ -10,7 +10,7 @@ import AppLayout from "../../../components/layout/AppLayout/AppLayout";
 import { Button } from "../../../components/common/button";
 import { Input } from "../../../components/common/input";
 import { toast } from "sonner";
-import { exportToPDF } from "../../../utils/pdfExport";
+import { generateLegalPDF } from "../../../utils/generateLegalPDF";
 import {
   selectRemediationTasks,
   selectTimeline,
@@ -268,7 +268,7 @@ export default function Roadmap() {
             data-testid="roadmap-export-btn"
             variant={hasResults ? "default" : "outline"}
             disabled={!hasResults}
-            onClick={() => exportToPDF("roadmap-report-content", "Roadmap_Report.pdf")}
+            onClick={() => generateLegalPDF(auditData, "Formal_Roadmap_Report.pdf")}
             className={`h-10 rounded-lg text-[13px] font-semibold transition-colors ${
               hasResults
                 ? "bg-emerald-600 text-white hover:bg-emerald-700"

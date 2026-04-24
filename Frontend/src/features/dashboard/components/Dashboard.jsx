@@ -5,7 +5,7 @@ import AppLayout from "../../../components/layout/AppLayout/AppLayout";
 import StatCard from "./StatCard/StatCard";
 import { Button } from "../../../components/common/button";
 import { toast } from "sonner";
-import { exportToPDF } from "../../../utils/pdfExport";
+import { generateLegalPDF } from "../../../utils/generateLegalPDF";
 import {
   selectAuditData,
   selectStatCards,
@@ -74,7 +74,7 @@ export default function Dashboard() {
                 data-testid="export-report-btn"
                 variant={hasResults ? "default" : "outline"}
                 disabled={!hasResults}
-                onClick={() => exportToPDF("dashboard-report-content", "Dashboard_Report.pdf")}
+                onClick={() => generateLegalPDF(auditData, "Dashboard_Analysis_Report.pdf")}
                 className={`h-10 rounded-lg text-[13px] font-semibold transition-colors ${
                   hasResults
                     ? "bg-emerald-600 text-white hover:bg-emerald-700"

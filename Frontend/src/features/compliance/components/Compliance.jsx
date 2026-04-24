@@ -7,10 +7,11 @@ import {
 import AppLayout from "../../../components/layout/AppLayout/AppLayout";
 import { Button } from "../../../components/common/button";
 import { toast } from "sonner";
-import { exportToPDF } from "../../../utils/pdfExport";
+import { generateLegalPDF } from "../../../utils/generateLegalPDF";
 import {
   selectComplianceFrameworks,
   selectAuditStatus,
+  selectAuditData,
 } from "../../audit/state/audit.slice";
 
 const iconMap = {
@@ -89,6 +90,7 @@ function FrameworkCard({ f }) {
 export default function Compliance() {
   const frameworks = useSelector(selectComplianceFrameworks);
   const auditStatus = useSelector(selectAuditStatus);
+  const auditData = useSelector(selectAuditData);
 
   const hasData = frameworks.length > 0;
 
@@ -114,7 +116,7 @@ export default function Compliance() {
         <Button
           data-testid="compliance-export-btn"
           disabled={!hasData}
-          onClick={() => exportToPDF("compliance-report-content", "Compliance_Report.pdf")}
+          onClick={() => generateLegalPDF(auditData, "Formal_Compliance_Report.pdf")}
           className={`h-10 rounded-lg text-[13px] font-semibold transition-colors ${
             hasData
               ? "bg-emerald-600 text-white hover:bg-emerald-700"

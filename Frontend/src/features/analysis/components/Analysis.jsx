@@ -9,7 +9,7 @@ import AppLayout from "../../../components/layout/AppLayout/AppLayout";
 import { Input } from "../../../components/common/input";
 import { Button } from "../../../components/common/button";
 import { toast } from "sonner";
-import { exportToPDF } from "../../../utils/pdfExport";
+import { generateLegalPDF } from "../../../utils/generateLegalPDF";
 import {
   selectAnalysisFindings,
   selectAiInsight,
@@ -214,7 +214,7 @@ export default function Analysis() {
           <Button
             data-testid="analysis-export-btn"
             disabled={!hasResults}
-            onClick={() => exportToPDF("analysis-report-content", "Analysis_Report.pdf")}
+            onClick={() => generateLegalPDF(auditData, "Formal_Analysis_Report.pdf")}
             className={`h-10 rounded-lg text-[13px] font-semibold transition-colors ${
               hasResults
                 ? "bg-emerald-600 text-white hover:bg-emerald-700"
@@ -413,7 +413,7 @@ export default function Analysis() {
                 </span>
                 <button
                   data-testid="log-download-btn"
-                  onClick={() => exportToPDF("detailed-audit-log-content", "Audit_Log.pdf")}
+                  onClick={() => generateLegalPDF(auditData, "Formal_Audit_Log.pdf")}
                   className="grid h-8 w-8 place-items-center rounded-md text-slate-500 hover:bg-slate-100"
                   title="Download Audit Log PDF"
                 >
