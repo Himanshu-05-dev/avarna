@@ -34,34 +34,85 @@ const severityBorder = {
   LOW:      "border-l-emerald-500",
 };
 
-function PatternGraph() {
-  const nodes = [
-    { cx: 70,  cy: 80,  r: 14, color: "#f87171", opacity: 0.9 },
-    { cx: 150, cy: 100, r: 10, color: "#2563eb", opacity: 0.9 },
-    { cx: 210, cy: 70,  r: 14, color: "#b45309", opacity: 0.9 },
-    { cx: 110, cy: 140, r: 6,  color: "#38bdf8" },
-    { cx: 180, cy: 140, r: 6,  color: "#38bdf8" },
-    { cx: 50,  cy: 140, r: 5,  color: "#38bdf8" },
-    { cx: 240, cy: 130, r: 5,  color: "#38bdf8" },
-    { cx: 260, cy: 80,  r: 4,  color: "#38bdf8" },
-    { cx: 40,  cy: 60,  r: 4,  color: "#38bdf8" },
-  ];
-  const edges = [[0,1],[0,3],[0,5],[1,2],[1,3],[1,4],[2,4],[2,6],[2,7],[1,8]];
+function PatternGraph({ findings = [] }) {
+  if (!findings || findings.length === 0) {
+    return (
+      <svg viewBox="0 0 300 200" className="h-[220px] w-full">
+        <circle cx="150" cy="100" r="8" fill="#cbd5e1" opacity="0.5" />
+        <text x="150" y="130" textAnchor="middle" fill="#94a3b8" fontSize="11" fontFamily="sans-serif">No findings detected</text>
+      </svg>
+    );
+  }
+
+  const counts = { CRITICAL: 0, HIGH: 0, MEDIUM: 0, LOW: 0 };
+  findings.forEach(f => {
+    if (counts[f.severity] !== undefined) counts[f.severity]++;
+  });
+
+  const severityColors = {
+    CRITICAL: "#f43f5e", // rose-500
+    HIGH:     "#f97316", // orange-500
+    MEDIUM:   "#3b82f6", // blue-500
+    LOW:      "#10b981", // emerald-500
+  };
+
+  const hub = { id: "hub", cx: 150, cy: 100, r: 12, color: "#3b82f6", opacity: 0.9 };
+  const activeSeverities = Object.entries(counts).filter(([_, count]) => count > 0);
+  
+  const nodes = [hub];
+  const edges = [];
+
+  const rSeverities = 55;
+  activeSeverities.forEach(([sev, count], index) => {
+    // Distribute severity nodes evenly in a circle around the hub
+    const angle = (index / activeSeverities.length) * Math.PI * 2 - Math.PI / 2;
+    const cx = 150 + Math.cos(angle) * rSeverities;
+    const cy = 100 + Math.sin(angle) * rSeverities;
+    
+    // Node radius depends on count of findings (min 10, max 24)
+    const r = Math.min(24, 10 + count * 1.2);
+    const sevNode = { id: sev, cx, cy, r, color: severityColors[sev], opacity: 0.95 };
+    nodes.push(sevNode);
+    edges.push({ source: hub, target: sevNode });
+
+    // Attach finding "leaf" nodes to this severity node
+    const maxLeaves = Math.min(count, 7); // cap leaf nodes for visual clarity
+    for (let i = 0; i < maxLeaves; i++) {
+       // Spread leaves in an arc pointing away from the hub
+       const leafAngle = angle + ((i - (maxLeaves - 1) / 2) * 0.35); 
+       const leafDist = r + 20 + ((i % 2) * 10); // alternate distance slightly for organic look
+       const lcx = cx + Math.cos(leafAngle) * leafDist;
+       const lcy = cy + Math.sin(leafAngle) * leafDist;
+       const leafNode = { id: `${sev}-leaf-${i}`, cx: lcx, cy: lcy, r: 4, color: severityColors[sev], opacity: 0.6 };
+       nodes.push(leafNode);
+       edges.push({ source: sevNode, target: leafNode });
+    }
+  });
+
+  // Calculate glow color based on the highest severity present
+  const hasCritical = counts.CRITICAL > 0;
+  const hasHigh = counts.HIGH > 0;
+  const glowColor = hasCritical ? "#ffe4e6" : hasHigh ? "#ffedd5" : "#eff6ff"; // rose-50, orange-50, blue-50
+
   return (
     <svg viewBox="0 0 300 200" className="h-[220px] w-full">
       <defs>
         <radialGradient id="glow" cx="50%" cy="50%" r="50%">
-          <stop offset="0%"   stopColor="#fecaca" stopOpacity="0.4" />
-          <stop offset="100%" stopColor="#fecaca" stopOpacity="0"   />
+          <stop offset="0%"   stopColor={glowColor} stopOpacity="1" />
+          <stop offset="100%" stopColor={glowColor} stopOpacity="0" />
         </radialGradient>
       </defs>
       <circle cx="150" cy="100" r="100" fill="url(#glow)" />
-      {edges.map(([a, b], i) => (
-        <line key={i} x1={nodes[a].cx} y1={nodes[a].cy} x2={nodes[b].cx} y2={nodes[b].cy}
-          stroke="#93c5fd" strokeWidth="1" opacity="0.6" />
+      
+      {edges.map((e, i) => (
+        <line key={`edge-${i}`} x1={e.source.cx} y1={e.source.cy} x2={e.target.cx} y2={e.target.cy}
+          stroke="#cbd5e1" strokeWidth="1.5" opacity="0.5" />
       ))}
+      
       {nodes.map((n, i) => (
-        <circle key={i} cx={n.cx} cy={n.cy} r={n.r} fill={n.color} opacity={n.opacity ?? 0.5} />
+        <circle key={`node-${i}`} cx={n.cx} cy={n.cy} r={n.r} fill={n.color} opacity={n.opacity}>
+          <title>{n.id}</title>
+        </circle>
       ))}
     </svg>
   );
@@ -272,7 +323,7 @@ export default function Analysis() {
                 </div>
               </div>
               <div className="mt-4 rounded-xl bg-gradient-to-br from-rose-50/50 to-slate-50 p-2">
-                <PatternGraph />
+                <PatternGraph findings={findings} />
               </div>
             </div>
 
@@ -315,7 +366,7 @@ export default function Analysis() {
             </div>
 
             {/* AI Insights — enhanced */}
-            <aside data-testid="ai-insights-card" className="rounded-2xl border border-slate-200 bg-white p-6">
+            <aside data-testid="ai-insights-card" className="rounded-2xl border border-slate-200 bg-white p-6 h-[375px] overflow-y-auto">
               <div className="flex items-center gap-2 text-blue-600">
                 <Sparkles className="h-[18px] w-[18px]" />
                 <span className="text-[17px] font-bold text-slate-900">AI Insights</span>
