@@ -10,6 +10,7 @@ import AppLayout from "../../../components/layout/AppLayout/AppLayout";
 import { Button } from "../../../components/common/button";
 import { Input } from "../../../components/common/input";
 import { toast } from "sonner";
+import { exportToPDF } from "../../../utils/pdfExport";
 import {
   selectRemediationTasks,
   selectTimeline,
@@ -252,6 +253,7 @@ export default function Roadmap() {
 
   return (
     <AppLayout sidebarFooter={<HealthFooter riskScore={statCards?.risk_score} />}>
+      <div id="roadmap-report-content" className="relative h-full min-h-[calc(100vh-100px)] p-4 bg-[#FAFAFA]">
       <div className="flex items-start justify-between">
         <div>
           <h1 className="text-[32px] font-extrabold tracking-tight text-slate-900">
@@ -264,9 +266,14 @@ export default function Roadmap() {
         <div className="flex items-center gap-3">
           <Button
             data-testid="roadmap-export-btn"
-            variant="outline"
-            className="h-10 rounded-lg border-slate-200 bg-white text-[13px] font-semibold text-slate-700"
-            onClick={() => toast.success("Report export queued")}
+            variant={hasResults ? "default" : "outline"}
+            disabled={!hasResults}
+            onClick={() => exportToPDF("roadmap-report-content", "Roadmap_Report.pdf")}
+            className={`h-10 rounded-lg text-[13px] font-semibold transition-colors ${
+              hasResults
+                ? "bg-emerald-600 text-white hover:bg-emerald-700"
+                : "border-slate-200 bg-slate-50 text-slate-400 opacity-60 cursor-not-allowed"
+            }`}
           >
             <Download className="mr-2 h-4 w-4" /> Export Report
           </Button>
@@ -480,6 +487,7 @@ export default function Roadmap() {
           </div>
         </>
       )}
+      </div>
     </AppLayout>
   );
 }

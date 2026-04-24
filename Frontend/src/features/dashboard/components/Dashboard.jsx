@@ -5,6 +5,7 @@ import AppLayout from "../../../components/layout/AppLayout/AppLayout";
 import StatCard from "./StatCard/StatCard";
 import { Button } from "../../../components/common/button";
 import { toast } from "sonner";
+import { exportToPDF } from "../../../utils/pdfExport";
 import {
   selectAuditData,
   selectStatCards,
@@ -55,7 +56,7 @@ export default function Dashboard() {
 
   return (
     <AppLayout>
-      <div className="relative h-full min-h-[calc(100vh-100px)]">
+      <div id="dashboard-report-content" className="relative h-full min-h-[calc(100vh-100px)] bg-[#FAFAFA] p-4">
         <div className={`transition-all duration-500 ${!hasResults && auditStatus !== "loading" ? "blur-[8px] pointer-events-none opacity-50 select-none" : ""}`}>
           <div className="flex items-start justify-between">
             <div>
@@ -71,9 +72,14 @@ export default function Dashboard() {
             <div className="flex items-center gap-3">
               <Button
                 data-testid="export-report-btn"
-                variant="outline"
-                onClick={() => toast.success("Report export queued")}
-                className="h-10 rounded-lg border-slate-200 bg-white text-[13px] font-semibold text-slate-700"
+                variant={hasResults ? "default" : "outline"}
+                disabled={!hasResults}
+                onClick={() => exportToPDF("dashboard-report-content", "Dashboard_Report.pdf")}
+                className={`h-10 rounded-lg text-[13px] font-semibold transition-colors ${
+                  hasResults
+                    ? "bg-emerald-600 text-white hover:bg-emerald-700"
+                    : "border-slate-200 bg-slate-50 text-slate-400 opacity-60 cursor-not-allowed"
+                }`}
               >
                 <Download className="mr-2 h-4 w-4" /> Export Report
               </Button>

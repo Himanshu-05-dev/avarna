@@ -9,6 +9,7 @@ import AppLayout from "../../../components/layout/AppLayout/AppLayout";
 import { Input } from "../../../components/common/input";
 import { Button } from "../../../components/common/button";
 import { toast } from "sonner";
+import { exportToPDF } from "../../../utils/pdfExport";
 import {
   selectAnalysisFindings,
   selectAiInsight,
@@ -175,6 +176,7 @@ export default function Analysis() {
 
   return (
     <AppLayout>
+      <div id="analysis-report-content" className="relative h-full min-h-[calc(100vh-100px)] p-4 bg-[#FAFAFA]">
       {/* Header */}
       <div className="flex items-start justify-between">
         <div className="flex items-center gap-4">
@@ -211,10 +213,15 @@ export default function Analysis() {
           </div>
           <Button
             data-testid="analysis-export-btn"
-            onClick={() => toast.success("Report exported")}
-            className="h-10 rounded-lg bg-blue-600 text-[13px] font-semibold hover:bg-blue-700"
+            disabled={!hasResults}
+            onClick={() => exportToPDF("analysis-report-content", "Analysis_Report.pdf")}
+            className={`h-10 rounded-lg text-[13px] font-semibold transition-colors ${
+              hasResults
+                ? "bg-emerald-600 text-white hover:bg-emerald-700"
+                : "bg-slate-100 text-slate-400 opacity-60 cursor-not-allowed"
+            }`}
           >
-            Export Report
+            <Download className="mr-2 h-4 w-4" /> Export Report
           </Button>
         </div>
       </div>
@@ -392,7 +399,7 @@ export default function Analysis() {
           )}
 
           {/* ═══ DETAILED AUDIT LOG — with expandable explanations ═══ */}
-          <section data-testid="detailed-log-card" className="mt-6 rounded-2xl border border-slate-200 bg-white">
+          <section id="detailed-audit-log-content" data-testid="detailed-log-card" className="mt-6 rounded-2xl border border-slate-200 bg-white">
             <div className="flex items-center justify-between px-6 py-5">
               <h3 className="text-[17px] font-bold text-slate-900">
                 Detailed Audit Log
@@ -406,8 +413,9 @@ export default function Analysis() {
                 </span>
                 <button
                   data-testid="log-download-btn"
-                  onClick={() => toast.success("Log exported")}
+                  onClick={() => exportToPDF("detailed-audit-log-content", "Audit_Log.pdf")}
                   className="grid h-8 w-8 place-items-center rounded-md text-slate-500 hover:bg-slate-100"
+                  title="Download Audit Log PDF"
                 >
                   <Download className="h-4 w-4" />
                 </button>
@@ -432,6 +440,7 @@ export default function Analysis() {
           </section>
         </>
       )}
+      </div>
     </AppLayout>
   );
 }

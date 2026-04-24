@@ -7,6 +7,7 @@ import {
 import AppLayout from "../../../components/layout/AppLayout/AppLayout";
 import { Button } from "../../../components/common/button";
 import { toast } from "sonner";
+import { exportToPDF } from "../../../utils/pdfExport";
 import {
   selectComplianceFrameworks,
   selectAuditStatus,
@@ -100,6 +101,7 @@ export default function Compliance() {
 
   return (
     <AppLayout>
+      <div id="compliance-report-content" className="relative h-full min-h-[calc(100vh-100px)] p-4 bg-[#FAFAFA]">
       <div className="flex items-start justify-between">
         <div>
           <h1 className="text-[32px] font-extrabold tracking-tight text-slate-900">
@@ -111,8 +113,13 @@ export default function Compliance() {
         </div>
         <Button
           data-testid="compliance-export-btn"
-          onClick={() => toast.success("Compliance report exported")}
-          className="h-10 rounded-lg bg-blue-600 text-[13px] font-semibold hover:bg-blue-700"
+          disabled={!hasData}
+          onClick={() => exportToPDF("compliance-report-content", "Compliance_Report.pdf")}
+          className={`h-10 rounded-lg text-[13px] font-semibold transition-colors ${
+            hasData
+              ? "bg-emerald-600 text-white hover:bg-emerald-700"
+              : "bg-slate-100 text-slate-400 opacity-60 cursor-not-allowed"
+          }`}
         >
           <Download className="mr-2 h-4 w-4" /> Export Summary
         </Button>
@@ -201,6 +208,7 @@ export default function Compliance() {
             </Button>
           </div>
         </div>
+      </div>
       </div>
     </AppLayout>
   );

@@ -1,11 +1,12 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import { Plus, Search, Loader2, RefreshCw } from "lucide-react";
+import { toast } from "sonner";
+import { exportToPDF } from "../../../utils/pdfExport";
+import { Download, Plus, Search, Loader2, RefreshCw } from "lucide-react";
 import AppLayout from "../../../components/layout/AppLayout/AppLayout";
 import { Input } from "../../../components/common/input";
 import { Button } from "../../../components/common/button";
-import { toast } from "sonner";
 import {
   fetchAuditHistory,
   loadAuditById,
@@ -50,6 +51,7 @@ export default function Audits() {
 
   return (
     <AppLayout>
+      <div id="audits-table-content" className="relative h-full min-h-[calc(100vh-100px)] p-4 bg-[#FAFAFA]">
       <div className="flex items-start justify-between">
         <div>
           <h1 className="text-[32px] font-extrabold tracking-tight text-slate-900">
@@ -60,6 +62,18 @@ export default function Audits() {
           </p>
         </div>
         <div className="flex items-center gap-2">
+          <Button
+            variant={rows.length > 0 ? "default" : "outline"}
+            onClick={() => exportToPDF("audits-table-content", "Audit_History.pdf")}
+            disabled={rows.length === 0}
+            className={`h-10 rounded-lg text-[13px] font-semibold transition-colors ${
+              rows.length > 0
+                ? "bg-emerald-600 text-white hover:bg-emerald-700"
+                : "border-slate-200 bg-slate-50 text-slate-400 opacity-60 cursor-not-allowed"
+            }`}
+          >
+            <Download className="mr-2 h-4 w-4" /> Export History
+          </Button>
           <Button
             variant="outline"
             onClick={() => dispatch(fetchAuditHistory())}
@@ -153,6 +167,7 @@ export default function Audits() {
           </div>
         ))}
       </section>
+      </div>
     </AppLayout>
   );
 }

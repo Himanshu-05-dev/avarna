@@ -11,8 +11,9 @@ import ForgotPassword from "../features/auth/components/ForgotPassword";
 import ResetPassword from "../features/auth/components/ResetPassword";
 import SetPassword from "../features/auth/components/SetPassword";
 
-// Protected route guard
+// Route guards
 import ProtectedRoute from "../components/common/ProtectedRoute";
+import PublicRoute from "../components/common/PublicRoute";
 
 // App pages
 import Landing from "../features/landing/components/Landing";
@@ -43,13 +44,13 @@ function App() {
         <BrowserRouter>
         <Routes>
           {/* ── Public ─────────────────────────────────────── */}
-          <Route path="/" element={<Landing />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/register" element={<Register />} />
-          <Route path="/verify-otp" element={<VerifyOTP />} />
-          <Route path="/forgot-password" element={<ForgotPassword />} />
-          <Route path="/reset-password" element={<ResetPassword />} />
-          <Route path="/set-password" element={<SetPassword />} />
+          <Route path="/" element={<PublicRoute><Landing /></PublicRoute>} />
+          <Route path="/login" element={<PublicRoute><Login /></PublicRoute>} />
+          <Route path="/register" element={<PublicRoute><Register /></PublicRoute>} />
+          <Route path="/verify-otp" element={<PublicRoute><VerifyOTP /></PublicRoute>} />
+          <Route path="/forgot-password" element={<PublicRoute><ForgotPassword /></PublicRoute>} />
+          <Route path="/reset-password" element={<PublicRoute><ResetPassword /></PublicRoute>} />
+          <Route path="/set-password" element={<PublicRoute><SetPassword /></PublicRoute>} />
 
           {/* ── Protected ───────────────────────────────────── */}
           <Route path="/dashboard" element={<ProtectedRoute><Dashboard /></ProtectedRoute>} />
