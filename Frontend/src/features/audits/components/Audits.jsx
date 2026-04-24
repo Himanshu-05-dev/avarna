@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { toast } from "sonner";
-import { exportToPDF } from "../../../utils/pdfExport";
+import { generateHistoryPDF } from "../../../utils/generateHistoryPDF";
 import { Download, Plus, Search, Loader2, RefreshCw } from "lucide-react";
 import AppLayout from "../../../components/layout/AppLayout/AppLayout";
 import { Input } from "../../../components/common/input";
@@ -64,7 +64,7 @@ export default function Audits() {
         <div className="flex items-center gap-2">
           <Button
             variant={rows.length > 0 ? "default" : "outline"}
-            onClick={() => exportToPDF("audits-table-content", "Audit_History.pdf")}
+            onClick={() => generateHistoryPDF(rows, "Audit_History.pdf")}
             disabled={rows.length === 0}
             className={`h-10 rounded-lg text-[13px] font-semibold transition-colors ${
               rows.length > 0
