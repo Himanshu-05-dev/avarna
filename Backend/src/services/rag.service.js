@@ -61,6 +61,53 @@ export async function queryRagWithAudit(question, auditData, sessionId = null) {
   return response.json();
 }
 
+/**
+ * Send a general user question to the RAG service.
+ *
+ * @param {string} question   - The user's natural-language question.
+ * @param {Array}  [history]  - Optional chat history.
+ * @returns {Promise<{answer: string, sources: object[]}>}
+ */
+export async function queryRagGeneral(question, history = []) {
+  const endpoint = `${RAG_URL}/query`;
+
+  const body = { question, history };
+
+  let response;
+  try {
+    response = await fetch(endpoint, {
+      method:  'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-API-Key':    RAG_API_KEY,
+      },
+      body: JSON.stringify(body),
+      // Timeout after 60 s — LLM generation can take a few seconds
+      signal: AbortSignal.timeout(60_000),
+    });
+  } catch (err) {
+    // Network-level failure (RAG service down, timeout, etc.)
+    console.error('[ragService] Network error reaching RAG service:', err.message);
+    throw new RagServiceError('RAG service is unreachable. Please try again later.', 503);
+  }
+
+  if (!response.ok) {
+    const text = await response.text().catch(() => '');
+    console.error(`[ragService] RAG service returned ${response.status}:`, text);
+
+    if (response.status === 403) {
+      throw new RagServiceError('RAG API key mismatch — check RAG_API_KEY configuration.', 500);
+    }
+    if (response.status === 503) {
+      throw new RagServiceError('RAG agent is still initialising. Try again in a moment.', 503);
+    }
+    throw new RagServiceError(`RAG service error: ${text || response.statusText}`, 502);
+  }
+
+  return response.json();
+}
+
+
 
 // ─── Custom error class ───────────────────────────────────────────────────────
 

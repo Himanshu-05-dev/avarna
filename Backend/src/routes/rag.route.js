@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { ragQuery } from '../controllers/rag.controller.js';
+import { ragQuery, ragGeneralQuery } from '../controllers/rag.controller.js';
 import { identifyUser } from '../middlewares/auth.middleware.js';
 
 const router = Router();
@@ -16,5 +16,14 @@ router.use(identifyUser);
  * the question to the Python RAG service for a legal-grounded answer.
  */
 router.post('/rag/query', ragQuery);
+
+/**
+ * POST /api/rag/general-query
+ * 
+ * Body: { question: string, history?: Array }
+ * 
+ * Fetches an answer from the general RAG microservice.
+ */
+router.post('/rag/general-query', ragGeneralQuery);
 
 export default router;

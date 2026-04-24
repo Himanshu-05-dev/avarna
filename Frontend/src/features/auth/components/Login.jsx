@@ -86,9 +86,15 @@ export default function Login() {
   const { fetchMe, isAuthenticated } = useGetMe();
   const navigate = useNavigate();
 
-  useEffect(() => { fetchMe(); }, []);
+  useEffect(() => { 
+    fetchMe(); 
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
   useEffect(() => {
-    if (isAuthenticated) navigate("/dashboard");
+    if (isAuthenticated) {
+      navigate("/dashboard", { replace: true });
+    }
   }, [isAuthenticated, navigate]);
 
   const [form, setForm] = useState({ email: "", password: "" });
@@ -97,9 +103,9 @@ export default function Login() {
   const handleChange = (e) =>
     setForm((prev) => ({ ...prev, [e.target.name]: e.target.value }));
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    login(form);
+    await login(form);
   };
 
   return (

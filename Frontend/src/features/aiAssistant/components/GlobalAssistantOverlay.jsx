@@ -53,8 +53,8 @@ export default function GlobalAssistantOverlay() {
       </header>
       
       {/* Chat Container */}
-      <main className="flex-1 overflow-hidden p-6 bg-slate-50/50">
-        <div className="h-full w-full max-w-[1400px] mx-auto">
+      <main className="flex flex-1 flex-col overflow-hidden p-6 bg-slate-50/50">
+        <div className="flex flex-1 min-h-0 w-full max-w-[1400px] mx-auto">
           <AuditAssistantChat />
         </div>
       </main>

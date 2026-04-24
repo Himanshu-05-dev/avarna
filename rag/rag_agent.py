@@ -24,7 +24,7 @@ TOP_K           = int(os.getenv("TOP_K_RESULTS", 5))
 # ── Gemini setup ───────────────────────────────────────────────────────────────
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 _MODEL = genai.GenerativeModel(
-    model_name="gemini-1.5-flash",
+    model_name="gemini-2.5-flash",
     generation_config=genai.types.GenerationConfig(
         temperature=0.2,
         max_output_tokens=2048,
