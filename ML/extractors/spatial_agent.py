@@ -104,17 +104,41 @@ class SpatialAgent:
         return features
 
     def _check_contrast_ratios(self, elements: list[UIElement]) -> list[SpatialFeature]:
-        """Check text contrast meets WCAG AA (4.5:1 for normal, 3:1 for large)."""
+        """Check text contrast meets WCAG AA (4.5:1 for normal, 3:1 for large).
+
+        Skips elements where the background is an image (CSS background-image with
+        url() or gradient), because the CSS contrast calculation cannot reliably
+        determine the actual visual contrast against image pixels.
+        The NLP agent will still analyze the text content independently.
+        """
         features = []
         for element in elements:
             if not element.text.strip() or not element.computed_css:
                 continue
 
-            fg = parse_color(element.computed_css.color or "")
-            bg = parse_color(element.computed_css.background_color or "")
+            # Skip elements with background images — contrast can't be calculated
+            # from CSS alone when text overlays an image
+            bg = element.computed_css.background_color or ""
+            bg_extra = getattr(element.computed_css, 'background_image', None) or ""
+            bg_shorthand = getattr(element.computed_css, 'background', None) or ""
 
-            if fg and bg:
-                ratio = contrast_ratio(fg, bg)
+            has_bg_image = any(
+                marker in source.lower()
+                for source in (bg, bg_extra, bg_shorthand)
+                for marker in ("url(", "gradient(", "linear-gradient(", "radial-gradient(")
+            )
+            if has_bg_image:
+                logger.debug(
+                    f"Contrast skip (background image): element '{element.id}' "
+                    f"has image background — CSS contrast unreliable"
+                )
+                continue
+
+            fg = parse_color(element.computed_css.color or "")
+            bg_color = parse_color(bg)
+
+            if fg and bg_color:
+                ratio = contrast_ratio(fg, bg_color)
 
                 # Determine if text is "large" (>= 18px or >= 14px bold)
                 is_large = False

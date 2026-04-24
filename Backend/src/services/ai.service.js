@@ -183,13 +183,13 @@ The JSON must follow this schema exactly:
 
 RULES (follow exactly):
 1. Output ONLY the raw JSON object. Zero extra characters outside the JSON.
-2. Base ALL data on the ML scan results. Do not fabricate findings not in the data.
-3. risk_score = min(100, critical_count*25 + high_count*12 + medium_count*5 + low_count*2).
-4. compliance_frameworks: regulations that appear in violations_violated get scores 40-65; others get 75-92. passed = round(score/100 * controls).
+2. Base ALL data on the ML scan results. Do not fabricate findings not in the data. IGNORE any grouped_issue whose severity_score < 2 — these are low-confidence noise.
+3. risk_score = max(0, 100 - (critical_count*30 + high_count*15 + medium_count*5 + low_count*1)). A site with CRITICAL findings CANNOT score above 70.
+4. compliance_frameworks: regulations that appear in regulations_violated get scores 30-55; others get 75-92. passed = round(score/100 * controls).
 5. remediation_tasks: derive icon from pattern type — ban=blocking/roach-motel, eye-off=hidden/visibility, alert=confirmshaming/urgency, timer=countdown/scarcity.
 6. iconBg per priority: CRITICAL="bg-rose-100 text-rose-600", HIGH="bg-orange-100 text-orange-600", MEDIUM="bg-blue-100 text-blue-600", LOW="bg-slate-100 text-slate-700".
 7. penalty per priority: CRITICAL≈"$400k-600k/yr", HIGH≈"$200k-350k/yr", MEDIUM≈"$50k-120k/yr", LOW≈"$5k-30k/yr".
-8. analysis_findings: one entry per grouped_issue, severity based on severity_score (>=3.5=CRITICAL, >=2.5=HIGH, >=1.5=MEDIUM, else LOW). statusTone matches severity. Include detailed what_it_is, why_it_matters, user_impact, evidence_summary for each.
+8. analysis_findings: one entry per grouped_issue (only those with severity_score >= 2), severity based on severity_score (>=3.5=CRITICAL, >=2.5=HIGH, >=1.5=MEDIUM, else LOW). statusTone matches severity. Include detailed what_it_is, why_it_matters, user_impact, evidence_summary for each.
 9. remediation_timeline: fill JAN-APR with resolved counts scaled to total_findings, MAY-AUG with projected counts.
 10. quick_wins: list titles of ALL grouped_issues where effort_estimate="S", ordered by max_priority_score descending.
 11. Write ALL explanations, summaries, and narratives in clear, jargon-free English. These will be shown directly to users — they must be insightful, specific, and actionable.
