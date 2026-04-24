@@ -14,12 +14,27 @@ import traceback
 from contextlib import asynccontextmanager
 from typing import Any, Optional
 
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Security, Depends
+from fastapi.security.api_key import APIKeyHeader
+from starlette.status import HTTP_403_FORBIDDEN
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 from dotenv import load_dotenv
 
 load_dotenv()
+
+# ── API Key authentication ──────────────────────────────────────────────────────
+_RAG_API_KEY    = os.getenv("RAG_API_KEY", "")
+_api_key_header = APIKeyHeader(name="X-API-Key", auto_error=False)
+
+
+def verify_api_key(key: str = Security(_api_key_header)):
+    """FastAPI dependency — rejects requests without the correct X-API-Key header."""
+    if not _RAG_API_KEY:
+        raise HTTPException(500, detail="RAG_API_KEY not configured on server.")
+    if key != _RAG_API_KEY:
+        raise HTTPException(HTTP_403_FORBIDDEN, detail="Invalid or missing X-API-Key header.")
+    return key
 
 # ── Lazy-loaded agent (initialised on startup) ─────────────────────────────────
 _agent = None
@@ -154,7 +169,7 @@ def root():
     return {
         "service": "Legal RAG Agent",
         "docs": "/docs",
-        "endpoints": ["/health", "/query", "/compliance-check", "/compliance-check/simple"],
+        "endpoints": ["/health", "/query", "/query-with-audit", "/compliance-check", "/compliance-check/simple"],
     }
 
 
@@ -225,9 +240,89 @@ def compliance_check_simple(req: SimpleComplianceRequest):
         raise HTTPException(500, detail=str(e))
 
 
+
+# ══════════════════════════════════════════════════════════════════════════════
+# Audit-Grounded Q&A
+# ══════════════════════════════════════════════════════════════════════════════
+
+class AuditQueryRequest(BaseModel):
+    question: str = Field(
+        ...,
+        min_length=5,
+        description="Natural-language question about this audit's findings or legal implications.",
+        examples=["Which laws does this audit violate?", "What is the highest risk finding?"],
+    )
+    audit_data: dict = Field(
+        ...,
+        description=(
+            "The full auditData object from AuditReport.auditData "
+            "(fetched from MongoDB by the Backend and forwarded here)."
+        ),
+    )
+    session_id: Optional[str] = Field(
+        None,
+        description="Optional session ID for future conversation history support.",
+    )
+
+
+class AuditSummary(BaseModel):
+    scan_url:             str
+    total_findings:       int
+    regulations_violated: list[str]
+    pattern_types:        list[str]
+
+
+class AuditQueryResponse(BaseModel):
+    question:      str
+    answer:        str
+    sources:       list[SourceChunk]
+    audit_summary: AuditSummary
+
+
+@app.post(
+    "/query-with-audit",
+    response_model=AuditQueryResponse,
+    tags=["Audit Q&A"],
+    dependencies=[Depends(verify_api_key)],
+)
+def query_with_audit(req: AuditQueryRequest):
+    """
+    **Primary integration endpoint — requires `X-API-Key` header.**
+
+    Called by the Node.js Backend after fetching an `AuditReport` from MongoDB.
+    Combines two knowledge sources:
+    - **Legal vector store** (ChromaDB) — DPDP Act, EU AI Act, Consumer Protection Act.
+    - **Audit findings** (passed in `audit_data`) — detected dark patterns, clause annotations,
+      severity scores, fix recommendations.
+
+    Returns a structured, citation-rich answer grounded in both sources.
+
+    **Backend usage:**
+    ```js
+    fetch('http://localhost:8001/query-with-audit', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-API-Key': process.env.RAG_API_KEY,
+      },
+      body: JSON.stringify({ question, audit_data: report.auditData }),
+    })
+    ```
+    """
+    if _agent is None:
+        raise HTTPException(503, detail="RAG agent not yet initialised. Try again shortly.")
+    try:
+        result = _agent.query_with_audit(req.question, req.audit_data)
+        return result
+    except Exception as e:
+        traceback.print_exc()
+        raise HTTPException(500, detail=str(e))
+
+
 # ══════════════════════════════════════════════════════════════════════════════
 # Entry point
 # ══════════════════════════════════════════════════════════════════════════════
+
 
 if __name__ == "__main__":
     import uvicorn

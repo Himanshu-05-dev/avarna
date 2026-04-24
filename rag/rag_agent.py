@@ -146,6 +146,47 @@ class RAGAgent:
             "sources":    chunks,
         }
 
+    def query_with_audit(self, question: str, audit_data: dict) -> dict[str, Any]:
+        """
+        Answer a question grounded in BOTH the legal vector store AND a specific
+        audit report fetched from MongoDB by the Backend.
+
+        Args:
+            question:   The user's natural-language question.
+            audit_data: The full auditData payload from AuditReport (same shape
+                        as output.json — keys: tickets[], scan_url,
+                        regulations_violated, etc.)
+
+        Returns:
+            {
+                "question":      str,
+                "answer":        str,
+                "sources":       list[dict],   # legal chunks from ChromaDB
+                "audit_summary": dict          # key fields extracted from audit_data
+            }
+        """
+        # 1. Retrieve relevant legal chunks from ChromaDB
+        chunks = self._retrieve(question, n=TOP_K)
+        legal_context = self._format_context(chunks)
+
+        # 2. Format the audit payload into an LLM-readable string
+        audit_context, audit_summary = self._format_audit_context(audit_data)
+
+        # 3. Generate answer with combined context
+        prompt = _AUDIT_QUERY_PROMPT.format(
+            legal_context=legal_context,
+            audit_context=audit_context,
+            question=question,
+        )
+        answer = self._generate(prompt)
+
+        return {
+            "question":      question,
+            "answer":        answer,
+            "sources":       chunks,
+            "audit_summary": audit_summary,
+        }
+
     # ──────────────────────────────────────────────────────────────────────────
     # Private helpers
     # ──────────────────────────────────────────────────────────────────────────
@@ -198,6 +239,58 @@ class RAGAgent:
             pass
         # Fallback: return raw as a single text result
         return [{"pattern": "unknown", "raw_response": raw}]
+
+    def _format_audit_context(self, audit_data: dict) -> tuple[str, dict]:
+        """
+        Converts the MongoDB AuditReport.auditData payload into:
+        - A human-readable string for the LLM prompt.
+        - A compact summary dict returned to the API caller.
+        """
+        scan_url   = audit_data.get("scan_url", "Unknown URL")
+        timestamp  = audit_data.get("scan_timestamp", "")
+        tickets    = audit_data.get("tickets", [])
+        total      = audit_data.get("total_findings", len(tickets))
+        regs       = audit_data.get("regulations_violated", [])
+
+        lines = [
+            f"Audit Target: {scan_url}",
+            f"Scan Time: {timestamp}",
+            f"Total Findings: {total}",
+            f"Regulations Violated: {', '.join(regs) if regs else 'None'}",
+            "",
+            "=== DETECTED DARK PATTERNS ===",
+        ]
+
+        for t in tickets:
+            lines.append(
+                f"\n[●] Pattern: {t.get('dark_pattern_subtype','?')} "
+                f"(Category: {t.get('dark_pattern_category','?')}) "
+                f"| Severity Score: {t.get('severity_score','?')} "
+                f"| Confidence: {round(t.get('detection_confidence', 0) * 100)}%"
+            )
+            lines.append(f"   Problem: {t.get('problem_description', '')}")
+            lines.append(f"   Fix: {t.get('fix_recommendation', '')}")
+
+            annotations = t.get("compliance_annotations", [])
+            if annotations:
+                lines.append("   Applicable Law Clauses:")
+                for a in annotations:
+                    lines.append(
+                        f"     • [{a.get('act_name','')}] {a.get('section','')} "
+                        f"(severity: {a.get('severity','')}, match: {a.get('match_score',0):.2f})"
+                    )
+                    lines.append(f"       \"{a.get('clause_text','')}\"")
+
+        audit_context = "\n".join(lines)
+
+        audit_summary = {
+            "scan_url":             scan_url,
+            "total_findings":       total,
+            "regulations_violated": regs,
+            "pattern_types":        list({t.get("dark_pattern_subtype") for t in tickets}),
+        }
+
+        return audit_context, audit_summary
 
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -273,3 +366,38 @@ Violations data:
 
 Write a plain-text summary paragraph (no markdown headers, no bullet points).
 """.strip()
+
+
+_AUDIT_QUERY_PROMPT = """
+You are a legal compliance expert specialising in dark patterns, digital consumer rights,
+and data privacy law. You have access to two sources of information:
+
+1. LEGAL CONTEXT — clauses retrieved from DPDP Act 2023, EU AI Act 2024, and
+   Consumer Protection Act 2019 / CCPA Guidelines 2023.
+2. AUDIT REPORT — the actual scan findings from a dark pattern analysis tool that
+   inspected a specific website.
+
+Use BOTH sources together to give a precise, actionable answer. Always cite:
+  • The specific Section / Article number from the legal context.
+  • The specific pattern type and ticket ID from the audit report (where relevant).
+
+If the audit report contains no relevant findings for the question, say so explicitly
+and answer from the legal context alone.
+
+=== LEGAL CONTEXT (from vector database) ===
+{legal_context}
+
+=== AUDIT REPORT FINDINGS (from MongoDB) ===
+{audit_context}
+
+=== USER QUESTION ===
+{question}
+
+=== YOUR ANSWER ===
+Structure your response as:
+1. **Direct Answer** — a 1-2 sentence response to the question.
+2. **Relevant Legal Provisions** — cite specific section/article numbers.
+3. **Evidence from Audit** — reference specific detected patterns and their risk levels.
+4. **Recommended Action** — concrete, prioritised remediation steps.
+""".strip()
+
