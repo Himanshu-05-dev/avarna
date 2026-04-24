@@ -1,0 +1,69 @@
+/* ──────────────────────────────────────────
+   AvaranaLogo — Brand identity styles
+   Fonts: Cormorant Garamond (Google Fonts)
+   ────────────────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+
+.avarana-logo {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  user-select: none;
+}
+
+.avarana-logo--inline {
+  flex-direction: row;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+/* ── Wordmark ── */
+.avarana-logo__text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 1.15;
+}
+
+.avarana-logo--inline .avarana-logo__text {
+  align-items: flex-start;
+}
+
+.avarana-logo__wordmark {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-style: italic;
+  font-size: 1.35rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  color: #C88A10;
+  white-space: nowrap;
+  line-height: 1;
+}
+
+/* The Devanagari part "रण" is upright */
+.avarana-logo__rana {
+  font-style: normal;
+  color: #EDD9A8;
+  font-size: 1.28rem;
+}
+
+.avarana-logo__sub {
+  font-size: 0.52rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #6A5090;
+  margin-top: 3px;
+  font-family: Georgia, serif;
+  white-space: nowrap;
+}
+
+/* ── Size variants ── */
+.avarana-logo--sm .avarana-logo__wordmark { font-size: 1.1rem; }
+.avarana-logo--sm .avarana-logo__rana     { font-size: 1.05rem; }
+.avarana-logo--sm .avarana-logo__sub      { font-size: 0.46rem; }
+
+.avarana-logo--lg .avarana-logo__wordmark { font-size: 2rem; }
+.avarana-logo--lg .avarana-logo__rana     { font-size: 1.9rem; }
+.avarana-logo--lg .avarana-logo__sub      { font-size: 0.62rem; }

@@ -1,0 +1,45 @@
+<svg width="64" height="64" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1A102E"/>
+      <stop offset="100%" stop-color="#050310"/>
+    </radialGradient>
+  </defs>
+  <circle cx="200" cy="200" r="192" fill="url(#bg)"/>
+  <circle cx="200" cy="200" r="192" fill="none" stroke="#C88A10" stroke-width="1.4" opacity="0.65"/>
+
+  <!-- Outer petals -->
+  <g transform="translate(200,200)" fill="#8A6008" stroke="#B87A10" stroke-width="0.6" opacity="0.8">
+    <path d="M0 0 C-28-42-24-98 0-152 C24-98 28-42 0 0" transform="rotate(22.5)"/>
+    <path d="M0 0 C-28-42-24-98 0-152 C24-98 28-42 0 0" transform="rotate(67.5)"/>
+    <path d="M0 0 C-28-42-24-98 0-152 C24-98 28-42 0 0" transform="rotate(112.5)"/>
+    <path d="M0 0 C-28-42-24-98 0-152 C24-98 28-42 0 0" transform="rotate(157.5)"/>
+    <path d="M0 0 C-28-42-24-98 0-152 C24-98 28-42 0 0" transform="rotate(202.5)"/>
+    <path d="M0 0 C-28-42-24-98 0-152 C24-98 28-42 0 0" transform="rotate(247.5)"/>
+    <path d="M0 0 C-28-42-24-98 0-152 C24-98 28-42 0 0" transform="rotate(292.5)"/>
+    <path d="M0 0 C-28-42-24-98 0-152 C24-98 28-42 0 0" transform="rotate(337.5)"/>
+  </g>
+
+  <!-- Inner petals -->
+  <g transform="translate(200,200)" fill="#D4920E" stroke="#E8A840" stroke-width="0.6" opacity="0.92">
+    <path d="M0 0 C-16-26-13-60 0-94 C13-60 16-26 0 0" transform="rotate(0)"/>
+    <path d="M0 0 C-16-26-13-60 0-94 C13-60 16-26 0 0" transform="rotate(45)"/>
+    <path d="M0 0 C-16-26-13-60 0-94 C13-60 16-26 0 0" transform="rotate(90)"/>
+    <path d="M0 0 C-16-26-13-60 0-94 C13-60 16-26 0 0" transform="rotate(135)"/>
+    <path d="M0 0 C-16-26-13-60 0-94 C13-60 16-26 0 0" transform="rotate(180)"/>
+    <path d="M0 0 C-16-26-13-60 0-94 C13-60 16-26 0 0" transform="rotate(225)"/>
+    <path d="M0 0 C-16-26-13-60 0-94 C13-60 16-26 0 0" transform="rotate(270)"/>
+    <path d="M0 0 C-16-26-13-60 0-94 C13-60 16-26 0 0" transform="rotate(315)"/>
+  </g>
+
+  <!-- Pericarp ring -->
+  <circle cx="200" cy="200" r="38" fill="#0A0720" stroke="#C88A10" stroke-width="0.8" opacity="0.9"/>
+
+  <!-- Eye -->
+  <path d="M150 200 Q200 173 250 200 Q200 227 150 200 Z" fill="#0F0A28"/>
+  <path d="M150 200 Q200 173 250 200 Q200 227 150 200 Z" fill="none" stroke="#E8A840" stroke-width="1.8"/>
+  <circle cx="200" cy="200" r="18" fill="none" stroke="#E8A840" stroke-width="1.3"/>
+  <circle cx="200" cy="200" r="9" fill="#D4920E"/>
+  <circle cx="200" cy="200" r="5" fill="#050310"/>
+  <circle cx="205" cy="196" r="2.2" fill="#F5E8C0" opacity="0.92"/>
+</svg>
