@@ -24,7 +24,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from schemas.input_schema import CrawlData
 from schemas.features import FeatureBundle
-from schemas.detection import DetectionResult
+from schemas.detection import DetectionResult, GeminiVerdict
 
 from extractors.cv_agent import CVAgent
 from extractors.nlp_agent import NLPAgent
@@ -109,9 +109,17 @@ def extract_features(page, use_clip: bool = True, use_transformer: bool = True) 
 
 
 def detect_patterns(bundle: FeatureBundle) -> DetectionResult:
-    """Run heuristic and ensemble classifiers on the feature bundle."""
+    """Run heuristic and ensemble classifiers on the feature bundle.
+
+    Confidence Scaling:
+    - Solo findings (one source only): require >85% confidence
+    - Corroborated findings (multiple sources): require >60% confidence
+    """
     logger = logging.getLogger("pipeline.detect")
     logger.info(f"═══ Detection Engine: page '{bundle.page_id}' ═══")
+
+    SOLO_THRESHOLD = 0.85
+    CORROBORATED_THRESHOLD = 0.60
 
     # 1. Heuristic rules (always runs)
     heuristic = HeuristicClassifier()
@@ -133,6 +141,11 @@ def detect_patterns(bundle: FeatureBundle) -> DetectionResult:
     # Combine results
     all_candidates = heuristic_candidates + ensemble_candidates
 
+    # Build corroboration map: which element_ids are flagged by multiple sources
+    element_sources: dict[str, set[str]] = {}
+    for c in all_candidates:
+        element_sources.setdefault(c.element_id, set()).add(c.evidence_source)
+
     # Deduplicate by element_id + subtype (keep highest confidence)
     deduped = {}
     for c in all_candidates:
@@ -140,7 +153,25 @@ def detect_patterns(bundle: FeatureBundle) -> DetectionResult:
         if key not in deduped or c.probability > deduped[key].probability:
             deduped[key] = c
 
-    final_candidates = sorted(deduped.values(), key=lambda c: c.probability, reverse=True)
+    # Apply confidence scaling
+    final_candidates = []
+    for c in deduped.values():
+        sources = element_sources.get(c.element_id, set())
+        is_corroborated = len(sources) > 1
+
+        threshold = CORROBORATED_THRESHOLD if is_corroborated else SOLO_THRESHOLD
+
+        if c.probability >= threshold:
+            final_candidates.append(c)
+        else:
+            logger.debug(
+                f"Confidence scaling dropped: {c.element_id} "
+                f"({c.dark_pattern_subtype}, {c.probability:.0%}) — "
+                f"{'corroborated' if is_corroborated else 'solo'} "
+                f"threshold: {threshold:.0%}"
+            )
+
+    final_candidates.sort(key=lambda c: c.probability, reverse=True)
 
     result = DetectionResult(
         page_id=bundle.page_id,
@@ -150,28 +181,98 @@ def detect_patterns(bundle: FeatureBundle) -> DetectionResult:
         ensemble_count=len(ensemble_candidates),
     )
 
-    logger.info(f"Detection complete: {len(final_candidates)} unique candidates")
+    logger.info(
+        f"Detection complete: {len(final_candidates)} candidates "
+        f"(from {len(deduped)} unique, {len(all_candidates)} raw)"
+    )
     return result
 
 
 def verify_with_gemini(detection_result: DetectionResult) -> DetectionResult:
-    """Optionally verify candidates with Gemini LLM."""
+    """Verify candidates with Gemini LLM using a 3-tier system to protect API limits.
+
+    Tier 1 (Auto-Drop):     Confidence < 60% → dropped entirely (0 API calls)
+    Tier 2 (Gemini Review): Confidence 60%–85% → sent to Gemini for verdict (targeted API calls)
+    Tier 3 (Auto-Confirm):  Confidence > 85% → auto-confirmed (0 API calls)
+    """
     logger = logging.getLogger("pipeline.verify")
-    logger.info("═══ Gemini Verification ═══")
+    logger.info("═══ Gemini Verification (Tiered) ═══")
 
-    verifier = GeminiVerifier()
-    if verifier.model is None:
-        logger.warning("Gemini not available — skipping verification")
-        return detection_result
+    TIER_DROP_THRESHOLD = 0.60
+    TIER_CONFIRM_THRESHOLD = 0.85
 
-    verdicts = verifier.verify_batch(
-        detection_result.candidates,
-        delay_seconds=1.5,
+    # Classify candidates into tiers
+    tier1_drop = []
+    tier2_gemini = []
+    tier3_confirm = []
+
+    for c in detection_result.candidates:
+        if c.probability < TIER_DROP_THRESHOLD:
+            tier1_drop.append(c)
+        elif c.probability > TIER_CONFIRM_THRESHOLD:
+            tier3_confirm.append(c)
+        else:
+            tier2_gemini.append(c)
+
+    logger.info(
+        f"Tiered classification: "
+        f"Tier 1 (drop): {len(tier1_drop)}, "
+        f"Tier 2 (Gemini): {len(tier2_gemini)}, "
+        f"Tier 3 (auto-confirm): {len(tier3_confirm)}"
     )
-    detection_result.gemini_verdicts = verdicts
 
-    confirmed = sum(1 for v in verdicts.values() if v.finding_confirmed)
-    logger.info(f"Gemini verification: {confirmed}/{len(verdicts)} confirmed")
+    # Drop Tier 1 candidates from the results
+    surviving_candidates = tier2_gemini + tier3_confirm
+
+    # Auto-confirm Tier 3 with synthetic verdicts (no API call)
+    for c in tier3_confirm:
+        detection_result.gemini_verdicts[c.element_id] = GeminiVerdict(
+            finding_confirmed=True,
+            confidence=c.probability,
+            reasoning_chain=[
+                f"Auto-confirmed: detection confidence {c.probability:.0%} exceeds "
+                f"the {TIER_CONFIRM_THRESHOLD:.0%} auto-confirm threshold.",
+                f"Evidence source: {c.evidence_source}.",
+            ],
+            alternative_explanation="High-confidence detection — auto-confirmed without LLM review.",
+            severity_assessment=(
+                "critical" if c.probability >= 0.95
+                else "high" if c.probability >= 0.90
+                else "medium"
+            ),
+        )
+
+    # Send only Tier 2 candidates to Gemini (targeted API usage)
+    if tier2_gemini:
+        verifier = GeminiVerifier()
+        if verifier.model is None:
+            logger.warning("Gemini not available — auto-confirming Tier 2 candidates")
+            # If Gemini isn't available, include them anyway with lower confidence
+            for c in tier2_gemini:
+                detection_result.gemini_verdicts[c.element_id] = GeminiVerdict(
+                    finding_confirmed=True,
+                    confidence=c.probability * 0.8,
+                    reasoning_chain=["Gemini unavailable — included with reduced confidence."],
+                    alternative_explanation="LLM verification was not available.",
+                    severity_assessment="medium",
+                )
+        else:
+            verdicts = verifier.verify_batch(tier2_gemini, delay_seconds=1.5)
+            detection_result.gemini_verdicts.update(verdicts)
+
+            confirmed = sum(1 for v in verdicts.values() if v.finding_confirmed)
+            logger.info(f"Gemini Tier 2 results: {confirmed}/{len(verdicts)} confirmed")
+    else:
+        logger.info("No Tier 2 candidates — Gemini API not called (0 API usage)")
+
+    # Update the candidate list to exclude Tier 1 drops
+    detection_result.candidates = surviving_candidates
+
+    total_confirmed = sum(1 for v in detection_result.gemini_verdicts.values() if v.finding_confirmed)
+    logger.info(
+        f"Tiered verification complete: {total_confirmed} total confirmed, "
+        f"{len(tier1_drop)} auto-dropped"
+    )
 
     return detection_result
 
