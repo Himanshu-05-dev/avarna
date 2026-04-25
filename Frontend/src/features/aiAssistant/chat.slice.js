@@ -14,7 +14,10 @@ export const sendMessageThunk = createAsyncThunk(
       const res = await sendChatMessage({ message, history });
       return res.data;
     } catch (err) {
-      return rejectWithValue(err.message || "Failed to get AI response.");
+      const data = err.response?.data || {};
+      return rejectWithValue(
+        data.error || data.message || err.message || "Failed to get AI response."
+      );
     }
   }
 );

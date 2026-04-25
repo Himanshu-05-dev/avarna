@@ -8,7 +8,7 @@ import { config } from '../config/config.js';
 console.log('[ai.service] Loading... API key present:', !!process.env.GEMINI_API_KEY);
 
 const model = new ChatGoogleGenerativeAI({
-    model: 'gemini-2.5-flash',
+    model: 'gemini-2.5-flash-lite',
     temperature: 0.3,
     apiKey: config.geminiApiKey,
 });

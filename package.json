@@ -10,8 +10,9 @@
     "install:all": "npm run install:backend && npm run install:frontend && npm run install:rag",
     "dev:backend": "cd Backend && npm run dev",
     "dev:frontend": "cd Frontend && npm run dev",
+    "dev:ml": "cd ML && python api.py",
     "dev:rag": "cd rag && python api.py",
-    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\" \"npm run dev:rag\""
+    "dev": "concurrently --names \"BACKEND,FRONTEND,ML,RAG\" --prefix-colors \"cyan,magenta,yellow,green\" \"npm run dev:backend\" \"npm run dev:frontend\" \"npm run dev:ml\" \"npm run dev:rag\""
   },
   "repository": {
     "type": "git",

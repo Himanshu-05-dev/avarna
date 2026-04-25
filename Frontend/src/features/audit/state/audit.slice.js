@@ -7,8 +7,9 @@
  *  - loadAuditById   → GET  /api/crawl/history/:id  (reload a past audit)
  */
 
-import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
+import { createSlice, createAsyncThunk, createSelector } from "@reduxjs/toolkit";
 import api from "../../../services/api";
+
 
 // ─── Async Thunks ─────────────────────────────────────────────────────────────
 
@@ -21,11 +22,10 @@ export const runAudit = createAsyncThunk(
       return response.data; // { success, reportId, auditData }
     } catch (err) {
       // Prefer the server's descriptive error message over Axios' generic one
-      const serverMessage = err.response?.data?.error;
-      const errorCode     = err.response?.data?.errorCode;
+      const data = err.response?.data || {};
       return rejectWithValue({
-        message: serverMessage || err.message || "Audit failed",
-        errorCode: errorCode || "UNKNOWN",
+        message: data.error || data.message || err.message || "Audit failed",
+        errorCode: data.errorCode || "UNKNOWN",
       });
     }
   }
@@ -39,7 +39,8 @@ export const fetchAuditHistory = createAsyncThunk(
       const response = await api.get("/crawl/history");
       return response.data.auditsList; // array of summary rows
     } catch (err) {
-      return rejectWithValue(err.message || "Failed to load history");
+      const data = err.response?.data || {};
+      return rejectWithValue(data.error || data.message || err.message || "Failed to load history");
     }
   }
 );
@@ -52,7 +53,8 @@ export const loadAuditById = createAsyncThunk(
       const response = await api.get(`/crawl/history/${id}`);
       return response.data; // { reportId, auditData }
     } catch (err) {
-      return rejectWithValue(err.message || "Failed to load audit");
+      const data = err.response?.data || {};
+      return rejectWithValue(data.error || data.message || err.message || "Failed to load audit");
     }
   }
 );
@@ -147,21 +149,59 @@ const auditSlice = createSlice({
 export const { clearAudit } = auditSlice.actions;
 
 // ─── Selectors ────────────────────────────────────────────────────────────────
+// Plain selectors (return primitives or the stored reference — safe without memoization)
+export const selectAuditData        = (s) => s.audit.auditData;
+export const selectAuditStatus      = (s) => s.audit.status;
+export const selectAuditError       = (s) => s.audit.error;
+export const selectAuditErrorCode   = (s) => s.audit.errorCode;
+export const selectHistory          = (s) => s.audit.history;
+export const selectHistoryStatus    = (s) => s.audit.historyStatus;
+export const selectExecutiveSummary = (s) => s.audit.auditData?.executive_summary ?? "";
 
-export const selectAuditData            = (s) => s.audit.auditData;
-export const selectAuditStatus          = (s) => s.audit.status;
-export const selectAuditError           = (s) => s.audit.error;
-export const selectAuditErrorCode       = (s) => s.audit.errorCode;
-export const selectStatCards            = (s) => s.audit.auditData?.stat_cards;
-export const selectAnalysisFindings     = (s) => s.audit.auditData?.analysis_findings    ?? [];
-export const selectRemediationTasks     = (s) => s.audit.auditData?.remediation_tasks    ?? [];
-export const selectComplianceFrameworks = (s) => s.audit.auditData?.compliance_frameworks ?? [];
-export const selectAuditEntry           = (s) => s.audit.auditData?.audit_entry;
-export const selectAiInsight            = (s) => s.audit.auditData?.ai_insight;
-export const selectTimeline             = (s) => s.audit.auditData?.remediation_timeline ?? [];
-export const selectQuickWins            = (s) => s.audit.auditData?.quick_wins           ?? [];
-export const selectExecutiveSummary     = (s) => s.audit.auditData?.executive_summary    ?? "";
-export const selectHistory              = (s) => s.audit.history;
-export const selectHistoryStatus        = (s) => s.audit.historyStatus;
+// Memoized selectors — these return new array/object references when derived,
+// so we use createSelector to keep the reference stable between renders.
+const EMPTY_ARRAY  = Object.freeze([]);
+const EMPTY_OBJECT = Object.freeze({});
+
+export const selectStatCards = createSelector(
+  selectAuditData,
+  (data) => data?.stat_cards ?? EMPTY_OBJECT
+);
+
+export const selectAnalysisFindings = createSelector(
+  selectAuditData,
+  (data) => data?.analysis_findings ?? EMPTY_ARRAY
+);
+
+export const selectRemediationTasks = createSelector(
+  selectAuditData,
+  (data) => data?.remediation_tasks ?? EMPTY_ARRAY
+);
+
+export const selectComplianceFrameworks = createSelector(
+  selectAuditData,
+  (data) => data?.compliance_frameworks ?? EMPTY_ARRAY
+);
+
+export const selectAuditEntry = createSelector(
+  selectAuditData,
+  (data) => data?.audit_entry ?? EMPTY_OBJECT
+);
+
+export const selectAiInsight = createSelector(
+  selectAuditData,
+  (data) => data?.ai_insight ?? EMPTY_OBJECT
+);
+
+export const selectTimeline = createSelector(
+  selectAuditData,
+  (data) => data?.remediation_timeline ?? EMPTY_ARRAY
+);
+
+export const selectQuickWins = createSelector(
+  selectAuditData,
+  (data) => data?.quick_wins ?? EMPTY_ARRAY
+);
 
 export default auditSlice.reducer;
+

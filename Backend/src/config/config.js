@@ -7,7 +7,7 @@ if(!process.env.GEMINI_API_KEY) {
 }
 
 if(!process.env.COHERE_API_KEY) {
-    throw new Error('COHERE_API_KEY is required in environment variables');
+    console.warn('[config] COHERE_API_KEY not set — Cohere features will be unavailable.');
 }
 
 if(!process.env.JWT_SECRET) {

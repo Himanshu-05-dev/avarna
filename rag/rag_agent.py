@@ -1,11 +1,19 @@
 """
 rag_agent.py — Core RAG Query Engine
-Wraps ChromaDB retrieval + Gemini 1.5 Flash generation into a clean interface.
+Wraps ChromaDB retrieval + Gemini generation into a clean interface.
+
+Model priority (highest free-tier quota first):
+  1. gemini-2.0-flash-lite  (1500 req/day, 30 rpm per key)
+  2. gemini-2.0-flash        (200 req/day, 15 rpm per key)
+  3. gemini-2.5-flash        (20 req/day, 10 rpm per key — last resort)
+
+Key rotation: GEMINI_API_KEY, GEMINI_API_KEY_2, GEMINI_API_KEY_3 (optional)
 """
 
 import os
 import json
 import re
+import time
 from pathlib import Path
 from typing import Any
 from dotenv import load_dotenv
@@ -13,6 +21,7 @@ from dotenv import load_dotenv
 import chromadb
 from chromadb.utils import embedding_functions
 import google.generativeai as genai
+import google.api_core.exceptions as gapi_exc
 
 load_dotenv(override=True)
 
@@ -21,28 +30,100 @@ CHROMA_DIR      = BASE_DIR / os.getenv("CHROMA_DB_PATH", "./chroma_db").lstrip("
 COLLECTION_NAME = "legal_docs"
 TOP_K           = int(os.getenv("TOP_K_RESULTS", 5))
 
-# ── Gemini setup ───────────────────────────────────────────────────────────────
-genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
-_MODEL = genai.GenerativeModel(
-    model_name="gemini-2.5-flash",
-    generation_config=genai.types.GenerationConfig(
-        temperature=0.2,
-        max_output_tokens=2048,
-    ),
-    system_instruction=(
-        "You are a legal compliance expert specialising in digital consumer rights, "
-        "data privacy law, and AI regulation. You help analyse dark patterns in UI/UX "
-        "against applicable laws. Always cite the specific section or article number "
-        "when referencing a law. Be precise, structured, and actionable. "
-        "If the retrieved context does not contain enough information, say so clearly "
-        "rather than hallucinating legal clauses."
-    ),
+# ── Multi-key, multi-model rotation ───────────────────────────────────────────
+# Collect all provided API keys (de-duped, non-empty)
+_ALL_KEYS: list[str] = []
+for _env_var in ["GEMINI_API_KEY", "GEMINI_API_KEY_2", "GEMINI_API_KEY_3"]:
+    _k = os.getenv(_env_var, "").strip()
+    if _k and _k not in _ALL_KEYS:
+        _ALL_KEYS.append(_k)
+
+if not _ALL_KEYS:
+    raise RuntimeError(
+        "No GEMINI_API_KEY found in .env. "
+        "Add GEMINI_API_KEY (and optionally GEMINI_API_KEY_2, GEMINI_API_KEY_3) "
+        "to rag/.env"
+    )
+
+# Model priority list — highest free quota first
+_MODEL_PRIORITY = [
+    "gemini-2.0-flash-lite",
+    "gemini-2.5-flash-lite", 
+    "gemini-2.0-flash",
+    "gemini-2.5-flash",
+]
+
+_SYSTEM_INSTRUCTION = (
+    "You are a legal compliance expert specialising in digital consumer rights, "
+    "data privacy law, and AI regulation. You help analyse dark patterns in UI/UX "
+    "against applicable laws. Always cite the specific section or article number "
+    "when referencing a law. Be precise, structured, and actionable. "
+    "If the retrieved context does not contain enough information, say so clearly "
+    "rather than hallucinating legal clauses."
 )
 
+
+def _make_model(model_name: str, api_key: str) -> genai.GenerativeModel:
+    genai.configure(api_key=api_key)
+    return genai.GenerativeModel(
+        model_name=model_name,
+        generation_config=genai.types.GenerationConfig(
+            temperature=0.2,
+            max_output_tokens=2048,
+        ),
+        system_instruction=_SYSTEM_INSTRUCTION,
+    )
+
+
+def _generate_with_rotation(prompt: str) -> str:
+    """
+    Try each (model, key) combination until one succeeds.
+    Skips ResourceExhausted (quota) and NotFound (model unavailable) errors.
+    Raises RuntimeError if all combinations fail.
+    """
+    last_err = None
+    for model_name in _MODEL_PRIORITY:
+        for key_idx, api_key in enumerate(_ALL_KEYS):
+            key_label = f"key{key_idx+1}"
+            try:
+                model = _make_model(model_name, api_key)
+                response = model.generate_content(prompt)
+                if not response.parts:
+                    raise ValueError("Empty model response (safety block?)")
+                print(f"[RAGAgent] ✓ Generated via {model_name} ({key_label})")
+                return response.text.strip()
+            except gapi_exc.ResourceExhausted as e:
+                print(f"[RAGAgent] Quota exhausted: {model_name}/{key_label} → trying next…")
+                last_err = e
+                continue
+            except gapi_exc.NotFound as e:
+                print(f"[RAGAgent] Model not found: {model_name} → trying next model…")
+                last_err = e
+                break  # no point trying other keys for a missing model
+            except gapi_exc.PermissionDenied as e:
+                print(f"[RAGAgent] API key error ({key_label}): {e} → trying next key…")
+                last_err = e
+                continue
+            except Exception:
+                raise  # surface unexpected errors immediately
+
+    raise RuntimeError(
+        "All Gemini models and API keys are quota-exhausted or unavailable. "
+        f"Last error: {last_err}. "
+        "Solutions: (1) Wait ~1 min for rate limit reset, "
+        "(2) Add more API keys as GEMINI_API_KEY_2/3 in rag/.env, "
+        "(3) Enable billing on your Google AI project."
+    ) from last_err
+
+
 # ── Embedding function (must match ingest.py) ──────────────────────────────────
+# Configure genai with the first available key for startup
+genai.configure(api_key=_ALL_KEYS[0])
+
 _EMBED_FN = embedding_functions.SentenceTransformerEmbeddingFunction(
     model_name="all-MiniLM-L6-v2"
 )
+
 
 
 class RAGAgent:
@@ -222,8 +303,9 @@ class RAGAgent:
         return "\n\n---\n\n".join(parts)
 
     def _generate(self, prompt: str) -> str:
-        response = _MODEL.generate_content(prompt)
-        return response.text.strip()
+        """Delegate to the module-level multi-key, multi-model rotation function."""
+        return _generate_with_rotation(prompt)
+
 
     def _parse_json_response(self, raw: str) -> list[dict]:
         """Extract JSON array from the model response."""

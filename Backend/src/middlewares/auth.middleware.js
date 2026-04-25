@@ -1,22 +1,22 @@
 import jwt from "jsonwebtoken";
+import blacklistModel from "../models/blacklist.model.js";
 
 export const identifyUser = async (req, res, next) => {
   const token = req.cookies.token;
   if (!token) {
-    const err = new Error("token is required");
-    err.statusCode = 401;
-    return next(err);
+    return res.status(401).json({ error: "Authentication required. Please log in.", errorCode: "NO_TOKEN" });
   }
   try {
-    const decoded = jwt.verify(token, process.env.JWT_SECRET);
+    // Check if this token was invalidated by logout
+    const isBlacklisted = await blacklistModel.findOne({ token });
+    if (isBlacklisted) {
+      return res.status(401).json({ error: "Session expired. Please log in again.", errorCode: "TOKEN_BLACKLISTED" });
+    }
 
+    const decoded = jwt.verify(token, process.env.JWT_SECRET);
     req.user = decoded;
-    console.log(req.user);
-    
     next();
   } catch (error) {
-    const err = new Error("Unauthorized");
-    err.statusCode = 401;
-    return next(err);
+    return res.status(401).json({ error: "Invalid or expired session. Please log in again.", errorCode: "INVALID_TOKEN" });
   }
 };

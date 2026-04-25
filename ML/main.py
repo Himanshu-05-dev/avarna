@@ -64,6 +64,10 @@ def load_input(input_path: str) -> CrawlData:
     with open(input_path, "r", encoding="utf-8") as f:
         raw = json.load(f)
 
+    # Unwrap if the JSON was saved directly from an API response containing a 'data' key
+    if "data" in raw and isinstance(raw["data"], dict) and "url" in raw["data"]:
+        raw = raw["data"]
+
     crawl_data = CrawlData(**raw)
     logger.info(
         f"Loaded: {len(crawl_data.pages)} page(s), "

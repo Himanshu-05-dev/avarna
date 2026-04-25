@@ -34,7 +34,8 @@ def build_heuristic_dataset():
     labels = []
 
     heuristic = HeuristicClassifier()
-    sample_files = glob.glob("sample_data/*.json")
+    sample_dir = os.path.join(os.path.dirname(__file__), "sample_data")
+    sample_files = glob.glob(os.path.join(sample_dir, "*.json"))
 
     logger.info(f"Building heuristic dataset from {len(sample_files)} sample files...")
 

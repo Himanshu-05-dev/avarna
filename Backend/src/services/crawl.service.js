@@ -657,14 +657,17 @@ export const scanForDarkPatterns = async (crawlData) => {
 
 // ─── Tool 3: crawlAndScan (combined) ─────────────────────────────────────────
 /**
- * Convenience tool: crawls a URL and analyzes it for dark patterns using Gemini Vision.
- * Uses AI-powered screenshot analysis for accurate, context-aware detection.
+ * Convenience tool: crawls a URL and analyzes it for dark patterns.
+ *
+ * Pipeline:
+ *  1. crawlPage          — Puppeteer scrapes DOM elements + screenshot
+ *  2. scanForDarkPatterns — ML microservice (primary) — DOM element-based detection
+ *  3. geminiAnalyzeScreenshot — Gemini Vision (fallback) — screenshot-based detection
  *
  * @param {string} url - The URL to audit.
  * @returns {Promise<{
  *   success: boolean,
- *   crawl?: object,
- *   scan?: object,
+ *   scan?: string,   // JSON-stringified Roadmap
  *   error?: string,
  *   errorCode?: string
  * }>}
@@ -680,33 +683,57 @@ export const crawlAndScan = async (url) => {
         };
     }
 
-    // Use Gemini Vision to analyze the screenshot directly
-    const pageData = crawlResult.data.pages[0];
-    const screenshotDataUrl = pageData?.screenshots?.full_page || null;
-    const elements = pageData?.elements || [];
+    const pageData      = crawlResult.data.pages[0];
+    const screenshotUrl = pageData?.screenshots?.full_page || null;
+    const elements      = pageData?.elements || [];
 
-    console.log('[crawlAndScan] Using Gemini Vision for dark pattern detection...');
+    // ── Step 2: ML microservice (primary) ─────────────────────────────────────
+    // Strip the screenshot blob from the payload — ML only needs DOM elements.
+    // Sending 5-10 MB of base64 image data would bloat the request unnecessarily.
+    console.log(`[crawlAndScan] Sending ${elements.length} elements to ML microservice...`);
 
-    const scanResult = await geminiAnalyzeScreenshot(screenshotDataUrl, url, elements);
-    if (!scanResult.success) {
-        // Fallback: try ML microservice if Gemini fails
-        console.warn('[crawlAndScan] Gemini Vision failed, falling back to ML microservice...');
-        const mlResult = await scanForDarkPatterns(crawlResult.data);
-        if (!mlResult.success) {
-            return {
-                success: false,
-                error: `Both Gemini Vision and ML analysis failed. Gemini: ${scanResult.error}. ML: ${mlResult.error}`,
-                errorCode: 'ANALYSIS_ERROR',
-            };
-        }
+    const mlPayload = {
+        ...crawlResult.data,
+        pages: crawlResult.data.pages.map(p => ({
+            ...p,
+            screenshots: {},   // strip the image blob — ML only needs DOM elements, not the screenshot
+        })),
+    };
+
+    const mlResult = await scanForDarkPatterns(mlPayload);
+
+    if (mlResult.success) {
+        console.log('[crawlAndScan] ML analysis succeeded.');
         return {
             success: true,
-            scan: JSON.stringify(mlResult.data)
+            scan: JSON.stringify(mlResult.data),
         };
     }
 
+    // ── Step 3: Gemini Vision fallback ────────────────────────────────────────
+    console.warn(`[crawlAndScan] ML failed (${mlResult.errorCode}: ${mlResult.error}). Falling back to Gemini Vision...`);
+
+    if (!screenshotUrl) {
+        return {
+            success: false,
+            error: `ML analysis failed and no screenshot is available for Gemini fallback. ML error: ${mlResult.error}`,
+            errorCode: 'ANALYSIS_ERROR',
+        };
+    }
+
+    const scanResult = await geminiAnalyzeScreenshot(screenshotUrl, url, elements);
+
+    if (!scanResult.success) {
+        return {
+            success: false,
+            error: `Both ML and Gemini Vision analysis failed. ML: ${mlResult.error}. Gemini: ${scanResult.error}`,
+            errorCode: 'ANALYSIS_ERROR',
+        };
+    }
+
+    console.log('[crawlAndScan] Gemini Vision fallback succeeded.');
     return {
         success: true,
-        scan: JSON.stringify(scanResult.data)
+        scan: JSON.stringify(scanResult.data),
     };
 };

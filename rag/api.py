@@ -1,12 +1,12 @@
 """
 api.py — FastAPI server for the Legal RAG Agent
-Runs on port 8001 (configurable via .env RAG_PORT).
+Runs on port 8002 (configurable via .env RAG_PORT).
 
 Start:
     python api.py
     
 Or with auto-reload:
-    uvicorn api:app --host 0.0.0.0 --port 8001 --reload
+    uvicorn api:app --host 0.0.0.0 --port 8002 --reload
 """
 
 import os
@@ -190,9 +190,36 @@ def query_legal(req: QueryRequest):
     try:
         result = _agent.query(req.question)
         return result
+    except RuntimeError as e:
+        # Surfaces quota / API key errors as 503 with clear message
+        err_msg = str(e)
+        print(f"[api] /query RuntimeError: {err_msg}")
+        raise HTTPException(503, detail=err_msg)
     except Exception as e:
         traceback.print_exc()
-        raise HTTPException(500, detail=str(e))
+        raise HTTPException(500, detail=f"{type(e).__name__}: {e}")
+
+
+@app.post("/general-query", response_model=QueryResponse, tags=["Q&A"])
+def general_query(req: QueryRequest):
+    """
+    Alias for **/query** — accepts a free-form legal question.
+
+    This is the endpoint called by the Node.js backend's `/api/rag/general-query` route.
+    No API key required for this endpoint.
+    """
+    if _agent is None:
+        raise HTTPException(503, detail="RAG agent not yet initialised. Try again shortly.")
+    try:
+        result = _agent.query(req.question)
+        return result
+    except RuntimeError as e:
+        err_msg = str(e)
+        print(f"[api] /general-query RuntimeError: {err_msg}")
+        raise HTTPException(503, detail=err_msg)
+    except Exception as e:
+        traceback.print_exc()
+        raise HTTPException(500, detail=f"{type(e).__name__}: {e}")
 
 
 @app.post("/compliance-check", response_model=ComplianceResponse, tags=["Compliance"])

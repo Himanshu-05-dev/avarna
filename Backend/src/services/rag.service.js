@@ -69,9 +69,10 @@ export async function queryRagWithAudit(question, auditData, sessionId = null) {
  * @returns {Promise<{answer: string, sources: object[]}>}
  */
 export async function queryRagGeneral(question, history = []) {
-  const endpoint = `${RAG_URL}/query`;
+  const endpoint = `${RAG_URL}/general-query`;
 
-  const body = { question, history };
+  // QueryRequest only accepts { question } — history is not part of the schema
+  const body = { question };
 
   let response;
   try {

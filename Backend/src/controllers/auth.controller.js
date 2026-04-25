@@ -149,7 +149,7 @@ export const authLoginController = async (req, res, next) => {
       httpOnly: true,
       secure: process.env.NODE_ENV === "production",
       sameSite: "lax",
-      maxAge: 24 * 60 * 60 * 1000, // 1 day
+      maxAge: 7 * 24 * 60 * 60 * 1000, // 7 days (matches JWT expiry)
     });
 
     return res.status(201).json({
@@ -200,7 +200,7 @@ export const authCreatePassword = async (req , res, next)=>{
   user.password = hashedPassword;
   user.save();
 
-  return res.status(409).json({
+  return res.status(200).json({
     message : "password created successfully you can login now...",
     user : {
       id : user._id,
@@ -248,7 +248,7 @@ export const authGoogleCallbackController = async (req, res, next) => {
         maxAge: 24 * 60 * 60 * 1000, // 1 day
       });
 
-      return res.redirect("http://localhost:5173/register");
+      return res.redirect("http://localhost:5173/set-password");
 
     }
 
