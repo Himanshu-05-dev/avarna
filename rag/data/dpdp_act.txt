@@ -1,0 +1,162 @@
+DIGITAL PERSONAL DATA PROTECTION ACT, 2023 (DPDP ACT)
+India's comprehensive law on personal data protection
+Source: Ministry of Electronics and Information Technology, Government of India
+
+================================================================================
+CHAPTER I — PRELIMINARY
+================================================================================
+
+Section 1 — Short Title and Commencement
+1(1) This Act may be called the Digital Personal Data Protection Act, 2023.
+1(2) It shall come into force on such date as the Central Government may, by notification in the Official Gazette, appoint.
+
+Section 2 — Definitions
+2(a) "Board" means the Data Protection Board of India established under section 18.
+2(b) "consent" means a free, specific, informed, unconditional and unambiguous indication of the Data Principal's wishes given by a clear affirmative action signifying agreement to the processing of her personal data.
+2(c) "consent manager" means a person registered with the Board, who acts as a single point of contact to enable a Data Principal to give, manage, review and withdraw her consent through an accessible, transparent and interoperable platform.
+2(d) "Data Fiduciary" means any person who alone or in conjunction with other persons determines the purpose and means of processing of personal data.
+2(e) "Data Principal" means the individual to whom the personal data relates and where such individual is a child, includes the parents or lawful guardian of such individual.
+2(f) "Data Processor" means any person who processes personal data on behalf of a Data Fiduciary.
+2(g) "personal data" means any data about an individual who is identifiable by or in relation to such data.
+2(h) "processing" in relation to personal data means a wholly or partly automated operation or set of operations performed on digital personal data and includes collection, recording, organisation, structuring, storage, adaptation, retrieval, use, alignment or combination, indexing, sharing, disclosure by transmission, dissemination or otherwise making available, restriction, erasure or destruction.
+2(i) "significant data fiduciary" means any Data Fiduciary or class of Data Fiduciaries as may be notified as such by the Central Government.
+
+================================================================================
+CHAPTER II — OBLIGATIONS OF DATA FIDUCIARY
+================================================================================
+
+Section 4 — Grounds for Processing Personal Data
+4(1) A Data Fiduciary may process the personal data of a Data Principal only in accordance with the provisions of this Act.
+4(2) Personal data shall be processed only for a lawful purpose:
+    (a) for which the Data Principal has given her consent; or
+    (b) for certain legitimate uses as specified in section 7.
+
+Section 5 — Notice
+5(1) Every request for consent shall be accompanied or preceded by a notice given by the Data Fiduciary to the Data Principal, informing her of:
+    (a) the personal data and the purpose for which the same is proposed to be processed;
+    (b) the manner in which she may exercise her rights under sub-section (4) of section 6 and sections 12, 13 and 14; and
+    (c) the manner in which the Data Principal may make a complaint to the Board.
+5(2) Where a Data Principal has given her consent to the processing of her personal data before the commencement of this Act, the Data Fiduciary shall, as soon as it is reasonably practicable, give the Data Principal a notice containing the information referred to in clauses (a) to (c) of sub-section (1).
+
+Section 6 — Consent
+6(1) Every consent given by a Data Principal shall be free, specific, informed, unconditional and unambiguous, and shall signify an agreement to the processing of her personal data for a specified purpose and be limited to such personal data as is necessary for such specified purpose.
+6(2) Every request for consent by or on behalf of a Data Fiduciary shall be presented to the Data Principal in a clear and plain language, and in English or any language specified in the Eighth Schedule to the Constitution, providing an option to the Data Principal to access such request in English or any of the said languages.
+6(3) Where a Data Principal gives consent to the processing of personal data, such consent shall be limited to the personal data that is necessary for the specified purpose.
+6(4) A Data Principal may at any time withdraw her consent given under sub-section (1), with the ease of the process for withdrawal being comparable to the ease with which consent was given, and upon such withdrawal:
+    (a) the Data Fiduciary shall, within a reasonable time, cease and cause its Data Processors to cease processing of the personal data of the Data Principal unless such processing without consent is required or authorised under the provisions of this Act or any other law for the time being in force;
+    (b) the consequences of withdrawal of consent shall not be borne by the Data Principal in a form of denial of goods or services or use of an application for the exercise of the right to withdraw consent.
+6(5) The request for consent shall not be bundled with any other consent, agreement, terms and conditions or purposes, which are not related to the processing of personal data for the specified purpose, unless such bundling is required by law.
+6(6) Where the Data Principal exercises her right of withdrawal of consent or where the right of withdrawal is exercised on her behalf, the Data Fiduciary shall not make the withdrawal of consent conditional to the Data Principal undertaking any act.
+6(7) The consent of the Data Principal shall not be valid where it is obtained by the Data Fiduciary through dark patterns, as notified by the Board.
+6(8) "Dark patterns" in this context means deceptive design techniques, user interface elements, or user experience strategies that manipulate users into providing consent they would not otherwise give, including but not limited to:
+    (a) pre-ticked boxes or default opt-in settings;
+    (b) making the refusal option visually less prominent than the acceptance option;
+    (c) use of confusing double negatives in consent questions;
+    (d) burying withdrawal options within complex menu structures;
+    (e) using misleading language or emotional manipulation to guide consent decisions.
+
+Section 7 — Legitimate Uses (Processing without Consent)
+7 A Data Fiduciary may process personal data of a Data Principal for any of the following purposes without requiring the consent of the Data Principal:
+    (a) for the performance of any function of the State, or for compliance with any law, or for any order or judgment of any court or Tribunal;
+    (b) for responding to a medical emergency involving a threat to life or immediate threat to health;
+    (c) for taking measures to provide medical treatment or health services during an epidemic, outbreak of disease, or any other threat to public health;
+    (d) for taking measures to ensure safety of, or provide assistance or services to, any individual during any disaster, or any breakdown of public order;
+    (e) for purposes related to employment, including prevention of corporate espionage, maintaining confidentiality of trade secrets, intellectual property, classified information or for providing any service or benefit sought by a Data Principal who is an employee.
+
+Section 8 — General Obligations of Data Fiduciary
+8(1) The Data Fiduciary shall be responsible for complying with the provisions of this Act in respect of any processing undertaken by it or on its behalf by a Data Processor, notwithstanding any agreement to the contrary.
+8(2) The Data Fiduciary shall not engage, appoint, use, or involve a Data Processor to process personal data in a manner not in accordance with the provisions of this Act.
+8(3) The Data Fiduciary shall implement appropriate technical and organisational measures to ensure that the processing of personal data is consistent with the provisions of this Act.
+8(4) The Data Fiduciary shall protect personal data in its possession or under its control, including in respect of any processing undertaken by it or on its behalf by a Data Processor, by taking reasonable security safeguards to prevent personal data breach.
+8(5) The Data Fiduciary shall take prompt action to notify the Data Protection Board of India and each affected Data Principal, in such form and manner as may be prescribed, in the event of a personal data breach.
+8(6) The Data Fiduciary shall not retain personal data beyond the period necessary to satisfy the purpose for which it was collected and shall delete such personal data thereafter.
+8(7) The Data Fiduciary shall publish the business contact information of a Data Protection Officer (in case of Significant Data Fiduciaries) or of any other person who is able to answer on behalf of the Data Fiduciary, questions raised by the Data Principals about the processing of their personal data.
+8(8) The Data Fiduciary shall establish an effective mechanism to redress the grievances of Data Principals.
+
+Section 9 — Processing of Personal Data of Children
+9(1) The Data Fiduciary shall, before processing any personal data of a child, obtain verifiable consent of the parent or the lawful guardian of such child.
+9(2) No Data Fiduciary shall undertake such processing of personal data that is likely to cause any detrimental effect on the well-being of a child.
+9(3) No Data Fiduciary shall undertake tracking or behavioural monitoring of children or targeted advertising directed at children.
+
+Section 10 — Additional Obligations of Significant Data Fiduciaries
+10(1) Every Significant Data Fiduciary shall additionally be subject to the following obligations:
+    (a) appoint a Data Protection Officer based in India who shall be responsible for ensuring compliance with the provisions of this Act;
+    (b) appoint an independent data auditor to evaluate the compliance of the Significant Data Fiduciary;
+    (c) undertake certain additional measures as may be prescribed, including Data Protection Impact Assessment, periodic audits, and other measures for ensuring accountability.
+10(2) Every Significant Data Fiduciary shall present to the Data Protection Board an annual report containing information about the processing of personal data.
+
+================================================================================
+CHAPTER III — RIGHTS AND DUTIES OF DATA PRINCIPAL
+================================================================================
+
+Section 11 — Right to Information
+11(1) A Data Principal shall be entitled to obtain from the Data Fiduciary confirmation of whether her personal data is being processed and a summary of the personal data being processed.
+11(2) A Data Principal shall be entitled to obtain information about the identities of all other Data Fiduciaries and Data Processors with whom the personal data has been shared by the Data Fiduciary.
+
+Section 12 — Right to Correction and Erasure
+12(1) A Data Principal shall have the right to correct, update or complete inaccurate or misleading personal data.
+12(2) A Data Principal shall have the right to have her personal data erased, to the extent that the personal data is no longer necessary for the purpose for which it was processed.
+
+Section 13 — Right of Grievance Redressal
+13(1) A Data Principal may register a complaint with the Data Fiduciary where her grievance has not been redressed satisfactorily.
+13(2) The response to a complaint shall be provided within a period as prescribed.
+
+Section 14 — Right to Nominate
+14 A Data Principal shall have the right to nominate any other individual, who shall, in the event of death or incapacity of the Data Principal, exercise the rights of the Data Principal.
+
+Section 15 — Duties of Data Principal
+15 The Data Principal shall:
+    (a) comply with the provisions of all applicable laws while exercising her rights under the provisions of this Act;
+    (b) not impersonate another person while providing personal data for a specified purpose;
+    (c) not suppress any material information while providing her personal data to a Data Fiduciary for issuance of any document;
+    (d) not register a false or frivolous grievance or complaint with a Data Fiduciary or the Board.
+
+================================================================================
+CHAPTER IV — DATA PROTECTION BOARD
+================================================================================
+
+Section 18 — Establishment of Board
+18(1) The Central Government shall, by notification, establish, for the purposes of this Act, a Board to be known as the Data Protection Board of India.
+
+Section 21 — Powers of Board
+21(1) The Board shall have powers to:
+    (a) call for information from any Data Fiduciary or Data Processor;
+    (b) conduct inquiries in connection with personal data breaches and non-compliance;
+    (c) issue directions to Data Fiduciaries and Data Processors;
+    (d) impose financial penalties.
+
+================================================================================
+CHAPTER V — PENALTIES
+================================================================================
+
+Section 33 — Penalties
+33(1) The following penalties shall apply for non-compliance:
+    (a) Failure to take security safeguards resulting in data breach: penalty up to Rs. 250 crore.
+    (b) Failure to notify the Board and affected Data Principals of a data breach: penalty up to Rs. 200 crore.
+    (c) Non-fulfilment of additional obligations in relation to children: penalty up to Rs. 200 crore.
+    (d) Non-fulfilment of additional obligations by Significant Data Fiduciaries: penalty up to Rs. 150 crore.
+    (e) Breach of any other provision of this Act or rules made thereunder: penalty up to Rs. 50 crore.
+
+================================================================================
+DARK PATTERNS AND CONSENT — KEY INTERPRETATION NOTES
+================================================================================
+
+Dark Pattern Prohibition (Section 6(7) read with Section 6(8)):
+The DPDP Act expressly voids consent obtained through dark patterns. This means:
+- Any UI/UX design that manipulates users into consenting is unlawful.
+- Consent obtained via pre-checked boxes, hidden opt-outs, misleading language, or visual misdirection is INVALID.
+- A Data Fiduciary relying on invalid consent for data processing is in violation of Section 4 (grounds for processing).
+- Penalties under Section 33 apply.
+
+Forced Consent (Section 6(4)(b)):
+- Denying access to a service because a user refused to give consent is PROHIBITED.
+- The withdrawal of consent must be as easy as giving it — making opt-out harder than opt-in is a direct violation.
+
+Bundled Consent (Section 6(5)):
+- Bundling consent for data processing with acceptance of terms of service is PROHIBITED unless required by law.
+- Each data processing purpose must be consented to separately.
+
+Children's Data (Section 9):
+- Tracking or behavioural profiling of children is ABSOLUTELY PROHIBITED.
+- Targeted advertising directed at children is PROHIBITED.
+- Age-gating mechanisms that use dark patterns to bypass parental consent are unlawful.

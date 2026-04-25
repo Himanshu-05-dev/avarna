@@ -240,11 +240,11 @@ export default function AuditAssistantChat() {
   };
 
   return (
-    <div className="flex h-full gap-6">
+    <div className="flex h-full min-h-0 gap-6">
       {/* ── Main Chat Area ──────────────────────────────────────── */}
-      <div className="flex flex-1 flex-col rounded-2xl border border-slate-200 bg-white shadow-sm overflow-hidden">
+      <div className="flex flex-1 flex-col rounded-2xl border border-slate-200 bg-white shadow-sm overflow-hidden min-h-0">
         {/* Messages */}
-        <div className="flex-1 overflow-y-auto p-6 space-y-8">
+        <div className="flex-1 overflow-y-auto p-6 space-y-8 min-h-0">
 
           {/* Welcome banner — shown only when empty */}
           {messages.length === 0 && (
@@ -358,7 +358,7 @@ export default function AuditAssistantChat() {
       </div>
 
       {/* ── Right Sidebar — Knowledge Base ──────────────────────── */}
-      <div className="flex w-[340px] flex-col gap-6">
+      <div className="flex w-[340px] shrink-0 flex-col gap-6 h-full overflow-y-auto">
         {/* Header */}
         <div>
           <h2 className="text-[17px] font-bold text-slate-900">Knowledge Base</h2>

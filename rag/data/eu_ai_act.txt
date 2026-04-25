@@ -1,0 +1,159 @@
+EU ARTIFICIAL INTELLIGENCE ACT (EU AI ACT)
+Regulation (EU) 2024/1689 of the European Parliament and of the Council
+Laying down harmonised rules on artificial intelligence
+Official Journal of the European Union, 12 July 2024
+
+================================================================================
+TITLE I — GENERAL PROVISIONS
+================================================================================
+
+Article 1 — Subject Matter
+1. The purpose of this Regulation is to improve the functioning of the internal market and promote the uptake of human-centric and trustworthy artificial intelligence (AI), while ensuring a high level of protection of health, safety, fundamental rights enshrined in the Charter of Fundamental Rights of the European Union, including democracy, the rule of law, and environmental protection, against harmful effects of AI systems in the Union.
+
+Article 2 — Scope
+1. This Regulation applies to:
+    (a) providers placing on the market or putting into service AI systems or placing on the market general-purpose AI models in the Union, irrespective of whether those providers are established or located within the Union or in a third country;
+    (b) deployers of AI systems with their place of establishment or located within the Union;
+    (c) providers and deployers of AI systems that are established or located in a third country where the output produced by those AI systems is used in the Union.
+
+Article 3 — Definitions
+3(1) "AI system" means a machine-based system that is designed to operate with varying levels of autonomy and that may exhibit adaptiveness after deployment, and that, for explicit or implicit objectives, infers, from the input it receives, how to generate outputs such as predictions, content, recommendations, or decisions that can influence physical or virtual environments.
+3(5) "provider" means a natural or legal person, public authority, agency or other body that develops an AI system or a general-purpose AI model or that has an AI system or a general-purpose AI model developed and places it on the market or puts the AI system into service under its own name or trademark, whether for payment or free of charge.
+3(9) "deployer" means any natural or legal person, public authority, agency or other body that uses an AI system under its authority, except where the AI system is used in the course of a personal non-professional activity.
+3(44) "manipulative AI technique" means a technique that exploits a person's subconscious vulnerabilities, compulsions, or cognitive biases, through subliminal means or through a machine-based interaction, to distort that person's behaviour in a way that the person is not aware of, or if aware, is not able to control.
+
+================================================================================
+TITLE II — PROHIBITED AI PRACTICES
+================================================================================
+
+Article 5 — Prohibited AI Practices
+1. The following AI practices shall be prohibited:
+
+(a) Subliminal Manipulation:
+The placing on the market, the putting into service, or the use of an AI system that deploys subliminal techniques beyond a person's consciousness or purposefully manipulative or deceptive techniques, with the objective, or the effect of materially distorting the behaviour of a person or a group of persons by appreciably impairing their ability to make an informed decision, thereby causing them to take a decision that they would not have otherwise taken in a manner that causes or is reasonably likely to cause that person, another person or group of persons significant harm.
+
+(b) Exploitation of Vulnerabilities:
+The placing on the market, the putting into service, or the use of an AI system that exploits any of the vulnerabilities of a natural person or a specific group of persons due to their age, disability or a specific social or economic situation, with the objective, or the effect, of materially distorting the behaviour of that person or a person belonging to that group in a manner that causes or is reasonably likely to cause that person or another person significant harm.
+
+(c) Social Scoring by Public Authorities:
+The placing on the market, the putting into service for this specific purpose, or the use of AI systems by or on behalf of public authorities or on their behalf for the evaluation or classification of natural persons or groups of persons over a certain period of time based on their social behaviour or known or predicted personal or personality characteristics, with the social score leading to either or both of the following:
+    (i) detrimental or unfavourable treatment of certain natural persons or groups of persons in social contexts that are unrelated to the contexts in which the data was originally generated or collected;
+    (ii) detrimental or unfavourable treatment of certain natural persons or groups of persons that is unjustified or disproportionate to their social behaviour or its gravity.
+
+(d) Real-Time Biometric Identification:
+The use of real-time remote biometric identification systems in publicly accessible spaces for the purpose of law enforcement (with certain exceptions for national security and serious crime).
+
+(e) Emotion Recognition in Workplaces and Educational Institutions:
+The placing on the market, the putting into service for this specific purpose, or the use of AI systems for the recognition of emotions of natural persons in the workplace and in education institutions, except where the AI system is intended to be put into service or used for medical or safety reasons.
+
+(f) Untargeted Scraping for Facial Recognition Databases:
+The placing on the market, the putting into service for this specific purpose, or the use of AI systems for the creation or expansion of facial recognition databases through the untargeted scraping of facial images from the internet or CCTV footage.
+
+(g) Biometric Categorisation for Sensitive Attributes:
+The placing on the market, the putting into service for this specific purpose, or the use of AI systems that categorise individually natural persons based on their biometric data to deduce or infer their race, political opinions, trade union membership, religious or philosophical beliefs, sex life or sexual orientation.
+
+================================================================================
+TITLE III — HIGH-RISK AI SYSTEMS
+================================================================================
+
+Article 6 — Classification Rules for High-Risk AI Systems
+1. Irrespective of whether an AI system is placed on the market or put into service independently from the products referred to in this paragraph, that AI system shall be considered to be high-risk where both of the following conditions are fulfilled:
+    (a) the AI system is intended to be used as a safety component of a product, or the AI system is itself such a product, covered by the Union harmonisation legislation listed in Annex I;
+    (b) the product whose safety component pursuant to point (a) is the AI system, or the AI system itself as a product, is required to undergo a third-party conformity assessment with a view to the placing on the market or putting into service of that product pursuant to the Union harmonisation legislation listed in Annex I.
+2. In addition to the high-risk AI systems referred to in paragraph 1, AI systems referred to in Annex III shall be considered to be high-risk.
+
+Annex III — High-Risk AI Systems (relevant excerpts):
+- AI systems intended to be used for the purpose of determining the creditworthiness of natural persons or establishing their credit score, with the exception of AI systems used for the purpose of detecting financial fraud.
+- AI systems intended to be used for the evaluation and classification of emergency calls or to dispatch, or to establish priority in the dispatching of emergency first response services.
+- AI systems intended to be used for risk assessment and pricing in relation to natural persons in the case of life and health insurance.
+- AI systems intended to be used for the evaluation of the reliability of the evidence in the course of investigation or prosecution of criminal offences or border control.
+
+================================================================================
+ARTICLE 9 — RISK MANAGEMENT SYSTEM
+================================================================================
+
+Article 9 — Risk Management System
+1. A risk management system shall be established, implemented, documented and maintained in relation to high-risk AI systems.
+2. The risk management system shall consist of a continuous iterative process run throughout the entire lifecycle of a high-risk AI system, requiring regular systematic review and updating. It shall comprise the following steps:
+    (a) the identification and analysis of the known and the reasonably foreseeable risks that the high-risk AI system can pose to health, safety or fundamental rights when the high-risk AI system is used in accordance with its intended purpose;
+    (b) the estimation and evaluation of the risks that may emerge when the high-risk AI system is used in accordance with its intended purpose, and under conditions of reasonably foreseeable misuse;
+    (c) the evaluation of other risks possibly arising, based on the analysis of data gathered from the post-market monitoring system referred to in Article 72;
+    (d) the adoption of appropriate and targeted risk management measures designed to address the risks identified pursuant to point (a).
+
+================================================================================
+ARTICLE 10 — DATA AND DATA GOVERNANCE
+================================================================================
+
+Article 10 — Data and Data Governance
+1. High-risk AI systems which make use of techniques involving the training of models with data shall be developed on the basis of training, validation and testing data sets that meet the quality criteria referred to in paragraphs 2 to 5.
+2. Training, validation and testing data sets shall be subject to appropriate data governance and management practices. Those practices shall concern in particular:
+    (a) the relevant design choices;
+    (b) data collection processes and the origin of data, and in the case of personal data, the original purpose of data collection;
+    (c) relevant data preparation processing operations, such as annotation, labelling, cleaning, enrichment and aggregation;
+    (d) the formulation of relevant assumptions, in particular with respect to the information that the data is supposed to measure and represent;
+    (e) an assessment of the availability, quantity and suitability of the data sets that are needed;
+    (f) examination in view of possible biases, in particular those that are likely to affect health or safety or lead to discrimination prohibited by Union law.
+5. Training, validation and testing data sets shall take into account, to the extent required by the intended purpose, the characteristics or elements that are particular to the specific geographical, behavioural or functional setting within which the high-risk AI system is intended to be used.
+
+================================================================================
+ARTICLE 13 — TRANSPARENCY AND PROVISION OF INFORMATION
+================================================================================
+
+Article 13 — Transparency and Provision of Information to Deployers
+1. High-risk AI systems shall be designed and developed in such a way as to ensure that their operation is sufficiently transparent to enable deployers to interpret the system's output and use it appropriately. An appropriate type and degree of transparency shall be ensured, with a view to achieving compliance with the relevant obligations of the provider and deployer set out in Chapter 3 of this Title.
+2. High-risk AI systems shall be accompanied by instructions for use in an appropriate digital format or otherwise that include concise, complete, correct and clear information that is relevant, accessible and comprehensible to deployers.
+3. The information referred to in paragraph 2 shall specify:
+    (a) the identity and the contact details of the provider and, where applicable, of its authorised representative;
+    (b) the characteristics, capabilities and limitations of performance of the high-risk AI system, including:
+        (i) its intended purpose;
+        (ii) the level of accuracy, robustness and cybersecurity referred to in Article 15 against which the high-risk AI system has been tested and validated and which can be expected, and any known and foreseeable circumstances that may have an impact on that expected level of accuracy, robustness and cybersecurity;
+        (iii) any known or foreseeable circumstance, related to the use of the high-risk AI system in accordance with its intended purpose or under conditions of reasonably foreseeable misuse, which may lead to risks to the health and safety or fundamental rights referred to in Article 9(2).
+
+================================================================================
+ARTICLE 26 — OBLIGATIONS OF DEPLOYERS OF HIGH-RISK AI SYSTEMS
+================================================================================
+
+Article 26 — Obligations of Deployers
+1. Deployers shall take appropriate technical and organisational measures to ensure they use high-risk AI systems in accordance with the instructions for use accompanying such systems.
+2. Deployers shall assign human oversight to natural persons who have the necessary competence, training and authority, as well as the necessary support.
+3. Deployers shall ensure that the input data is relevant in view of the intended purpose of the high-risk AI system.
+4. Deployers shall monitor the operation of the high-risk AI system on the basis of the instructions for use and, where relevant, inform providers pursuant to Article 72. Where deployers have reason to believe that the use of the high-risk AI system in accordance with the instructions may present a risk, they shall inform the provider or distributor and the relevant market surveillance authority without delay and shall suspend the use of that system.
+5. Where required by applicable Union or national law, deployers shall keep logs automatically generated by the high-risk AI system to the extent such logs are under their control.
+
+================================================================================
+ARTICLE 50 — TRANSPARENCY OBLIGATIONS FOR CERTAIN AI SYSTEMS
+================================================================================
+
+Article 50 — Transparency Obligations for Providers and Deployers of Certain AI Systems
+1. Providers shall ensure that AI systems intended to interact directly with natural persons are designed and developed in such a way that the natural persons concerned are informed that they are interacting with an AI system, unless this is obvious from the point of view of a natural person who is reasonably well-informed, observant and circumspect. This obligation shall not apply to AI systems authorised by law to detect, prevent, investigate or prosecute criminal offences.
+2. Providers of AI systems, including general-purpose AI systems, generating synthetic audio, image, video or text content, shall ensure that the outputs of the AI system are marked in a machine-readable format and detectable as artificially generated or manipulated.
+3. Providers and deployers of AI systems that generate or manipulate image, audio or video content constituting a deep fake, shall disclose that the content has been artificially generated or manipulated.
+4. Deployers of an emotion recognition system or a biometric categorisation system shall inform the natural persons exposed thereto of the operation of the system, and shall process the biometric data in accordance with Regulation (EU) 2016/679 (GDPR), Regulation (EU) 2018/1725 and Directive (EU) 2016/680, where applicable.
+
+================================================================================
+DARK PATTERNS AND MANIPULATIVE AI — KEY INTERPRETATION NOTES
+================================================================================
+
+Article 5(1)(a) — Subliminal/Manipulative Techniques (MOST RELEVANT FOR DARK PATTERNS):
+This is the core prohibition against AI-driven dark patterns. The EU AI Act prohibits AI systems that:
+- Deploy techniques beyond conscious awareness to manipulate user behaviour
+- Deliberately distort decision-making through deceptive design
+- Impair a user's ability to make an informed decision
+- Cause users to take actions they would not otherwise take
+
+This provision directly applies to AI systems that power recommendation engines, consent flows, and UX personalization that intentionally exploit cognitive biases or psychological vulnerabilities.
+
+Article 5(1)(b) — Exploitation of Vulnerabilities:
+Specifically prohibits targeting vulnerable groups (elderly, disabled, economically disadvantaged) with manipulative AI. Dark pattern systems that adapt their manipulation based on user vulnerability profiles are prohibited.
+
+Forced Consent via AI Systems:
+When an AI system is used to optimize consent flows, cookie banners, or subscription cancellation flows in a manipulative manner, this constitutes a prohibited practice under Article 5(1)(a). The use of AI to A/B test which dark patterns are most effective is itself a violation.
+
+High-Risk Classification for Dark Pattern Detection Systems:
+AI systems used to evaluate fundamental rights, consumer rights, and digital safety may fall under Annex III high-risk categories, requiring additional conformity assessments.
+
+Transparency for Dark Pattern Detection (Article 50):
+Any AI system, including dark pattern detection tools, that interacts with natural persons must disclose that it is an AI system.
+
+GDPR Intersection:
+The EU AI Act works alongside GDPR. AI systems processing personal data while deploying manipulative techniques face double liability — under both this Act and GDPR.

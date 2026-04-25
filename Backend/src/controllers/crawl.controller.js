@@ -29,12 +29,9 @@ const mapErrorCodeToStatus = (errorCode) => {
 };
 export const crawlUrl = async (req, res) => {
     try {
+        // url is guaranteed to exist and be normalised by validateCrawlUrl middleware
         const { url } = req.body;
         const userId = req.user.id; // set by identifyUser middleware
-
-        if (!url) {
-            return res.status(400).json({ success: false, error: "URL is required" });
-        }
 
         console.log(`[crawlController] Starting audit for: ${url} (user: ${userId})`);
 

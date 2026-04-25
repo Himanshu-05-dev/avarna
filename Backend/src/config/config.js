@@ -35,4 +35,8 @@ export const config = {
     // Google OAuth
     GOOGLE_CLIENT_ID: process.env.GOOGLE_CLIENT_ID,
     GOOGLE_CLIENT_SECRET: process.env.GOOGLE_CLIENT_SECRET,
+
+    // RAG microservice
+    RAG_URL:     process.env.RAG_URL     || 'http://localhost:8001',
+    RAG_API_KEY: process.env.RAG_API_KEY || '',
 }

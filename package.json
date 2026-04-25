@@ -1,0 +1,31 @@
+{
+  "name": "avarna",
+  "version": "1.0.0",
+  "description": "abcd",
+  "main": "index.js",
+  "scripts": {
+    "install:backend": "cd Backend && npm install",
+    "install:frontend": "cd Frontend && npm install",
+    "install:rag": "cd rag && pip install -r requirements.txt",
+    "install:all": "npm run install:backend && npm run install:frontend && npm run install:rag",
+    "dev:backend": "cd Backend && npm run dev",
+    "dev:frontend": "cd Frontend && npm run dev",
+    "dev:rag": "cd rag && python api.py",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\" \"npm run dev:rag\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Himanshu-05-dev/avarna.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Himanshu-05-dev/avarna/issues"
+  },
+  "homepage": "https://github.com/Himanshu-05-dev/avarna#readme",
+  "dependencies": {
+    "chromadb": "^3.4.3",
+    "concurrently": "^9.2.1"
+  }
+}

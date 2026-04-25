@@ -1,0 +1,244 @@
+CONSUMER PROTECTION ACT, 2019 & DARK PATTERNS GUIDELINES
+India's primary consumer rights legislation with CCPA Dark Patterns Guidelines (2023)
+Source: Ministry of Consumer Affairs, Food & Public Distribution, Government of India
+
+================================================================================
+CHAPTER I — PRELIMINARY
+================================================================================
+
+Section 1 — Short Title, Extent and Commencement
+1(1) This Act may be called the Consumer Protection Act, 2019.
+1(2) It extends to the whole of India except the State of Jammu and Kashmir.
+1(3) It shall come into force on such date as the Central Government may, by notification in the Official Gazette, appoint.
+
+Section 2 — Definitions
+2(1) "advertisement" means any audio or visual publicity, representation, endorsement or pronouncement made by means of light, sound, smoke, gas, print, electronic media, internet or website and includes any notice, circular, label, wrapper, invoice or other document.
+2(3) "complainant" means a consumer; one or more consumers, where there are numerous consumers having the same interest; the Central Government; the State Government; a recognised consumer association; in case of death of a consumer, his legal heir or legal representative.
+2(6) "consumer" means any person who buys any goods for a consideration which has been paid or promised or partly paid and partly promised, or under any system of deferred payment, and includes any user of such goods other than the person who buys such goods, and any person who avails of any service for a consideration which has been paid or promised, or partly paid and partly promised. EXCEPTION: A person is not a consumer if they obtain goods for resale or any commercial purpose.
+2(7) "consumer dispute" means a dispute where the person against whom a complaint has been made denies or disputes the allegations contained in the complaint.
+2(9) "deficiency" means any fault, imperfection, shortcoming or inadequacy in the quality, nature and manner of performance which is required to be maintained by or under any law for the time being in force, or has been undertaken to be performed by a person in pursuance of a contract or otherwise in relation to any service.
+2(28) "restrictive trade practice" means a trade practice which tends to bring about manipulation of price or conditions of delivery or to affect flow of supplies in the market relating to goods or services in such a manner as to impose on the consumers unjustified costs or restrictions.
+2(34) "unfair trade practice" means a trade practice which, for the purpose of promoting the sale, use or supply of any goods or for the provision of any service, adopts any unfair method or unfair or deceptive practice including (but not limited to) the practices listed in Section 2(47).
+2(47) "unfair contract" means a contract between a manufacturer or trader or service provider on one hand, and a consumer on the other, having such terms which cause significant change in the rights of such consumer, including terms that:
+    (i) require manifestly excessive security deposits to be given by a consumer for the performance of contractual obligations;
+    (ii) impose any penalty on the consumer for the breach of contract thereof which is wholly disproportionate to the loss occurred due to such breach;
+    (iii) refuse to accept early repayment of debts on payment of applicable penalty;
+    (iv) entitle a party to terminate such contract without reasonable cause;
+    (v) permit or has the effect of permitting one party to assign the contract to the detriment of the other party who is a non-assigning party, without his consent;
+    (vi) impose on the consumer any unreasonable charge, obligation or condition which puts such consumer to disadvantage.
+
+================================================================================
+CHAPTER II — CONSUMER PROTECTION COUNCILS
+================================================================================
+
+Section 3 — Central Consumer Protection Council
+3(1) The Central Government shall, by notification, establish with effect from such date as it may specify in such notification, a Council to be known as the Central Consumer Protection Council (referred to as the Central Council).
+3(2) The Central Council shall consist of the Minister-in-charge of the Department of Consumer Affairs in the Central Government, who shall be the Chairperson, and such number of other official or non-official members representing such interests as may be prescribed.
+
+Section 6 — Objects of the Central Council
+The objects of the Central Council shall be to render advice on promotion and protection of the consumers' rights including the right to:
+    (a) be protected against the marketing of goods, products or services which are hazardous to life and property;
+    (b) be informed about the quality, quantity, potency, purity, standard and price of goods, products or services, as the case may be, so as to protect the consumer against unfair trade practices;
+    (c) be assured, wherever possible, access to a variety of goods and services at competitive prices;
+    (d) be heard and to be assured that consumer's interests will receive due consideration at appropriate forums;
+    (e) seek redressal against unfair trade practices or restrictive trade practices or unscrupulous exploitation of consumers;
+    (f) consumer awareness.
+
+================================================================================
+CHAPTER IV — CENTRAL CONSUMER PROTECTION AUTHORITY (CCPA)
+================================================================================
+
+Section 10 — Establishment of the Central Authority
+10(1) The Central Government shall, by notification, establish with effect from such date as it may specify therein, a Central Consumer Protection Authority to be known as the Central Authority to regulate matters relating to violation of rights of consumers, unfair trade practices and false or misleading advertisements which are prejudicial to the interests of public and consumers and to promote, protect and enforce the rights of consumers as a class.
+
+Section 18 — Powers and Functions of the Central Authority
+18(1) The Central Authority shall protect, promote and enforce the rights of consumers as a class, and prevent violation of consumers' rights under this Act.
+18(2) Without prejudice to the generality of the provisions contained in sub-section (1), the Central Authority may—
+    (a) inquire or cause an inquiry or investigation to be made into violations of consumer rights or unfair trade practices, either suo motu or on a complaint received or on a reference made to it by the Central Government or a State Government;
+    (b) file complaints before the District Commission, the State Commission or the National Commission, as the case may be;
+    (c) intervene in any proceedings before the District Commission, the State Commission or the National Commission, as the case may be, in the interest of consumers;
+    (d) review the matters relating to, and the factors inhibiting enjoyment of, consumer rights including safeguards provided for the protection of consumers under any other law for the time being in force and recommend appropriate remedial measures for their effective implementation;
+    (e) recommend adoption of international covenants and best international practices on consumer rights to ensure effective enforcement of consumer rights;
+    (f) issue safety notices to consumers against unsafe goods and services;
+    (g) direct recall of goods and services which are dangerous, hazardous or unsafe;
+    (h) ensure that no false or misleading advertisement is made of any goods or services which may mislead consumers.
+
+Section 21 — Power to Investigate
+21(1) The Central Authority may conduct or cause to be conducted preliminary inquiry into any matter relating to any violation of provisions of this Act or rules or regulations made thereunder and may direct any investigation.
+
+================================================================================
+CHAPTER V — LIABILITY RELATING TO DEFECTIVE PRODUCTS
+================================================================================
+
+Section 84 — Liability of Product Manufacturer
+84(1) A product manufacturer shall be liable in a product liability action, if:
+    (a) the product contains a manufacturing defect;
+    (b) the product is defective in design;
+    (c) there is a deviation from manufacturing specifications;
+    (d) the product does not conform to the express warranty;
+    (e) the product fails to contain adequate instructions of correct usage to prevent any harm or any warning regarding improper or incorrect usage.
+
+================================================================================
+CHAPTER VI — UNFAIR TRADE PRACTICES
+================================================================================
+
+Section 89 — Punishment for False or Misleading Advertisements
+89 Any manufacturer or service provider who causes a false or misleading advertisement to be made which is prejudicial to the interest of consumers shall be punished with imprisonment for a term which may extend to two years and with fine which may extend to ten lakh rupees; and for every subsequent offence, with imprisonment for a term which may extend to five years and with fine which may extend to fifty lakh rupees.
+
+Section 90 — Punishment for Manufacture, Sale, etc. of Products Containing Adulterant
+90(1) Where any person, who is not a manufacturer of a product, sells, stores, distributes or imports products containing adulterant, it shall be punished with imprisonment which may extend to six months and with fine which may extend to one lakh rupees.
+
+================================================================================
+CCPA GUIDELINES ON PREVENTION AND REGULATION OF DARK PATTERNS, 2023
+================================================================================
+
+Background and Purpose:
+The Central Consumer Protection Authority (CCPA) issued guidelines on "Prevention and Regulation of Dark Patterns" on November 30, 2023, under Section 18 of the Consumer Protection Act, 2019. These are legally binding guidelines applicable to all platforms, advertisers, and sellers offering goods and services in India.
+
+Guideline 1 — Definitions of Dark Patterns
+The CCPA identifies "dark patterns" as deceptive design patterns used in online interfaces that mislead or trick users into unintended or unwanted actions. The following 13 types of dark patterns are explicitly prohibited:
+
+(1) FALSE URGENCY:
+Creating a false sense of urgency or scarcity to manipulate consumer decision-making. Examples:
+- "Only 2 items left!" (when stock is plentiful)
+- Countdown timers that reset after expiry
+- "Limited time offer" applied to evergreen products
+Violation: Constitutes an unfair trade practice under Section 2(47) of the Consumer Protection Act, 2019.
+
+(2) BASKET SNEAKING:
+Adding additional items (products, services, subscriptions, donations) to shopping cart or bill without the user's explicit consent. Examples:
+- Pre-adding travel insurance to flight bookings
+- Auto-adding charitable donations at checkout
+- Including accessories not selected by the user
+Violation: Constitutes an unfair trade practice as it extracts money without consent.
+
+(3) CONFIRM SHAMING:
+Using guilt, shame, fear, or mockery to influence a consumer to opt-in to something or prevent them from opting out. Examples:
+- Opt-out button labeled "No thanks, I hate saving money"
+- Decline option saying "I don't care about my security"
+- Dismissal option using emotionally manipulative language
+Violation: Constitutes manipulative and unfair trade practice against the consumer's dignity and right to choose.
+
+(4) FORCED ACTION:
+Forcing a consumer to perform actions not related to the service sought, as a precondition for that service. Examples:
+- Requiring app installation to view website content
+- Forcing account creation to make a purchase
+- Mandating subscription sign-up to access a free feature
+Violation: Constitutes an unfair trade practice under the Consumer Protection Act.
+
+(5) SUBSCRIPTION TRAP:
+Making subscription cancellation difficult, unclear, or hidden to retain subscribers against their will. Examples:
+- Hiding cancellation button deep in account settings
+- Requiring phone call to cancel an online subscription
+- Adding extra steps and confirmation dialogs only for cancellation
+- Providing misleading information about cancellation consequences
+Violation: Constitutes a restrictive and unfair trade practice.
+
+(6) INTERFACE INTERFERENCE:
+Designing user interfaces that disrupt or manipulate user behaviour through visual, interaction, or navigational cues to benefit the platform at the expense of the user. Examples:
+- Making the "decline" or "reject" button significantly smaller or less visible than the "accept" button
+- Using grey or muted colours for the opt-out option vs. bright colours for opt-in
+- Placing privacy-invasive options as the default, with opt-out requiring extra steps
+Violation: Constitutes deceptive and unfair trade practice; also potentially a violation of DPDP Act consent requirements.
+
+(7) BAIT AND SWITCH:
+Advertising a product at one price or specification but delivering a different, usually inferior, product or presenting a higher price at checkout. Examples:
+- Showing a lower price in search results, adding fees at checkout
+- Advertising one model specification but delivering an older version
+Violation: Constitutes false advertisement under Section 89 of the Consumer Protection Act.
+
+(8) DRIP PRICING:
+Gradually revealing the total price by adding mandatory fees throughout the checkout process, instead of displaying the full price upfront. Examples:
+- Showing "₹999" but adding "convenience fee + GST + booking fee" at final step
+- Mandatory charges revealed only at checkout
+Violation: Constitutes deceptive trade practice and misleading advertisement.
+
+(9) DISGUISED ADVERTISEMENT:
+Presenting paid advertisements as organic content, user reviews, or editorial content. Examples:
+- Paid influencer posts without "#ad" or "#sponsored" disclosure
+- Search results that look identical to organic results but are paid placements
+- "Recommended" articles that are actually sponsored content
+Violation: Constitutes false and misleading advertisement under Sections 2(28) and 89.
+
+(10) NAGGING:
+Sending repeated and/or persistent requests to a consumer to perform an action not intended by the consumer, such as accepting a privacy policy, enabling notifications, or upgrading to a premium plan. Examples:
+- Repeated prompts asking for app ratings every session
+- Continuous pop-ups requesting notification permission after denial
+- Persistent banners for premium upgrades that cannot be permanently dismissed
+Violation: Constitutes an unfair trade practice that coerces consumer behaviour.
+
+(11) TRICK QUESTIONS:
+Using confusing or misleading language, double negatives, or unintuitive UI patterns to cause consumers to take unintended actions. Examples:
+- "Uncheck this box if you do not want to not receive promotional emails"
+- Pre-checked consent boxes with confusing wording
+- Ambiguous toggle labels (where ON/OFF meaning is unclear)
+Violation: Constitutes deceptive practice; invalid consent under DPDP Act.
+
+(12) SAAS BILLING (Recurring Charges):
+Charging consumers recurring fees without clear disclosure of recurring nature, amount, or how to cancel. Examples:
+- Free trial converting to paid subscription without prominent reminder
+- Subscription renewal at a higher price without prior notice
+- Annual subscriptions auto-renewing without clear cancellation option
+Violation: Constitutes unfair contract practice under Section 2(47).
+
+(13) ROGUE MALWARES:
+Using malicious software, phishing, or deceptive pop-ups that trick consumers into downloading software or providing personal information under false pretenses. Examples:
+- Pop-ups claiming the user's device is infected, prompting antivirus download
+- Fake download buttons that install unwanted software
+Violation: Constitutes a criminal offense under the IT Act and unfair trade practice under the Consumer Protection Act.
+
+Guideline 2 — Applicability
+These guidelines apply to all platforms, advertisers, sellers, and any entity offering goods or services to consumers in India through digital means, including:
+- E-commerce platforms
+- Mobile applications
+- Websites
+- Online marketplaces
+- Digital service providers
+- OTT platforms
+
+Guideline 3 — Enforcement and Penalties
+3(1) Any entity found engaging in dark patterns as defined in these guidelines shall be liable for action under the Consumer Protection Act, 2019.
+3(2) Penalties include:
+    (a) Cease and desist orders from the CCPA
+    (b) Financial penalties up to Rs. 10 lakh for first offense
+    (c) Penalties up to Rs. 50 lakh for repeat offenses
+    (d) Prosecution under Section 89 for false and misleading advertisements
+    (e) Product/service recall orders
+    (f) Public disclosure of violation (naming and shaming)
+
+Guideline 4 — Complaint Mechanism
+4(1) Consumers may file complaints against dark patterns through:
+    (a) National Consumer Helpline (NCH) at 1800-11-4000
+    (b) Online at consumerhelpline.gov.in
+    (c) The CCPA directly for systemic violations
+    (d) Consumer Forums (District/State/National Commission) for individual grievances
+
+================================================================================
+KEY LEGAL INTERPRETATIONS FOR DARK PATTERN ANALYSIS
+================================================================================
+
+Consent and Dark Patterns:
+Under the Consumer Protection Act read with the CCPA Guidelines 2023, obtaining consent through dark patterns (interface interference, trick questions, nagging) constitutes an unfair trade practice. Such consent is legally invalid for the purposes of:
+- Data collection and processing
+- Subscription enrollment  
+- Promotional communications
+- Any contractual obligation
+
+Intersection with DPDP Act:
+When dark patterns are used to collect personal data, there is simultaneous violation of:
+- Consumer Protection Act (unfair trade practice)
+- DPDP Act Section 6(7) (dark pattern consent is void)
+- DPDP Act Section 4 (no valid lawful ground for processing)
+
+Automatic and Default Options:
+Any service that automatically enrolls consumers in paid or data-intensive features (auto-play, auto-renew, data sharing defaults) without explicit opt-in consent constitutes:
+- Basket sneaking (if financial)
+- Interface interference (if UX-based)
+- False urgency or forced action in aggregate
+
+E-Commerce Specific:
+E-commerce entities under the Consumer Protection (E-Commerce) Rules, 2020 have additional obligations:
+- Mandatory disclosure of total price including all charges upfront
+- Clear and prominent display of cancellation and refund policies
+- No manipulation of search results to favor the platform's own products
+- Mandatory seller information disclosure

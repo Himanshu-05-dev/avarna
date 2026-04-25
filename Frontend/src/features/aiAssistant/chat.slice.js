@@ -127,19 +127,30 @@ const chatSlice = createSlice({
       })
       .addCase(sendMessageThunk.fulfilled, (state, action) => {
         state.isLoading = false;
+        
+        const sources = action.payload.sources || [];
+        const mappedReferences = sources.map((s, i) => ({
+          label: `Ref 0${i + 1}`,
+          source: s.source || 'Unknown',
+          line: s.section_ref || "General"
+        }));
+        const mappedCitations = sources.map(s => s.source || 'Unknown');
+        const mappedCitationTexts = sources.map(s => s.text || '');
+
         state.messages.push({
           id: `msg-ai-${Date.now()}`,
           role: "assistant",
-          content: action.payload.reply,
+          content: action.payload.answer || action.payload.reply || "No response.",
           timestamp: new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }),
-          references: action.payload.references ?? [],
-          citations: action.payload.citations ?? [],
+          references: mappedReferences,
+          citations: mappedCitations,
         });
-        if (action.payload.citations?.length) {
-          const newCitations = action.payload.citations.map((c, i) => ({
+        
+        if (mappedCitations.length > 0) {
+          const newCitations = mappedCitations.map((c, i) => ({
             id: `cite-live-${Date.now()}-${i}`,
             source: c,
-            text: action.payload.citation_texts?.[i] ?? "",
+            text: mappedCitationTexts[i] || "",
           }));
           state.liveCitations = [...newCitations, ...state.liveCitations].slice(0, 4);
         }

@@ -58,7 +58,7 @@ export function useLogin() {
     if (loginThunk.fulfilled.match(result)) {
       await dispatch(getMeThunk()); // hydrate user object
       toast.success("Welcome back!");
-      navigate("/dashboard");
+      navigate("/dashboard", { replace: true });
     } else {
       toast.error(result.payload || "Login failed.");
     }
