@@ -21,7 +21,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv(override=True)
 
 # ── API Key authentication ──────────────────────────────────────────────────────
 _RAG_API_KEY    = os.getenv("RAG_API_KEY", "")
@@ -80,7 +80,7 @@ app.add_middleware(
 class QueryRequest(BaseModel):
     question: str = Field(
         ...,
-        min_length=5,
+        min_length=1,
         description="Legal question about dark patterns, consent, or consumer rights.",
         examples=["Is forced consent legal under the DPDP Act?"],
     )
@@ -248,7 +248,7 @@ def compliance_check_simple(req: SimpleComplianceRequest):
 class AuditQueryRequest(BaseModel):
     question: str = Field(
         ...,
-        min_length=5,
+        min_length=1,
         description="Natural-language question about this audit's findings or legal implications.",
         examples=["Which laws does this audit violate?", "What is the highest risk finding?"],
     )

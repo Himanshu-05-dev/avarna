@@ -19,10 +19,10 @@ export const ragQuery = async (req, res) => {
     const userId = req.user.id; // set by identifyUser middleware
 
     // ── Input validation ──────────────────────────────────────────────────────
-    if (!question || typeof question !== 'string' || question.trim().length < 5) {
+    if (!question || typeof question !== 'string' || question.trim().length < 1) {
       return res.status(400).json({
         success: false,
-        error:   'question must be a non-empty string of at least 5 characters.',
+        error:   'question must be a non-empty string.',
       });
     }
 
@@ -79,10 +79,10 @@ export const ragGeneralQuery = async (req, res) => {
     const userId = req.user?.id; // user may be present if logged in
 
     // ── Input validation ──────────────────────────────────────────────────────
-    if (!question || typeof question !== 'string' || question.trim().length < 5) {
+    if (!question || typeof question !== 'string' || question.trim().length < 1) {
       return res.status(400).json({
         success: false,
-        error:   'question must be a non-empty string of at least 5 characters.',
+        error:   'question must be a non-empty string.',
       });
     }
 

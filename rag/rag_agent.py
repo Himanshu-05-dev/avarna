@@ -14,7 +14,7 @@ import chromadb
 from chromadb.utils import embedding_functions
 import google.generativeai as genai
 
-load_dotenv()
+load_dotenv(override=True)
 
 BASE_DIR        = Path(__file__).parent
 CHROMA_DIR      = BASE_DIR / os.getenv("CHROMA_DB_PATH", "./chroma_db").lstrip("./")
