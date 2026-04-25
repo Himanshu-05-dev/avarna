@@ -1,6 +1,192 @@
 import puppeteer from 'puppeteer';
 import fs from 'fs';
 import path from 'path';
+import { ChatGoogleGenerativeAI } from '@langchain/google-genai';
+import { HumanMessage, SystemMessage } from '@langchain/core/messages';
+import { config } from '../config/config.js';
+
+// ─── Gemini Vision Model (for screenshot-based detection) ─────────────────────
+
+const visionModel = new ChatGoogleGenerativeAI({
+    model: 'gemini-2.5-flash',
+    temperature: 0.3,
+    apiKey: config.geminiApiKey,
+});
+
+const VISION_DETECTION_PROMPT = `You are a world-class dark pattern auditor. You will receive a full-page screenshot of a website along with metadata about the UI elements found on the page.
+
+Your task: Visually analyze the screenshot for dark patterns and return a JSON object matching the Roadmap schema exactly.
+
+DARK PATTERN TAXONOMY (8 categories, ~40 subtypes):
+
+1. NAGGING — Repeated interruptions to push user toward an action
+   Subtypes: repeated_prompts, persistent_banners, notification_spam, popup_loops
+
+2. OBSTRUCTION — Making it intentionally difficult to perform an action
+   Subtypes: hard_to_cancel, roach_motel, multi_step_exit, hidden_unsubscribe, complex_cancellation_flow
+
+3. SNEAKING — Hiding or delaying disclosure of relevant information
+   Subtypes: hidden_costs, forced_continuity, bait_and_switch, hidden_subscription, drip_pricing
+
+4. INTERFACE INTERFERENCE — Manipulating UI to privilege specific actions
+   Subtypes: disguised_ads, false_hierarchy, pre_selection, trick_questions, confirm_shaming, visual_misdirection, toying_with_emotion, asymmetric_button_sizing
+
+5. FORCED ACTION — Forcing users to do something to access functionality
+   Subtypes: forced_registration, forced_consent, pay_to_skip, gamification_pressure
+
+6. URGENCY — Imposing time pressure to rush decisions
+   Subtypes: countdown_timer, limited_time_claim, low_stock_warning, expiring_offer
+
+7. SOCIAL PROOF — Using fabricated social signals to influence behavior
+   Subtypes: fake_reviews, fake_activity_notifications, testimonial_manipulation, inflated_statistics
+
+8. MISDIRECTION — Using visual design to divert attention
+   Subtypes: attention_diversion, decoy_pricing, buried_information, misleading_flow
+
+REGULATIONS TO CHECK AGAINST:
+- GDPR (EU General Data Protection Regulation)
+- CCPA (California Consumer Privacy Act)
+- DPDP Act 2023 (India Digital Personal Data Protection)
+- Consumer Protection Act 2019 (India)
+- FTC Act Section 5 (USA)
+- EU Digital Services Act
+
+OUTPUT SCHEMA — return a single valid JSON object with this exact structure:
+{
+  "scan_url": "<the scanned URL>",
+  "scan_timestamp": "<ISO 8601 timestamp>",
+  "tickets": [
+    {
+      "ticket_id": "DP-001",
+      "element_id": "<descriptive id for the problematic element>",
+      "page_id": "page_main",
+      "dark_pattern_subtype": "<one of the subtypes from taxonomy above>",
+      "dark_pattern_category": "<parent category>",
+      "problem_description": "<2-3 sentence plain-English explanation of what's wrong>",
+      "evidence_summary": "<what visual evidence you found in the screenshot>",
+      "element_reference": "<CSS-like description of the element, e.g. 'Large orange CTA button in hero section'>",
+      "bounding_box": null,
+      "screenshot_path": null,
+      "compliance_annotations": [
+        {
+          "clause_id": "<e.g. GDPR-Art7-2>",
+          "act_name": "<regulation name>",
+          "section": "<section/article>",
+          "clause_text": "<short clause text>",
+          "violation_explanation": "<how this finding violates the clause>",
+          "severity": "<critical|high|medium|low>",
+          "match_score": 0.85
+        }
+      ],
+      "regulatory_clause_plain": "<plain language summary of the violated regulation>",
+      "fix_recommendation": "<specific, actionable fix description>",
+      "effort_estimate": "<S|M|L>",
+      "acceptance_criterion": "<testable criterion for QA>",
+      "severity_score": <1-4 number: 4=critical, 3=high, 2=medium, 1=low>,
+      "reach_score": <1-3 number: 3=affects all users, 2=many, 1=few>,
+      "regulatory_risk": <1-3 number: 3=high regulatory exposure, 2=medium, 1=low>,
+      "priority_score": <severity_score * reach_score * regulatory_risk>,
+      "detection_confidence": <0.0-1.0>,
+      "gemini_confidence": null,
+      "modality_count": 1
+    }
+  ],
+  "total_elements_scanned": <number of elements from metadata>,
+  "total_findings": <number of tickets>,
+  "critical_count": <count of tickets with severity_score >= 4>,
+  "high_count": <count with severity_score == 3>,
+  "medium_count": <count with severity_score == 2>,
+  "low_count": <count with severity_score == 1>,
+  "categories_found": ["<unique categories from tickets>"],
+  "regulations_violated": ["<unique regulation names from tickets>"]
+}
+
+RULES:
+1. Output ONLY the raw JSON object. No markdown fences, no explanation, no extra text.
+2. Be thorough — analyze EVERY visible section of the screenshot for potential dark patterns.
+3. For e-commerce sites, pay close attention to: pricing tricks, fake urgency/scarcity, pre-selected add-ons, hidden fees, misleading CTAs, confirm-shaming, hard-to-find unsubscribe.
+4. Minimum 3-5 findings for any commercial website. Most e-commerce sites have 5-10+ dark patterns.
+5. Each ticket must have at least 1 compliance_annotation.
+6. severity_score must be an integer from 1-4.
+7. priority_score = severity_score * reach_score * regulatory_risk (all integers).
+8. detection_confidence should be between 0.70 and 0.98 for findings you're confident about.
+9. Be specific in problem_description and evidence_summary — reference actual visible text, buttons, or UI elements you can see in the screenshot.
+10. ticket_id format: DP-001, DP-002, etc.`;
+
+/**
+ * Sends the screenshot to Gemini Vision for dark pattern analysis.
+ * Returns results in the exact Roadmap schema format the ML service would produce.
+ *
+ * @param {string} screenshotDataUrl - Full base64 data URL (data:image/png;base64,...)
+ * @param {string} url - The website URL being analyzed
+ * @param {Array} elements - Extracted UI elements for context
+ * @returns {Promise<{success: boolean, data?: object, error?: string}>}
+ */
+const geminiAnalyzeScreenshot = async (screenshotDataUrl, url, elements) => {
+    try {
+        if (!screenshotDataUrl) {
+            return { success: false, error: 'No screenshot available for analysis', errorCode: 'NO_SCREENSHOT' };
+        }
+
+        console.log(`[geminiVision] Analyzing screenshot for: ${url}`);
+        console.log(`[geminiVision] Element context: ${elements.length} elements extracted`);
+
+        // Build element summary for context (don't send all elements — just stats)
+        const elementSummary = {
+            total_elements: elements.length,
+            interactive: elements.filter(e => e.is_interactive).length,
+            buttons: elements.filter(e => e.tag === 'button' || e.element_type === 'button').length,
+            links: elements.filter(e => e.tag === 'a').length,
+            inputs: elements.filter(e => e.tag === 'input').length,
+            forms: elements.filter(e => e.tag === 'form').length,
+            sample_texts: elements
+                .filter(e => e.text && e.text.length > 5 && e.text.length < 200)
+                .slice(0, 30)
+                .map(e => ({ tag: e.tag, text: e.text.substring(0, 150) })),
+        };
+
+        // Extract the base64 data from the data URL
+        const base64Data = screenshotDataUrl.replace(/^data:image\/\w+;base64,/, '');
+
+        const result = await visionModel.invoke([
+            new SystemMessage(VISION_DETECTION_PROMPT),
+            new HumanMessage({
+                content: [
+                    {
+                        type: 'text',
+                        text: `Analyze this website screenshot for dark patterns.\n\nURL: ${url}\nTimestamp: ${new Date().toISOString()}\n\nElement metadata (extracted from DOM):\n${JSON.stringify(elementSummary, null, 2)}`,
+                    },
+                    {
+                        type: 'image_url',
+                        image_url: {
+                            url: `data:image/png;base64,${base64Data}`,
+                        },
+                    },
+                ],
+            }),
+        ]);
+
+        // Parse the JSON response
+        const raw = result.content
+            .replace(/^```json\s*/i, '')
+            .replace(/^```\s*/i, '')
+            .replace(/```\s*$/i, '')
+            .trim();
+
+        const roadmapData = JSON.parse(raw);
+
+        console.log(`[geminiVision] Analysis complete. Findings: ${roadmapData.total_findings || roadmapData.tickets?.length || 0}`);
+        return { success: true, data: roadmapData };
+
+    } catch (error) {
+        console.error('[geminiVision] Error:', error.message);
+        return {
+            success: false,
+            error: `Gemini Vision analysis failed: ${error.message}`,
+            errorCode: 'GEMINI_VISION_ERROR',
+        };
+    }
+};
 
 let browserInstance = null;
 
@@ -471,8 +657,8 @@ export const scanForDarkPatterns = async (crawlData) => {
 
 // ─── Tool 3: crawlAndScan (combined) ─────────────────────────────────────────
 /**
- * Convenience tool: crawls a URL and immediately scans it for dark patterns.
- * Wraps crawlPage + scanForDarkPatterns into a single agent-callable step.
+ * Convenience tool: crawls a URL and analyzes it for dark patterns using Gemini Vision.
+ * Uses AI-powered screenshot analysis for accurate, context-aware detection.
  *
  * @param {string} url - The URL to audit.
  * @returns {Promise<{
@@ -494,12 +680,28 @@ export const crawlAndScan = async (url) => {
         };
     }
 
-    const scanResult = await scanForDarkPatterns(crawlResult.data);
+    // Use Gemini Vision to analyze the screenshot directly
+    const pageData = crawlResult.data.pages[0];
+    const screenshotDataUrl = pageData?.screenshots?.full_page || null;
+    const elements = pageData?.elements || [];
+
+    console.log('[crawlAndScan] Using Gemini Vision for dark pattern detection...');
+
+    const scanResult = await geminiAnalyzeScreenshot(screenshotDataUrl, url, elements);
     if (!scanResult.success) {
+        // Fallback: try ML microservice if Gemini fails
+        console.warn('[crawlAndScan] Gemini Vision failed, falling back to ML microservice...');
+        const mlResult = await scanForDarkPatterns(crawlResult.data);
+        if (!mlResult.success) {
+            return {
+                success: false,
+                error: `Both Gemini Vision and ML analysis failed. Gemini: ${scanResult.error}. ML: ${mlResult.error}`,
+                errorCode: 'ANALYSIS_ERROR',
+            };
+        }
         return {
-            success: false,
-            error: `Scan failed: ${scanResult.error}`,
-            errorCode: scanResult.errorCode || 'ML_ERROR',
+            success: true,
+            scan: JSON.stringify(mlResult.data)
         };
     }
 
