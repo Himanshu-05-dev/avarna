@@ -105,10 +105,10 @@ export const getAuditHistory = async (req, res) => {
             id:        r._id,
             target:    (() => { try { return new URL(r.scanUrl).hostname; } catch { return r.scanUrl; } })(),
             scanUrl:   r.scanUrl,
-            framework: r.summary.framework || "—",
+            framework: r.summary?.framework || "—",
             status:    "Completed",
-            findings:  r.summary.totalFindings,
-            risk:      r.summary.riskScore,
+            findings:  r.summary?.totalFindings || 0,
+            risk:      r.summary?.riskScore || 0,
             date:      new Date(r.createdAt).toLocaleDateString("en-US", {
                            month: "short", day: "numeric", year: "numeric",
                        }),

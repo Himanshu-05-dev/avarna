@@ -420,6 +420,9 @@ export const crawlPage = async (url) => {
                 timeout: strategy.timeout,
             });
 
+            // Stop further navigations (like meta-refresh or JS redirects) that would destroy the execution context
+            await page.evaluate(() => window.stop()).catch(() => {});
+
             // If we reach here, navigation succeeded — break out of the retry loop
             break;
 
